@@ -44,9 +44,9 @@ router.get('/playerdata', async (req,res) => {
   try {
 
     res.json({ shotData : [
-      { x: 23.9, y: 13, player:"player1", made: true },
-      { x: 25, y: 47.75, player:"player2", made: true },
-      { x: 25, y: 10, player:"player3", made: true },
+      { x: 23.9, y: 13, player:"LeBron James", made: true },
+      { x: 25, y: 47.75, player:"Stephen Curry", made: true },
+      { x: 25, y: 10, player:"Kyrie Irving", made: true },
       
     ] });
   } catch (error) {
