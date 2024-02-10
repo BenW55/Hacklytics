@@ -19,7 +19,7 @@ const db = client.db("shot_data")
 const coll = db.collection("main");
 
 run().catch(console.dir);
-async function search(params) {
+async function search(params) {x
   try {
     // Get one document from the collection
     const doc = await coll.findOne(params);
