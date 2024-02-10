@@ -48,48 +48,45 @@ router.get('/', async (req,res) => {
 
 // Get a list of teams based on an input of year
 router.get('/teams', async (req, res) => {
-  const season = req.query.season; // Assuming you are filtering by season
+  const season = req.query.season;
   
   try {
-    // Build your query based on the season, if provided
-    const query = season ? { season: season } : {};
-
-    // Find documents based on the query
-    const cursor = coll.find();
-
-    // Initialize a Set to store unique team names
-    const uniqueTeams = new Set();
-    var BreakException = {};
-    // Process each document
+    // Pipeline stages for aggregation
+    const pipeline = [];
     
-    while (await cursor.hasNext() && uniqueTeams.size < 30) {
-      const doc = await cursor.next();
-      uniqueTeams.add(doc.team);
-
-      // If we have 30 teams, break out of the loop
-      if (uniqueTeams.size === 30) {
-        break;
-      }
+    // Match stage to filter by season if provided
+    if (season) {
+      pipeline.push({ $match: { season: season } });
     }
     
-
-    console.log(uniqueTeams);
-    // Once all documents have been processed, convert the Set to an array and send the response
-    res.json({ teams: Array.from(uniqueTeams) });
+    // Group stage to group by team
+    pipeline.push({ $group: { _id: "$team" } });
+    
+    // Limit stage to limit the number of results
+    pipeline.push({ $limit: 30 });
+    
+    // Execute the aggregation pipeline
+    const result = await coll.aggregate(pipeline).toArray();
+    
+    // Extract team names from the result
+    const teams = result.map(item => item._id);
+    
+    res.json({ teams });
   } catch (error) {
     console.error('Error reading database:', error);
     res.status(500).send('Server error');
   }
 });
 
-
 router.get('/players', async (req,res) => {
     try{
       // get one block from the collection with that team
       const team = req.query.team;
-      params = {player: req.player};
-      const output = search(params);
-      res.json({data : doc});
+      const cursor = player_data.find(
+        { team: team }, // Query to filter documents based on the team
+        { match_id: 0, distance: 0, shotX: 0, shotY: 0, made: 0 } // Projection to include only the playerName field and exclude the _id field
+     )
+      res.json({data : cursor});
     }
     catch (error) {
       // Handle errors
@@ -108,10 +105,9 @@ router.get('/playerdata', async (req,res) => {
 
     const stats = player_data.find(
       { player: player }, // Query to filter documents based on the team
-      {_id: 0, distance: 0 } // Projection to include only the playerName field and exclude the _id field
+      {match_id: 0, distance: 0 } // Projection to include only the playerName field and exclude the _id field
    )
    
-
     res.json({ shotData : [
       { x: stats.shotX, y: stats.shotY, player: stats.player, made: true },
     ] });
