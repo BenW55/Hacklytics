@@ -48,14 +48,15 @@ router.get('/', async (req,res) => {
 
 // Get a list of teams based on an input of year
 router.get('/teams', async (req, res) => {
+
   const season = req.query.season; // Assuming you are filtering by season
   /** */
   try {
     // Build your query based on the season, if provided
-    const query = season ? { season: season } : {};
+    const query = { season: season };
 
     // Find documents based on the query
-    const cursor = coll.find();
+    const cursor = coll.find(query);
 
     // Initialize a Set to store unique team names
     const uniqueTeams = new Set();
@@ -84,16 +85,14 @@ router.get('/teams', async (req, res) => {
 
 
 router.get('/players', async (req, res) => {
+  const teamName = req.query.team;
+  const season = req.query.season; // Assuming you are filtering by season
     try {
-    const teamName = req.query.team;
-    const season = req.query.season;
-    console.log(season);
     if (!teamName) {
       return res.status(400).send('Team query parameter is required');
     }
-    
     // Assuming 'coll' is your MongoDB collection
-    const query = { team: teamName };
+    const query = { team: teamName, season: season };
     const cursor = coll.find(query);
     
 
@@ -105,8 +104,8 @@ router.get('/players', async (req, res) => {
     await cursor.forEach((doc, index) => {
       // Assuming 'player' is the field name that holds the player's name
       // Add this document's player to the array
-      //console.log(c);
-      //c++;
+      console.log(c);
+      c++;
       playersFromSameTeam.add(doc.player);
     });
     console.log(performance.now);
@@ -123,19 +122,25 @@ router.get('/players', async (req, res) => {
 
 router.get('/playerdata', async (req,res) => {
   console.log(performance.now);
-  const player_data = db.collection("player_data");
+  const player_data = db.collection("main");
   const player = req.query.player;
-  console.log(player);
+
   try {
 
-    const stats = player_data.find(
-      { player: player }, // Query to filter documents based on the team
-      {match_id: 0, distance: 0 } // Projection to include only the playerName field and exclude the _id field
+    let shots = [];
+    const cursor = player_data.find(
+      {player: player }, // Query to filter documents based on the team
+      //{match_id: 0, distance: 0, shotX: 0, shotY: 0 } // Projection to include only the playerName field and exclude the _id field
    )
-   console.log(performance.now);
-    res.json({ shotData : [
-      { x: stats.shotX, y: stats.shotY, player: stats.player, made: true },
-    ] });
+
+   await cursor.forEach((doc, index) => {
+    // Assuming 'player' is the field name that holds the player's name
+    // Add this document's player to the array
+
+    shots.push({x: doc.shotX, y: doc.shotY, player: doc.player, made: doc.made})
+  });
+
+    res.json({ shotData : shots });
   } catch (error) {
     console.error('Error reading data directory:', error);
     res.status(500).send('Server error');

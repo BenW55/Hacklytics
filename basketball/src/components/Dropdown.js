@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const Dropdown = ({data, onPlayerSelected}) => {
-  console.log(data);
+  
   const [seasons, setSeasons] = useState(data); // Example seasons
   const [selectedSeason, setSelectedSeason] = useState('');
   const [teams, setTeams] = useState([]);

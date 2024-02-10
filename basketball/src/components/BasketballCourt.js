@@ -8,7 +8,7 @@ const svgHeight = 472; // Height of the SVG element, adjust as needed
 
 // Adjust the domain if your data points are in a different scale
 const scaleX = d3.scaleLinear()
-  .domain([0, 50]) // Basketball court length in feet
+  .domain([-1, 49]) // Basketball court length in feet
   .range([0, svgWidth]); // SVG width in pixels
 
 const scaleY = d3.scaleLinear()
@@ -39,6 +39,7 @@ const BasketballCourt = ({ data }) => {
       .attr("cy", d => scaleY(d.y))
       .attr("r", 5) // Radius of the shots
       .attr("fill", d => d.made ? "green" : "red") // Color based on whether the shot was made
+      .attr("opacity", 1)
       .on("mouseover", (event, d) => {
         console.log(d)
         let [fname, lname] = d.player.split(' ')
