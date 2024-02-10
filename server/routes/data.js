@@ -31,6 +31,8 @@ router.get('/teams', async (req,res) => {
 });
 router.get('/players', async (req,res) => {
   //replace with mongoDB call
+  const team = req.query.team;
+  console.log(team);
   try {
 
     res.json({ players : ['Player A', 'Player B', 'Player C'] });
@@ -41,6 +43,8 @@ router.get('/players', async (req,res) => {
 });
 router.get('/playerdata', async (req,res) => {
   //replace with mongoDB call
+  const player = req.query.player;
+  console.log(player);
   try {
 
     res.json({ shotData : [

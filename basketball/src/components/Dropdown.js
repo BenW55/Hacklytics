@@ -40,7 +40,9 @@ const Dropdown = ({data, onPlayerSelected}) => {
     // Call the callback function with the selected player
     if (onPlayerSelected) {
       try{
-        const toReturn = fetch('http://localhost:8000/playerdata')
+        const url = new URL('http://localhost:8000/playerdata');
+        url.searchParams.append('player', newSelectedPlayer);
+        const toReturn = fetch(url)
         .then((response) => response.json())
         .then((shotData) => {
           onPlayerSelected(shotData);
@@ -112,7 +114,9 @@ async function fetchPlayersForTeam(team) {
   // Simulate fetching players for the selected team
   // Replace this with your actual API call
   try{
-    const toReturn = await fetch('http://localhost:8000/players')
+    const url = new URL('http://localhost:8000/players/');
+    url.searchParams.append('team', team);
+    const toReturn = await fetch(url)
     .then((response) => response.json())
     .then((players) => players);
     console.log(toReturn['players']);
