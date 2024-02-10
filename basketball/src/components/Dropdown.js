@@ -11,8 +11,10 @@ const Dropdown = ({data, onPlayerSelected}) => {
   // Fetch teams when a season is selected
   useEffect(() => {
     if (selectedSeason) {
-      fetchTeamsForSeason(selectedSeason).then(setTeams);
-      setSelectedTeam(''); // Reset team selection
+      fetchTeamsForSeason(selectedSeason).then(teams => {
+        setTeams(teams);
+        setSelectedTeam(''); // Reset team selection
+      });
       setPlayers([]); // Reset players list
     }
   }, [selectedSeason]);
@@ -20,8 +22,12 @@ const Dropdown = ({data, onPlayerSelected}) => {
   // Fetch players when a team is selected
   useEffect(() => {
     if (selectedTeam) {
-      fetchPlayersForTeam(selectedTeam).then(setPlayers);
-      setSelectedPlayer(''); // Reset player selection
+      fetchPlayersForTeam(selectedTeam).then(players => {
+        setPlayers(players);
+        setSelectedPlayer(''); // Reset player selection
+      });
+    } else {
+      setPlayers([]); // Reset players list if no team is selected
     }
   }, [selectedTeam]);
 
@@ -40,7 +46,9 @@ const Dropdown = ({data, onPlayerSelected}) => {
     // Call the callback function with the selected player
     if (onPlayerSelected) {
       try{
-        const toReturn = fetch('http://localhost:8000/playerdata')
+        const url = new URL('http://localhost:8000/playerdata');
+        url.searchParams.append('player', newSelectedPlayer);
+        const toReturn = fetch(url)
         .then((response) => response.json())
         .then((shotData) => {
           onPlayerSelected(shotData);
@@ -99,7 +107,9 @@ async function fetchTeamsForSeason(season) {
   // Simulate fetching teams for the selected season
   // Replace this with your actual API call
   try{
-    const toReturn = await fetch('http://localhost:8000/teams')
+    const url = new URL('http://localhost:8000/teams/');
+    url.searchParams.append('season', season);
+    const toReturn = await fetch(url)
     .then((response) => response.json())
     .then((teams) => teams);
     return toReturn['teams'];
@@ -112,7 +122,9 @@ async function fetchPlayersForTeam(team) {
   // Simulate fetching players for the selected team
   // Replace this with your actual API call
   try{
-    const toReturn = await fetch('http://localhost:8000/players')
+    const url = new URL('http://localhost:8000/players/');
+    url.searchParams.append('team', team);
+    const toReturn = await fetch(url)
     .then((response) => response.json())
     .then((players) => players);
     console.log(toReturn['players']);
