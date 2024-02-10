@@ -49,25 +49,33 @@ router.get('/', async (req,res) => {
 // Get a list of teams based on an input of year
 router.get('/teams', async (req, res) => {
   const season = req.query.season; // Assuming you are filtering by season
-
+  /** */
   try {
-    // Build the aggregation pipeline
-    let pipeline = [
-      // Optionally match documents if a season is provided
-      ...(season ? [{ $match: { season: season } }] : []),
-      // Group by team to get unique teams
-      { $group: { _id: "$team" } },
-      // Project to get the team name in the desired format
-      { $project: { team: "$_id", _id: 0 } },
-    ];
-    
-    const results = await coll.aggregate(pipeline).toArray();
-    console.log(results);  
-    // If you must limit to 30 unique teams (handled in application logic)
-    const limitedResults = results.slice(0, 30);
+    // Build your query based on the season, if provided
+    const query = season ? { season: season } : {};
 
-    // Send the response
-    res.json({ teams: limitedResults.map(result => result.team) });
+    // Find documents based on the query
+    const cursor = coll.find();
+
+    // Initialize a Set to store unique team names
+    const uniqueTeams = new Set();
+    var BreakException = {};
+    // Process each document
+    
+    while (await cursor.hasNext() && uniqueTeams.size < 30) {
+      const doc = await cursor.next();
+      uniqueTeams.add(doc.team);
+
+    // If we have 30 teams, break out of the loop
+      if (uniqueTeams.size === 30) {
+        break;
+      }
+    }
+    
+
+    //console.log(uniqueTeams);
+    // Once all documents have been processed, convert the Set to an array and send the response
+    res.json({ teams: Array.from(uniqueTeams) });
   } catch (error) {
     console.error('Error reading database:', error);
     res.status(500).send('Server error');
@@ -76,7 +84,7 @@ router.get('/teams', async (req, res) => {
 
 
 router.get('/players', async (req, res) => {
-  try {
+    try {
     const teamName = req.query.team;
     if (!teamName) {
       return res.status(400).send('Team query parameter is required');
@@ -98,7 +106,7 @@ router.get('/players', async (req, res) => {
     
 
     res.json({ data: Array.from(playersFromSameTeam) });
-  } catch (error) {
+} catch (error) {
     console.error('Error reading database:', error);
     res.status(500).send('Server error');
   }
@@ -114,10 +122,9 @@ router.get('/playerdata', async (req,res) => {
 
     const stats = player_data.find(
       { player: player }, // Query to filter documents based on the team
-      {_id: 0, distance: 0 } // Projection to include only the playerName field and exclude the _id field
+      {match_id: 0, distance: 0 } // Projection to include only the playerName field and exclude the _id field
    )
    
-
     res.json({ shotData : [
       { x: stats.shotX, y: stats.shotY, player: stats.player, made: true },
     ] });
