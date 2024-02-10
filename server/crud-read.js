@@ -11,7 +11,6 @@ async function run() {
     const db = client.db("shot_data");
     const coll = db.collection("main");
 
-    // Create an index on player
 
     // Define the search index pipeline
     const pipeline = [
