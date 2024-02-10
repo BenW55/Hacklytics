@@ -12,13 +12,11 @@ const client = new MongoClient(uri);
 async function run() {
   try {
     await client.connect();
-    
-    // Perform operations with your collection here
-
   } catch (error) {
     console.error('Error connecting to MongoDB:', error);
   }}
-const coll = client.db("shot_data").collection("main");
+const db = client.db("shot_data")
+const coll = db.collection("main");
 
 run().catch(console.dir);
 async function search(params) {
@@ -51,33 +49,25 @@ router.get('/', async (req,res) => {
 // Get a list of teams based on an input of year
 router.get('/teams', async (req, res) => {
   const season = req.query.season; // Assuming you are filtering by season
-  
+
   try {
-    // Build your query based on the season, if provided
-    const query = season ? { season: season } : {};
-
-    // Find documents based on the query
-    const cursor = coll.find();
-
-    // Initialize a Set to store unique team names
-    const uniqueTeams = new Set();
-    var BreakException = {};
-    // Process each document
+    // Build the aggregation pipeline
+    let pipeline = [
+      // Optionally match documents if a season is provided
+      ...(season ? [{ $match: { season: season } }] : []),
+      // Group by team to get unique teams
+      { $group: { _id: "$team" } },
+      // Project to get the team name in the desired format
+      { $project: { team: "$_id", _id: 0 } },
+    ];
     
-    while (await cursor.hasNext() && uniqueTeams.size < 30) {
-      const doc = await cursor.next();
-      uniqueTeams.add(doc.team);
+    const results = await coll.aggregate(pipeline).toArray();
+    console.log(results);  
+    // If you must limit to 30 unique teams (handled in application logic)
+    const limitedResults = results.slice(0, 30);
 
-      // If we have 30 teams, break out of the loop
-      if (uniqueTeams.size === 30) {
-        break;
-      }
-    }
-    
-
-    //console.log(uniqueTeams);
-    // Once all documents have been processed, convert the Set to an array and send the response
-    res.json({ teams: Array.from(uniqueTeams) });
+    // Send the response
+    res.json({ teams: limitedResults.map(result => result.team) });
   } catch (error) {
     console.error('Error reading database:', error);
     res.status(500).send('Server error');
@@ -116,17 +106,20 @@ router.get('/players', async (req, res) => {
 
 
 
-
 router.get('/playerdata', async (req,res) => {
-  //replace with mongoDB call
+  const player_data = db.collection("player_data");
   const player = req.query.player;
   console.log(player);
   try {
+
+    const stats = player_data.find(
+      { player: player }, // Query to filter documents based on the team
+      {_id: 0, distance: 0 } // Projection to include only the playerName field and exclude the _id field
+   )
+   
+
     res.json({ shotData : [
-      { x: 23.9, y: 13, player:"player1", made: true },
-      { x: 25, y: 47.75, player:"player2", made: true },
-      { x: 25, y: 10, player:"player3", made: true },
-      
+      { x: stats.shotX, y: stats.shotY, player: stats.player, made: true },
     ] });
   } catch (error) {
     console.error('Error reading data directory:', error);
