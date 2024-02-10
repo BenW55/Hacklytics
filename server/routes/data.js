@@ -75,7 +75,7 @@ router.get('/teams', async (req, res) => {
     }
     
 
-    console.log(uniqueTeams);
+    //console.log(uniqueTeams);
     // Once all documents have been processed, convert the Set to an array and send the response
     res.json({ teams: Array.from(uniqueTeams) });
   } catch (error) {
@@ -85,20 +85,36 @@ router.get('/teams', async (req, res) => {
 });
 
 
-router.get('/players', async (req,res) => {
-    try{
-      // get one block from the collection with that team
-      const team = req.query.team;
-      params = {player: req.player};
-      const output = search(params);
-      res.json({data : doc});
+router.get('/players', async (req, res) => {
+  try {
+    const teamName = req.query.team;
+    if (!teamName) {
+      return res.status(400).send('Team query parameter is required');
     }
-    catch (error) {
-      // Handle errors
-      console.error('Error reading database8:', error);
-      throw error;
-    }
+
+    // Assuming 'coll' is your MongoDB collection
+    const query = { team: teamName };
+    const cursor = coll.find(query);
+    
+    // Create an array to hold players from the same team
+    let playersFromSameTeam = new Set();
+    
+    // Fetch all documents that match the query
+    await cursor.forEach(doc => {
+      // Assuming 'player' is the field name that holds the player's name
+      // Add this document's player to the array
+      playersFromSameTeam.add(doc.player);
+    });
+    
+
+    res.json({ data: Array.from(playersFromSameTeam) });
+  } catch (error) {
+    console.error('Error reading database:', error);
+    res.status(500).send('Server error');
+  }
 });
+
+
 
 
 router.get('/playerdata', async (req,res) => {

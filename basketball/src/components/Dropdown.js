@@ -126,9 +126,8 @@ async function fetchPlayersForTeam(team) {
     url.searchParams.append('team', team);
     const toReturn = await fetch(url)
     .then((response) => response.json())
-    .then((players) => players);
-    console.log(toReturn['players']);
-    return toReturn['players'];
+    .then((data) => data);
+    return toReturn['data'];
   }catch(error){
     console.error(error);
   }
