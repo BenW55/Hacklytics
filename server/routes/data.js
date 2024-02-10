@@ -86,23 +86,30 @@ router.get('/teams', async (req, res) => {
 router.get('/players', async (req, res) => {
     try {
     const teamName = req.query.team;
+    const season = req.query.season;
+    console.log(season);
     if (!teamName) {
       return res.status(400).send('Team query parameter is required');
     }
-
+    
     // Assuming 'coll' is your MongoDB collection
     const query = { team: teamName };
     const cursor = coll.find(query);
     
+
     // Create an array to hold players from the same team
     let playersFromSameTeam = new Set();
-    
+    console.log(performance.now);
     // Fetch all documents that match the query
-    await cursor.forEach(doc => {
+    let c = 0
+    await cursor.forEach((doc, index) => {
       // Assuming 'player' is the field name that holds the player's name
       // Add this document's player to the array
+      //console.log(c);
+      //c++;
       playersFromSameTeam.add(doc.player);
     });
+    console.log(performance.now);
     
 
     res.json({ data: Array.from(playersFromSameTeam) });
@@ -115,6 +122,7 @@ router.get('/players', async (req, res) => {
 
 
 router.get('/playerdata', async (req,res) => {
+  console.log(performance.now);
   const player_data = db.collection("player_data");
   const player = req.query.player;
   console.log(player);
@@ -124,7 +132,7 @@ router.get('/playerdata', async (req,res) => {
       { player: player }, // Query to filter documents based on the team
       {match_id: 0, distance: 0 } // Projection to include only the playerName field and exclude the _id field
    )
-   
+   console.log(performance.now);
     res.json({ shotData : [
       { x: stats.shotX, y: stats.shotY, player: stats.player, made: true },
     ] });

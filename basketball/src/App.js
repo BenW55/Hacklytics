@@ -4,7 +4,7 @@ import Dropdown from './components/Dropdown';
 import './App.css';
 
 // Example data - replace this with your actual shot data
-const seasonsData = [2017_2018, 2018_2019, 2019_2020, 2020_2021, 2021_2022];
+const seasonsData = ["2017_18", "2018_19", "2019_20", "2020_21", "2021_22"];
 
 function App() {
     // Assume seasonsData is already defined and set up
