@@ -3,9 +3,9 @@ import BasketballCourt from './components/BasketballCourt';
 
 // Example data - replace this with your actual shot data
 const shotData = [
-  { x: 23.9, y: 13, made: true },
-  { x: 25, y: 47.75, made: true },
-  { x: 25, y: 0, made: true },
+  { x: 23.9, y: 13, player: "Kyrie Irving", made: true },
+  { x: 25, y: 47.75, player: "player1", made: true },
+  { x: 25, y: 0, player: "player2", made: true },
   // ... more shots
 ];
 
