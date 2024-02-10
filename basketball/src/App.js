@@ -5,6 +5,7 @@ import BasketballCourt from './components/BasketballCourt';
 const shotData = [
   { x: 23.9, y: 13, made: true },
   { x: 25, y: 47.75, made: true },
+  { x: 25, y: 0, made: true },
   // ... more shots
 ];
 

@@ -2,12 +2,12 @@ import React, { useRef, useEffect } from 'react';
 import * as d3 from 'd3';
 import courtSvg from '../images/court.jpg'; // This should be the path to your SVG file.
 
-const svgWidth = 1127*.6; // Width of the SVG element, adjust as needed
-const svgHeight = 918*.6; // Height of the SVG element, adjust as needed
+const svgWidth = 500; // Width of the SVG element, adjust as needed
+const svgHeight = 472; // Height of the SVG element, adjust as needed
 
 // Adjust the domain if your data points are in a different scale
 const scaleX = d3.scaleLinear()
-  .domain([0, 47.75]) // Basketball court length in feet
+  .domain([0, 50]) // Basketball court length in feet
   .range([0, svgWidth]); // SVG width in pixels
 
 const scaleY = d3.scaleLinear()
