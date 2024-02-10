@@ -63,18 +63,17 @@ router.get('/teams', async (req, res) => {
     const uniqueTeams = new Set();
     var BreakException = {};
     // Process each document
-    try {
-      cursor.forEach(doc => {
-      
-        uniqueTeams.add(doc.team); // Add the team to the Set
-        if(uniqueTeams.size === 30){
-          throw BreakException
-        }
-        
-      });
-    } catch (e) {
-      if (e !== BreakException) throw e;
+    
+    while (await cursor.hasNext() && uniqueTeams.size < 30) {
+      const doc = await cursor.next();
+      uniqueTeams.add(doc.team);
+
+      // If we have 30 teams, break out of the loop
+      if (uniqueTeams.size === 30) {
+        break;
+      }
     }
+    
 
     console.log(uniqueTeams);
     // Once all documents have been processed, convert the Set to an array and send the response
