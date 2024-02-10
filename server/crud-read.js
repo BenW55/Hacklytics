@@ -1,13 +1,13 @@
 const { MongoClient } = require("mongodb");
 // connection string.
-const uri = "mongodb+srv://purplepeopleeater:QfSvBpAF9lYX86e9@cluster0.y2zjw5l.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://bigshaq:FGdvZXvULQ3kGY3B@nbashotdata.sqfjle1.mongodb.net/";
 const client = new MongoClient(uri);
 async function run() {
   try {
     await client.connect();
     // database and collection
-    const db = client.db("NBAShotChart");
-    const coll = db.collection("Data1");
+    const db = client.db("shot_data");
+    const coll = db.collection("main");
 
     // use .find() to retrieve all docs
     const cursor = coll.find();
