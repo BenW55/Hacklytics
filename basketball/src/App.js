@@ -1,20 +1,26 @@
 import React from 'react';
 import BasketballCourt from './components/BasketballCourt';
-
+import Dropdown from './components/Dropdown';
 // Example data - replace this with your actual shot data
-const shotData = [
-  { x: 23.9, y: 13, player: "Kyrie Irving", made: true },
-  { x: 25, y: 47.75, player: "player1", made: true },
-  { x: 25, y: 0, player: "player2", made: true },
-  // ... more shots
-];
+const seasonsData = [2023,2024];
 
 function App() {
+    // Assume seasonsData is already defined and set up
+    const [shotData, setShotData] = React.useState([]);
+
+    const handlePlayerSelected = async (data) => {
+      console.log(data['shotData']);
+      setShotData(data['shotData']);
+    };
+  
+
   return (
     <div className="App">
+      <Dropdown data={seasonsData} onPlayerSelected={ handlePlayerSelected}/>
       <h1>Basketball Shot Chart</h1>
       <BasketballCourt data={shotData} />
       {/* Other components and content can go here */}
+      
     </div>
   );
 }

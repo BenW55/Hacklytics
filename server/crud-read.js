@@ -6,11 +6,11 @@ async function run() {
   try {
     await client.connect();
     // database and collection
-    const db = client.db("NBAShotChart");
-    const coll = db.collection("Data1");
+    const db = client.db("sample_guides");
+    const coll = db.collection("planets");
 
     // use .find() to retrieve all docs
-    const cursor = coll.find();
+    const cursor = coll.find({ hasRings: false, mainAtomsphere: "Ar" });
     // iterate code goes here
     await cursor.forEach(console.log);
   } finally {
