@@ -9,7 +9,11 @@ app.use(express.json());
 
 app.use('/',dataRoutes);
 
-
+app.get('/data', (req, res) => {
+  // Mock data
+  const data = [{ name: 'A', value: 30 }, { name: 'B', value: 80 }];
+  res.json(data);
+});
 
 
 app.listen(8000, () => {
