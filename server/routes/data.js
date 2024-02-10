@@ -21,6 +21,7 @@ router.get('/', async (req,res) => {
 
 router.get('/teams', async (req,res) => {
   //replace with mongoDB call
+  const team = req.query.season;
   try {
 
     res.json({ teams : ['Lakers', 'Warriors'] });

@@ -2,7 +2,7 @@ import React from 'react';
 import BasketballCourt from './components/BasketballCourt';
 import Dropdown from './components/Dropdown';
 // Example data - replace this with your actual shot data
-const seasonsData = [2023,2024];
+const seasonsData = [2017_2018, 2018_2019, 2019_2020, 2020_2021, 2021_2022];
 
 function App() {
     // Assume seasonsData is already defined and set up
