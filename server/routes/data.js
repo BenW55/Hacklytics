@@ -12,13 +12,11 @@ const client = new MongoClient(uri);
 async function run() {
   try {
     await client.connect();
-    
-    // Perform operations with your collection here
-
   } catch (error) {
     console.error('Error connecting to MongoDB:', error);
   }}
-const coll = client.db("shot_data").collection("main");
+const db = client.db("shot_data")
+const coll = db.collection("main");
 
 run().catch(console.dir);
 async function search(params) {
@@ -101,16 +99,21 @@ router.get('/players', async (req,res) => {
 });
 
 
+
 router.get('/playerdata', async (req,res) => {
-  //replace with mongoDB call
+  const player_data = db.collection("player_data");
   const player = req.query.player;
   console.log(player);
   try {
+
+    const stats = player_data.find(
+      { player: player }, // Query to filter documents based on the team
+      {_id: 0, distance: 0 } // Projection to include only the playerName field and exclude the _id field
+   )
+   
+
     res.json({ shotData : [
-      { x: 23.9, y: 13, player:"player1", made: true },
-      { x: 25, y: 47.75, player:"player2", made: true },
-      { x: 25, y: 10, player:"player3", made: true },
-      
+      { x: stats.shotX, y: stats.shotY, player: stats.player, made: true },
     ] });
   } catch (error) {
     console.error('Error reading data directory:', error);
