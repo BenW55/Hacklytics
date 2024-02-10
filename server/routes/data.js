@@ -49,31 +49,40 @@ router.get('/', async (req,res) => {
 
 
 // Get a list of teams based on an input of year
-router.get('/teams', async (req,res) => {
-
-  //replace with mongoDB call
-  const season = req.query.season;
-  try{
-    // get one block from the collection with that team
-    // Get all data for the specified year
-    //params = {year: req.year};
-    const cursor = await coll.find();
-    // Return a unique list of all teams from doc
-    const uniqueTeams = new Set();
-    //console.log(cursor);
-    cursor.forEach(doc => {
-      console.log(doc.team);
-      uniqueTeams.add(doc.team);
-    });
-    
-    res.json({teams : uniqueTeams});
-  }
-  catch (error) {
-    // Handle errors
-    console.error('Error reading database:', error);
-    throw error;
-  }
+router.get('/teams', async (req, res) => {
+  const season = req.query.season; // Assuming you are filtering by season
   
+  try {
+    // Build your query based on the season, if provided
+    const query = season ? { season: season } : {};
+
+    // Find documents based on the query
+    const cursor = coll.find();
+
+    // Initialize a Set to store unique team names
+    const uniqueTeams = new Set();
+    var BreakException = {};
+    // Process each document
+    try {
+      cursor.forEach(doc => {
+      
+        uniqueTeams.add(doc.team); // Add the team to the Set
+        if(uniqueTeams.size === 30){
+          throw BreakException
+        }
+        
+      });
+    } catch (e) {
+      if (e !== BreakException) throw e;
+    }
+
+    console.log(uniqueTeams);
+    // Once all documents have been processed, convert the Set to an array and send the response
+    res.json({ teams: Array.from(uniqueTeams) });
+  } catch (error) {
+    console.error('Error reading database:', error);
+    res.status(500).send('Server error');
+  }
 });
 
 
