@@ -44,8 +44,8 @@ router.get('/teams', async (req,res) => {
   try{
     // get one block from the collection with that team
     // Get all data for the specified year
-    params = {year: req.year};
-    const doc = await coll.find(params);
+    //params = {year: req.year};
+    const doc = await coll.find();
 
     // Return a unique list of all teams from doc
     const uniqueTeams = new Set();
@@ -67,6 +67,7 @@ router.get('/players', async (req,res) => {
   try{
     try{
       // get one block from the collection with that team
+      const team = req.query.team;
       params = {player: req.player};
       const output = search(params);
       res.json({data : doc});
@@ -82,14 +83,14 @@ router.get('/players', async (req,res) => {
     console.error('Error reading database:', error);
     throw error;
   }
-  
 });
 
 
 router.get('/playerdata', async (req,res) => {
   //replace with mongoDB call
+  const player = req.query.player;
+  console.log(player);
   try {
-
     res.json({ shotData : [
       { x: 23.9, y: 13, player:"player1", made: true },
       { x: 25, y: 47.75, player:"player2", made: true },
