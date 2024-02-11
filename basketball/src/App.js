@@ -51,11 +51,11 @@ function App() {
         {showSecondPlayer ? '- Remove Player' : '+ Add Player'}
       </button>
       <div>
-        <PlayerProfile name={player}></PlayerProfile>
+        <PlayerProfile name="LeBron James"></PlayerProfile>
       </div>
       {showSecondPlayer && (
           <div>
-            <PlayerProfile name="LeBron James"></PlayerProfile>
+            <PlayerProfile name={player}></PlayerProfile>
           </div>
         )}
     </div>
