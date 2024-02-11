@@ -104,8 +104,6 @@ router.get('/players', async (req, res) => {
     await cursor.forEach((doc, index) => {
       // Assuming 'player' is the field name that holds the player's name
       // Add this document's player to the array
-      console.log(c);
-      c++;
       playersFromSameTeam.add(doc.player);
     });
     console.log(performance.now);

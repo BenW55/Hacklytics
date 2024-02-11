@@ -31,3 +31,19 @@
     transform: rotate(360deg);
   }
 }
+.players-container {
+  display: flex;
+  justify-content: center; /* This will center the courts if there is extra space */
+}
+
+.player {
+  margin: 0 10px; /* This adds space between the two courts */
+}
+
+/* You may want to add some responsive styling to handle smaller screens */
+@media (max-width: 768px) {
+  .players-container {
+    flex-direction: column;
+  }
+}
+

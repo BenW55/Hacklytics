@@ -7,28 +7,46 @@ import './App.css';
 const seasonsData = ["2017-18", "2018-19", "2019-20", "2020-21", "2021-22"];
 
 function App() {
-    // Assume seasonsData is already defined and set up
-    const [shotData, setShotData] = React.useState([]);
+  const [shotDataPlayer1, setShotDataPlayer1] = React.useState([]);
+  const [shotDataPlayer2, setShotDataPlayer2] = React.useState([]);
+  const [showSecondPlayer, setShowSecondPlayer] = React.useState(false);
 
-    const handlePlayerSelected = async (data) => {
-      console.log(data['shotData']);
-      setShotData(data['shotData']);
-    };
-  
+  const handlePlayerSelected = (identifier) => (data) => {
+    if (identifier === 'player1') {
+      setShotDataPlayer1(data['shotData']);
+    } else if (identifier === 'player2') {
+      setShotDataPlayer2(data['shotData']);
+    }
+  };
+  const toggleSecondPlayer = () => {
+    setShowSecondPlayer(!showSecondPlayer);
+    // If we're hiding the second player, also clear its shot data
+    if (showSecondPlayer) {
+      setShotDataPlayer2([]);
+    }
+  };
 
   return (
     <div className="App">
-      <div>
-        <h1>Basketball Shot Chart</h1>
-        <Dropdown data={seasonsData} onPlayerSelected={ handlePlayerSelected}/>
+      <h1>Basketball Shot Chart</h1>
+      <div className="players-container">
+        <div className="player">
+          <Dropdown data={seasonsData} onPlayerSelected={handlePlayerSelected('player1')} identifier="player1" />
+          <BasketballCourt data={shotDataPlayer1} />
+        </div>
+        {showSecondPlayer && (
+          <div className="player">
+            <Dropdown data={seasonsData} onPlayerSelected={handlePlayerSelected('player2')} identifier="player2" />
+            <BasketballCourt data={shotDataPlayer2} />
+          </div>
+        )}
       </div>
-      <div>
-        <BasketballCourt data={shotData} />
-      </div>
-      {/* Other components and content can go here */}
-      
+      <button onClick={toggleSecondPlayer}>
+        {showSecondPlayer ? '- Remove Player' : '+ Add Player'}
+      </button>
     </div>
   );
 }
+
 
 export default App;

@@ -12,12 +12,14 @@ const Dropdown = ({data, onPlayerSelected}) => {
   // Fetch teams when a season is selected
   useEffect(() => {
     if (selectedSeason) {
+    
       fetchTeamsForSeason(selectedSeason).then(teams => {
         setTeams(teams);
         setSelectedTeam(''); // Reset team selection
         setSelectedPlayer('');
       });
       setPlayers([]); // Reset players list
+      onPlayerSelected({ shotData : [{}, {}, {}, {}]});
     }
   }, [selectedSeason]);
 
@@ -27,7 +29,9 @@ const Dropdown = ({data, onPlayerSelected}) => {
       fetchPlayersForTeam(selectedTeam ,selectedSeason).then(players => {
         setPlayers(players);
         setSelectedPlayer(''); // Reset player selection
+        
       });
+      onPlayerSelected({ shotData : [{}, {}, {}, {}]});
     } else {
       setPlayers([]); // Reset players list if no team is selected
     }
