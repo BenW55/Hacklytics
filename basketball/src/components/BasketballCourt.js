@@ -23,7 +23,7 @@ const aggregateShots = (data) => {
       const key = `${roundedX}-${roundedY}`;
   
       if (!aggregated[key]) {
-        aggregated[key] = { count: 1, x: roundedX, y: roundedY, made: shot.made };
+        aggregated[key] = { count: 1, x: roundedX, y: roundedY, made: shot.made, shot_type: shot.shot_type };
       } else {
         aggregated[key].count += 1;
         }
@@ -32,7 +32,7 @@ const aggregateShots = (data) => {
     return Object.values(aggregated); // Convert aggregated shots object back to an array
   };
   
-const BasketballCourt = ({ data }) => {
+const BasketballCourt = ({ data, rim, floater, mid, three }) => {
 const svgRef = useRef();
 
   useEffect(() => {
@@ -52,15 +52,19 @@ const svgRef = useRef();
     const radiusScale = d3.scaleSqrt().domain([1, maxCount]).range([2, 20]); // Min and max circle sizes
   
 
-    // Draw circles based on aggregated data
-    aggregatedData.forEach(d => {
+  // Draw circles based on aggregated data
+  aggregatedData.forEach(d => {
+    console.log(d);
+    if ((rim && d.shot_type === 'rim') || (mid && d.shot_type === 'midrange') || (floater && d.shot_type === 'floater') || (three && d.shot_type === 'three')){
       svg.append("circle")
         .attr("cx", d.x)
         .attr("cy", d.y)
         .attr("r", 2)
         .attr("fill", d.made ? "green" : "red") // Example: using last shot's outcome for color
         .attr("opacity", 0.7);
-    });
+    }
+  });
+
   }, [data]);
   
 

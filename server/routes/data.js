@@ -42,27 +42,11 @@ async function search(params) {x
 
 
 router.get('/', async (req,res) => {
-  res.json({data : None});
 });
 
 
 // Get a list of teams based on an input of year
 router.get('/teams', async (req, res) => {
-
-
-    // while (await cursor.hasNext() && uniqueTeams.size < 30) {
-    //   const doc = await cursor.next();
-    //   uniqueTeams.add(doc.team);
-
-    // // If we have 30 teams, break out of the loop
-    //   if (uniqueTeams.size === 30) {
-    //     break;
-    //   }
-    // }
-    
-
-    //console.log(uniqueTeams);
-    // Once all documents have been processed, convert the Set to an array and send the response
     res.json({ teams: ["BOS", "CLE", "HOU", "GSW", "MIL", "ATL", "DAL", "CHO", "DET", "BRK", "IND", "NOP",
     "MEM", "MIA", "ORL", "POR", "PHO", "SAC", "MIN", "SAS", "DEN", "UTA", "PHI", "WAS",
     "LAC", "LAL", "NYK", "OKC", "CHI", "TOR"] });
@@ -113,15 +97,14 @@ router.get('/playerdata', async (req,res) => {
     let shots = [];
     const cursor = player_data.find(
       {player: player, season: season }, // Query to filter documents based on the team
-      //{match_id: 0, distance: 0, shotX: 0, shotY: 0 } // Projection to include only the playerName field and exclude the _id field
    )
 
    await cursor.forEach((doc, index) => {
     
     // Assuming 'player' is the field name that holds the player's name
     // Add this document's player to the array
-
-    shots.push({x: doc.shotX, y: doc.shotY, player: doc.player, made: doc.made})
+    console.log(doc);
+    shots.push({x: doc.shotX, y: doc.shotY, player: doc.player, made: doc.made, shot_type: doc.shot_type});
   });
 
     res.json({ shotData : shots });
