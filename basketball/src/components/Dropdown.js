@@ -11,6 +11,7 @@ const Dropdown = ({data, onPlayerSelected}) => {
 
   // Fetch teams when a season is selected
   useEffect(() => {
+    //console.log(seasons);
     if (selectedSeason) {
     
       fetchTeamsForSeason(selectedSeason).then(teams => {

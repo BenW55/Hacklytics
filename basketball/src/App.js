@@ -2,6 +2,7 @@ import React from 'react';
 import BasketballCourt from './components/BasketballCourt';
 import Dropdown from './components/Dropdown';
 import './App.css';
+import PlayerProfile from './components/PlayerProfile';
 
 // Example data - replace this with your actual shot data
 const seasonsData = ["2017-18", "2018-19", "2019-20", "2020-21", "2021-22"];
@@ -10,11 +11,14 @@ function App() {
   const [shotDataPlayer1, setShotDataPlayer1] = React.useState([]);
   const [shotDataPlayer2, setShotDataPlayer2] = React.useState([]);
   const [showSecondPlayer, setShowSecondPlayer] = React.useState(false);
+  const [player, setPlayer] = React.useState("");
 
   const handlePlayerSelected = (identifier) => (data) => {
     if (identifier === 'player1') {
-      console.log(data['shotData']);
       setShotDataPlayer1(data['shotData']);
+      
+      
+      //console.log(shotDataPlayer1[0].player);
     } else if (identifier === 'player2') {
       setShotDataPlayer2(data['shotData']);
     }
@@ -45,6 +49,9 @@ function App() {
       <button onClick={toggleSecondPlayer}>
         {showSecondPlayer ? '- Remove Player' : '+ Add Player'}
       </button>
+      <div>
+        <PlayerProfile data={shotDataPlayer1[0]}/>
+      </div>
     </div>
   );
 }

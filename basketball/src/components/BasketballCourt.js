@@ -11,17 +11,16 @@ const scaleX = d3.scaleLinear()
   .range([0, svgWidth]);
 
 const scaleY = d3.scaleLinear()
-  .domain([0, 50])
+  .domain([-2, 48])
   .range([0, svgHeight]);
 const aggregateShots = (data) => {
-const gridSize = 5; // Adjust based on the desired granularity
     const aggregated = {};
   
     data.forEach(shot => {
 // Round the shot location to the nearest grid point
-      const roundedX = scaleX(shot.x);
-      const roundedY = scaleY(shot.y);
-      const key = `${roundedX}-${roundedY}`;
+const roundedX = Math.round(scaleX(shot.x));
+const roundedY = Math.round(scaleY(shot.y));
+const key = `${roundedX}-${roundedY}`;
   
       if (!aggregated[key]) {
         aggregated[key] = { count: 1, x: roundedX, y: roundedY, made: shot.made };
@@ -32,6 +31,7 @@ const gridSize = 5; // Adjust based on the desired granularity
   
     return Object.values(aggregated); // Convert aggregated shots object back to an array
   };
+  
 const BasketballCourt = ({ data }) => {
 const svgRef = useRef();
 
@@ -44,7 +44,7 @@ const svgRef = useRef();
       .attr('width', svgWidth)
       .attr('height', svgHeight);
     
-      if (!data || data.length === 0 || data.some(d => Object.keys(d).length === 0)) return;
+  if (!data || data.length === 0 || data.some(d => Object.keys(d).length === 0)) return;
     const aggregatedData = aggregateShots(data);
   
     // Determine the range of shot counts to scale circle sizes dynamically
@@ -57,7 +57,7 @@ const svgRef = useRef();
       svg.append("circle")
         .attr("cx", d.x)
         .attr("cy", d.y)
-        .attr("r", radiusScale(d.count))
+        .attr("r", 2)
         .attr("fill", d.made ? "green" : "red") // Example: using last shot's outcome for color
         .attr("opacity", 0.7);
     });
