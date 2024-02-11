@@ -11,11 +11,15 @@ function App() {
   const [shotDataPlayer1, setShotDataPlayer1] = React.useState([]);
   const [shotDataPlayer2, setShotDataPlayer2] = React.useState([]);
   const [showSecondPlayer, setShowSecondPlayer] = React.useState(false);
+  const [player, setPlayer] = React.useState({});
 
   const handlePlayerSelected = (identifier) => (data) => {
+    //const playerData = data['shotData'][0] || {};
     if (identifier === 'player1') {
-      console.log(data['shotData']);
       setShotDataPlayer1(data['shotData']);
+      //console.log(data['shotData'][0].player);
+      setPlayer({name: data['shotData'][0].player});
+      //console.log(shotDataPlayer1[0].player);
     } else if (identifier === 'player2') {
       setShotDataPlayer2(data['shotData']);
     }
@@ -47,7 +51,7 @@ function App() {
         {showSecondPlayer ? '- Remove Player' : '+ Add Player'}
       </button>
       <div>
-        <PlayerProfile name="Stephen Curry"></PlayerProfile>
+        <PlayerProfile name={player}></PlayerProfile>
       </div>
       {showSecondPlayer && (
           <div>
