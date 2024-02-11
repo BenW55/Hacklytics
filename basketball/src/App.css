@@ -36,6 +36,15 @@
   justify-content: center; /* This will center the courts if there is extra space */
 }
 
+.stats-container {
+  display: flex;
+  justify-content: center;
+}
+
+.stat {
+  margin: 5px 10px;
+}
+
 .player {
   margin: 0 10px; /* This adds space between the two courts */
 }

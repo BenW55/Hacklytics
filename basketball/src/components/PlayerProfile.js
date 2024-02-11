@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './PlayerProfile.css';
 
 const profiledata = require('./profiledata.json');
-let url = '';
 
 const PlayerProfile = ({ player }) => {
   const [profile, setProfile] = useState({
@@ -15,8 +14,8 @@ const PlayerProfile = ({ player }) => {
   const [imageUrl, setImageUrl] = useState('');
   useEffect(() => {
     for (let i = 0; i < profiledata.length; i++) {
-      if (profiledata[i].name === name) {
-        url = 'https://cdn.nba.com/headshots/nba/latest/1040x760/'+profiledata[i].id+'.png'
+      if (profiledata[i].name === player) {
+        setImageUrl('https://cdn.nba.com/headshots/nba/latest/1040x760/'+profiledata[i].id+'.png')
         setProfile({
           name: profiledata[i].name,
           height: profiledata[i].height,
@@ -27,19 +26,19 @@ const PlayerProfile = ({ player }) => {
         break;
       }
     }
-  }, [name]);
+  }, [player]);
 
   return (
     <div className="player-profile">
       <table>
         <tbody>
           <tr>
-            <td rowSpan="3"><img style = {{width: "200px"}} src={ imageUrl } alt="Player"/></td>
+            <td rowSpan="3" id='imgcell'><img style = {{width: "200px", padding: "0px", margin: "0px"}} src={ imageUrl } alt="Player"/></td>
             <td colSpan="3">{profile.name}</td>
           </tr>
           <tr>
             <td>{profile.height}</td>
-            <td>{profile.weight} lbs</td>
+            <td>{profile.weight}</td>
             <td>{profile.position}</td>
           </tr>
           <tr>
