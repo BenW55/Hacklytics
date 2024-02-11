@@ -80,7 +80,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1630173",
         "team": "NYK",
         "name": "Precious Achiuwa",
         "position": "F",
@@ -176,7 +176,7 @@
         "weight": "165 lbs"
     },
     {
-        "id": null,
+        "id": "203500",
         "team": "HOU",
         "name": "Steven Adams",
         "position": "C",
@@ -192,7 +192,7 @@
         "weight": "241 lbs"
     },
     {
-        "id": null,
+        "id": "1628389",
         "team": "MIA",
         "name": "Bam Adebayo",
         "position": "C-F",
@@ -232,7 +232,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1630534",
         "team": "TOR",
         "name": "Ochai Agbaji",
         "position": "G",
@@ -328,7 +328,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "1630583",
         "team": "MEM",
         "name": "Santi Aldama",
         "position": "F-C",
@@ -432,7 +432,7 @@
         "weight": "265 lbs"
     },
     {
-        "id": null,
+        "id": "1629638",
         "team": "MIN",
         "name": "Nickeil Alexander-Walker",
         "position": "G",
@@ -464,7 +464,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1628960",
         "team": "PHX",
         "name": "Grayson Allen",
         "position": "G",
@@ -472,7 +472,7 @@
         "weight": "198 lbs"
     },
     {
-        "id": null,
+        "id": "1628386",
         "team": "CLE",
         "name": "Jarrett Allen",
         "position": "C",
@@ -600,7 +600,7 @@
         "weight": "260 lbs"
     },
     {
-        "id": null,
+        "id": "1630631",
         "team": "NOP",
         "name": "Jose Alvarado",
         "position": "G",
@@ -768,7 +768,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "203937",
         "team": "MIN",
         "name": "Kyle Anderson",
         "position": "F-G",
@@ -888,7 +888,7 @@
         "weight": "249 lbs"
     },
     {
-        "id": null,
+        "id": "203507",
         "team": "MIL",
         "name": "Giannis Antetokounmpo",
         "position": "F",
@@ -904,7 +904,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "203648",
         "team": "MIL",
         "name": "Thanasis Antetokounmpo",
         "position": "F",
@@ -920,7 +920,7 @@
         "weight": "238 lbs"
     },
     {
-        "id": null,
+        "id": "1630175",
         "team": "ORL",
         "name": "Cole Anthony",
         "position": "G",
@@ -952,7 +952,7 @@
         "weight": "260 lbs"
     },
     {
-        "id": null,
+        "id": "1628384",
         "team": "NYK",
         "name": "OG Anunoby",
         "position": "F-G",
@@ -1000,7 +1000,7 @@
         "weight": "250 lbs"
     },
     {
-        "id": null,
+        "id": "1627853",
         "team": "NYK",
         "name": "Ryan Arcidiacono",
         "position": "G",
@@ -1185,7 +1185,7 @@
     },
     {
         "id": "76068",
-        "team": null,
+        "team": "BAL",
         "name": "Don Asmonga",
         "position": "G",
         "height": "6'2\"",
@@ -1217,7 +1217,7 @@
     },
     {
         "id": "76071",
-        "team": null,
+        "team": "DEF",
         "name": "Chet Aubuchon",
         "position": "G",
         "height": "5'10\"",
@@ -1272,7 +1272,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1630166",
         "team": "WAS",
         "name": "Deni Avdija",
         "position": "F",
@@ -1336,7 +1336,7 @@
         "weight": "250 lbs"
     },
     {
-        "id": null,
+        "id": "1629028",
         "team": "POR",
         "name": "Deandre Ayton",
         "position": "C",
@@ -1352,7 +1352,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1628962",
         "team": "PHX",
         "name": "Udoka Azubuike",
         "position": "C-F",
@@ -1400,7 +1400,7 @@
         "weight": "221 lbs"
     },
     {
-        "id": null,
+        "id": "1630641",
         "team": "POR",
         "name": "Ibou Badji",
         "position": "C",
@@ -1432,7 +1432,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1628963",
         "team": "WAS",
         "name": "Marvin Bagley III",
         "position": "F",
@@ -1440,7 +1440,7 @@
         "weight": "235 lbs"
     },
     {
-        "id": null,
+        "id": "1641735",
         "team": "CHA",
         "name": "Amari Bailey",
         "position": "G",
@@ -1513,7 +1513,7 @@
     },
     {
         "id": "76089",
-        "team": null,
+        "team": "CHS",
         "name": "Norm Baker",
         "position": "G",
         "height": "6'0\"",
@@ -1544,7 +1544,7 @@
         "weight": "202 lbs"
     },
     {
-        "id": null,
+        "id": "1631116",
         "team": "WAS",
         "name": "Patrick Baldwin Jr.",
         "position": "F",
@@ -1568,7 +1568,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1630163",
         "team": "CHA",
         "name": "LaMelo Ball",
         "position": "G",
@@ -1576,7 +1576,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1628366",
         "team": "CHI",
         "name": "Lonzo Ball",
         "position": "G",
@@ -1593,14 +1593,14 @@
     },
     {
         "id": "76092",
-        "team": null,
+        "team": "BOM",
         "name": "Herschel Baltimore",
         "position": "F",
         "height": "6'4\"",
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1628964",
         "team": "PHI",
         "name": "Mo Bamba",
         "position": "C",
@@ -1608,7 +1608,7 @@
         "weight": "231 lbs"
     },
     {
-        "id": null,
+        "id": "1631094",
         "team": "ORL",
         "name": "Paolo Banchero",
         "position": "F",
@@ -1616,7 +1616,7 @@
         "weight": "250 lbs"
     },
     {
-        "id": null,
+        "id": "1630217",
         "team": "MEM",
         "name": "Desmond Bane",
         "position": "G",
@@ -1656,7 +1656,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1630625",
         "team": "POR",
         "name": "Dalano Banton",
         "position": "F",
@@ -1713,7 +1713,7 @@
     },
     {
         "id": "76098",
-        "team": null,
+        "team": "INO",
         "name": "Cliff Barker",
         "position": "G",
         "height": "6'2\"",
@@ -1752,7 +1752,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1631230",
         "team": "SAS",
         "name": "Dominick Barlow",
         "position": "F",
@@ -1760,7 +1760,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "203084",
         "team": "SAC",
         "name": "Harrison Barnes",
         "position": "F",
@@ -1800,7 +1800,7 @@
         "weight": "226 lbs"
     },
     {
-        "id": null,
+        "id": "1630567",
         "team": "TOR",
         "name": "Scottie Barnes",
         "position": "F-G",
@@ -1841,7 +1841,7 @@
     },
     {
         "id": "76110",
-        "team": null,
+        "team": "INO",
         "name": "Leo Barnhorst",
         "position": "F",
         "height": "8'15\"",
@@ -1849,7 +1849,7 @@
     },
     {
         "id": "76111",
-        "team": null,
+        "team": "BOM",
         "name": "John Barr",
         "position": "F",
         "height": "6'3\"",
@@ -1888,7 +1888,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1629628",
         "team": "TOR",
         "name": "RJ Barrett",
         "position": "F-G",
@@ -1945,7 +1945,7 @@
     },
     {
         "id": "76117",
-        "team": null,
+        "team": "WAS",
         "name": "Ed Bartels",
         "position": "F",
         "height": "6'6\"",
@@ -2008,7 +2008,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "1629646",
         "team": "SAS",
         "name": "Charles Bassey",
         "position": "C-F",
@@ -2040,7 +2040,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1641734",
         "team": "CLE",
         "name": "Emoni Bates",
         "position": "F",
@@ -2048,7 +2048,7 @@
         "weight": "170 lbs"
     },
     {
-        "id": null,
+        "id": "1628966",
         "team": "BKN",
         "name": "Keita Bates-Diop",
         "position": "F",
@@ -2112,7 +2112,7 @@
         "weight": "240 lbs"
     },
     {
-        "id": null,
+        "id": "201587",
         "team": "PHI",
         "name": "Nicolas Batum",
         "position": "G-F",
@@ -2129,7 +2129,7 @@
     },
     {
         "id": "76126",
-        "team": null,
+        "team": "CLR",
         "name": "Frankie Baumholtz",
         "position": "G",
         "height": "5'10\"",
@@ -2200,7 +2200,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "203078",
         "team": "PHX",
         "name": "Bradley Beal",
         "position": "G",
@@ -2217,7 +2217,7 @@
     },
     {
         "id": "76131",
-        "team": null,
+        "team": "INO",
         "name": "Ralph Beard",
         "position": "G",
         "height": "5'10\"",
@@ -2232,7 +2232,7 @@
         "weight": "237 lbs"
     },
     {
-        "id": null,
+        "id": "1627736",
         "team": "MIL",
         "name": "Malik Beasley",
         "position": "G",
@@ -2264,7 +2264,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1630699",
         "team": "MIL",
         "name": "MarJon Beauchamp",
         "position": "F",
@@ -2297,7 +2297,7 @@
     },
     {
         "id": "76137",
-        "team": null,
+        "team": "DEF",
         "name": "Moe Becker",
         "position": "",
         "height": "N/A",
@@ -2313,7 +2313,7 @@
     },
     {
         "id": "76139",
-        "team": null,
+        "team": "PRO",
         "name": "Hank Beenders",
         "position": "C",
         "height": "6'5\"",
@@ -2560,7 +2560,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1631262",
         "team": "WAS",
         "name": "Jules Bernard",
         "position": "G",
@@ -2592,7 +2592,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "202722",
         "team": "CHA",
         "name": "Davis Bertans",
         "position": "F",
@@ -2616,7 +2616,7 @@
         "weight": "182 lbs"
     },
     {
-        "id": null,
+        "id": "201976",
         "team": "MIL",
         "name": "Patrick Beverley",
         "position": "G",
@@ -2624,7 +2624,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1630180",
         "team": "ATL",
         "name": "Saddiq Bey",
         "position": "G-F",
@@ -2657,7 +2657,7 @@
     },
     {
         "id": "76161",
-        "team": null,
+        "team": "HUS",
         "name": "Hank Biasatti",
         "position": "G",
         "height": "5'11\"",
@@ -2784,7 +2784,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1629048",
         "team": "ORL",
         "name": "Goga Bitadze",
         "position": "C-F",
@@ -2792,7 +2792,7 @@
         "weight": "250 lbs"
     },
     {
-        "id": null,
+        "id": "1641931",
         "team": "CHI",
         "name": "Onuralp Bitim",
         "position": "F",
@@ -2800,7 +2800,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "202687",
         "team": "OKC",
         "name": "Bismack Biyombo",
         "position": "C",
@@ -2824,7 +2824,7 @@
         "weight": "252 lbs"
     },
     {
-        "id": null,
+        "id": "1641710",
         "team": "ORL",
         "name": "Anthony Black",
         "position": "G",
@@ -2840,7 +2840,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1641778",
         "team": "CHA",
         "name": "Leaky Black",
         "position": "F",
@@ -3009,7 +3009,7 @@
     },
     {
         "id": "76186",
-        "team": null,
+        "team": "INO",
         "name": "Leon Blevins",
         "position": "G",
         "height": "6'2\"",
@@ -3025,7 +3025,7 @@
     },
     {
         "id": "76188",
-        "team": null,
+        "team": "BAL",
         "name": "Mike Bloom",
         "position": "C",
         "height": "6'6\"",
@@ -3128,7 +3128,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "203992",
         "team": "ATL",
         "name": "Bogdan Bogdanovic",
         "position": "G",
@@ -3136,7 +3136,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "202711",
         "team": "NYK",
         "name": "Bojan Bogdanovic",
         "position": "F",
@@ -3168,7 +3168,7 @@
         "weight": "235 lbs"
     },
     {
-        "id": null,
+        "id": "1629626",
         "team": "PHX",
         "name": "Bol Bol",
         "position": "C-F",
@@ -3192,7 +3192,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1629716",
         "team": "MIL",
         "name": "Marques Bolden",
         "position": "C",
@@ -3201,7 +3201,7 @@
     },
     {
         "id": "76196",
-        "team": null,
+        "team": "BAL",
         "name": "Bill Bolger",
         "position": "F",
         "height": "6'5\"",
@@ -3304,7 +3304,7 @@
         "weight": "235 lbs"
     },
     {
-        "id": null,
+        "id": "1626164",
         "team": "PHX",
         "name": "Devin Booker",
         "position": "G",
@@ -3440,7 +3440,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "1630527",
         "team": "LAC",
         "name": "Brandon Boston Jr.",
         "position": "G",
@@ -3456,7 +3456,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1628449",
         "team": "TOR",
         "name": "Chris Boucher",
         "position": "F",
@@ -3464,7 +3464,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1630547",
         "team": "CHA",
         "name": "James Bouknight",
         "position": "G",
@@ -3480,7 +3480,7 @@
         "weight": "257 lbs"
     },
     {
-        "id": null,
+        "id": "1631123",
         "team": "POR",
         "name": "Jamaree Bouyea",
         "position": "G",
@@ -3609,7 +3609,7 @@
     },
     {
         "id": "76224",
-        "team": null,
+        "team": "WAT",
         "name": "Harry Boykoff",
         "position": "C",
         "height": "6'9\"",
@@ -3705,7 +3705,7 @@
     },
     {
         "id": "76232",
-        "team": null,
+        "team": "CHS",
         "name": "Joe Bradley",
         "position": "G",
         "height": "6'3\"",
@@ -3792,7 +3792,7 @@
         "weight": "173 lbs"
     },
     {
-        "id": null,
+        "id": "1631103",
         "team": "SAS",
         "name": "Malaki Branham",
         "position": "F",
@@ -3856,7 +3856,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1631128",
         "team": "DEN",
         "name": "Christian Braun",
         "position": "G",
@@ -3992,7 +3992,7 @@
         "weight": "228 lbs"
     },
     {
-        "id": null,
+        "id": "1628969",
         "team": "BKN",
         "name": "Mikal Bridges",
         "position": "G-F",
@@ -4000,7 +4000,7 @@
         "weight": "209 lbs"
     },
     {
-        "id": null,
+        "id": "1628970",
         "team": "CHA",
         "name": "Miles Bridges",
         "position": "F",
@@ -4048,7 +4048,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1629052",
         "team": "BOS",
         "name": "Oshae Brissett",
         "position": "F-G",
@@ -4120,7 +4120,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1627763",
         "team": "POR",
         "name": "Malcolm Brogdon",
         "position": "G",
@@ -4137,7 +4137,7 @@
     },
     {
         "id": "76264",
-        "team": null,
+        "team": "JET",
         "name": "Price Brookfield",
         "position": "F",
         "height": "6'4\"",
@@ -4152,7 +4152,7 @@
         "weight": "161 lbs"
     },
     {
-        "id": null,
+        "id": "1629717",
         "team": "BKN",
         "name": "Armoni Brooks",
         "position": "G",
@@ -4160,7 +4160,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1628415",
         "team": "HOU",
         "name": "Dillon Brooks",
         "position": "G-F",
@@ -4232,7 +4232,7 @@
         "weight": "175 lbs"
     },
     {
-        "id": null,
+        "id": "1628971",
         "team": "TOR",
         "name": "Bruce Brown",
         "position": "G-F",
@@ -4257,7 +4257,7 @@
     },
     {
         "id": "76270",
-        "team": null,
+        "team": "BAL",
         "name": "Darrell Brown",
         "position": "F",
         "height": "6'2\"",
@@ -4329,7 +4329,7 @@
     },
     {
         "id": "76275",
-        "team": null,
+        "team": "DEF",
         "name": "Harold Brown",
         "position": "G",
         "height": "6'0\"",
@@ -4344,7 +4344,7 @@
         "weight": "214 lbs"
     },
     {
-        "id": null,
+        "id": "1627759",
         "team": "BOS",
         "name": "Jaylen Brown",
         "position": "G-F",
@@ -4368,7 +4368,7 @@
         "weight": "222 lbs"
     },
     {
-        "id": null,
+        "id": "1631112",
         "team": "IND",
         "name": "Kendall Brown",
         "position": "G",
@@ -4376,7 +4376,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1641738",
         "team": "LAC",
         "name": "Kobe Brown",
         "position": "F",
@@ -4393,7 +4393,7 @@
     },
     {
         "id": "76278",
-        "team": null,
+        "team": "CLR",
         "name": "Leon Brown",
         "position": "F",
         "height": "6'3\"",
@@ -4440,7 +4440,7 @@
         "weight": "260 lbs"
     },
     {
-        "id": null,
+        "id": "1629650",
         "team": "POR",
         "name": "Moses Brown",
         "position": "C",
@@ -4536,7 +4536,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1630535",
         "team": "DAL",
         "name": "Greg Brown III",
         "position": "F",
@@ -4544,7 +4544,7 @@
         "weight": "206 lbs"
     },
     {
-        "id": null,
+        "id": "1629718",
         "team": "NYK",
         "name": "Charlie Brown Jr.",
         "position": "G",
@@ -4560,7 +4560,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1628972",
         "team": "DET",
         "name": "Troy Brown Jr.",
         "position": "G-F",
@@ -4584,7 +4584,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1628973",
         "team": "NYK",
         "name": "Jalen Brunson",
         "position": "G",
@@ -4648,7 +4648,7 @@
         "weight": "250 lbs"
     },
     {
-        "id": null,
+        "id": "1628418",
         "team": "MIA",
         "name": "Thomas Bryant",
         "position": "C-F",
@@ -4737,7 +4737,7 @@
     },
     {
         "id": "76298",
-        "team": null,
+        "team": "BAL",
         "name": "Walter Budko",
         "position": "F",
         "height": "6'5\"",
@@ -4752,7 +4752,7 @@
         "weight": "228 lbs"
     },
     {
-        "id": null,
+        "id": "1641723",
         "team": "ATL",
         "name": "Kobe Bufkin",
         "position": "G",
@@ -4776,7 +4776,7 @@
         "weight": "229 lbs"
     },
     {
-        "id": null,
+        "id": "203493",
         "team": "HOU",
         "name": "Reggie Bullock Jr.",
         "position": "G-F",
@@ -4793,7 +4793,7 @@
     },
     {
         "id": "76301",
-        "team": null,
+        "team": "BAL",
         "name": "Dick Bunt",
         "position": "G",
         "height": "6'0\"",
@@ -4840,7 +4840,7 @@
         "weight": "175 lbs"
     },
     {
-        "id": null,
+        "id": "202692",
         "team": "NYK",
         "name": "Alec Burks",
         "position": "G",
@@ -4873,7 +4873,7 @@
     },
     {
         "id": "76306",
-        "team": null,
+        "team": "SHE",
         "name": "Jack Burmaster",
         "position": "G",
         "height": "6'3\"",
@@ -5032,7 +5032,7 @@
         "weight": "260 lbs"
     },
     {
-        "id": null,
+        "id": "1630215",
         "team": "WAS",
         "name": "Jared Butler",
         "position": "G",
@@ -5040,7 +5040,7 @@
         "weight": "193 lbs"
     },
     {
-        "id": null,
+        "id": "202710",
         "team": "MIA",
         "name": "Jimmy Butler",
         "position": "F",
@@ -5121,7 +5121,7 @@
     },
     {
         "id": "76323",
-        "team": null,
+        "team": "PIT",
         "name": "Mike Bytzura",
         "position": "F",
         "height": "6'1\"",
@@ -5176,7 +5176,7 @@
         "weight": "248 lbs"
     },
     {
-        "id": null,
+        "id": "1631288",
         "team": "MIA",
         "name": "Jamal Cain",
         "position": "F",
@@ -5232,7 +5232,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "203484",
         "team": "DEN",
         "name": "Kentavious Caldwell-Pope",
         "position": "G",
@@ -5265,7 +5265,7 @@
     },
     {
         "id": "76333",
-        "team": null,
+        "team": "PRO",
         "name": "Tom Callahan",
         "position": "G",
         "height": "6'1\"",
@@ -5281,7 +5281,7 @@
     },
     {
         "id": "76335",
-        "team": null,
+        "team": "PRO",
         "name": "Ernie Calverley",
         "position": "G",
         "height": "5'10\"",
@@ -5296,7 +5296,7 @@
         "weight": "165 lbs"
     },
     {
-        "id": null,
+        "id": "1641739",
         "team": "POR",
         "name": "Toumani Camara",
         "position": "F",
@@ -5352,7 +5352,7 @@
         "weight": "201 lbs"
     },
     {
-        "id": null,
+        "id": "1628427",
         "team": "DEN",
         "name": "Vlatko Cancar",
         "position": "F",
@@ -5376,7 +5376,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "203991",
         "team": "ATL",
         "name": "Clint Capela",
         "position": "C",
@@ -5417,7 +5417,7 @@
     },
     {
         "id": "76341",
-        "team": null,
+        "team": "CHS",
         "name": "Chet Carlisle",
         "position": "F",
         "height": "6'5\"",
@@ -5616,7 +5616,7 @@
         "weight": "N/A"
     },
     {
-        "id": null,
+        "id": "1628975",
         "team": "CHI",
         "name": "Jevon Carter",
         "position": "G",
@@ -5656,7 +5656,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1628976",
         "team": "ORL",
         "name": "Wendell Carter Jr.",
         "position": "C-F",
@@ -5688,7 +5688,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1627936",
         "team": "CHI",
         "name": "Alex Caruso",
         "position": "G",
@@ -5720,7 +5720,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "1630658",
         "team": "LAL",
         "name": "Colin Castleton",
         "position": "C",
@@ -5816,7 +5816,7 @@
         "weight": "174 lbs"
     },
     {
-        "id": null,
+        "id": "1630608",
         "team": "DET",
         "name": "Malcolm Cazalon",
         "position": "G",
@@ -5896,7 +5896,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1630577",
         "team": "SAS",
         "name": "Julian Champagnie",
         "position": "F",
@@ -5953,7 +5953,7 @@
     },
     {
         "id": "76380",
-        "team": null,
+        "team": "SHE",
         "name": "John Chaney",
         "position": "",
         "height": "N/A",
@@ -6144,7 +6144,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1631108",
         "team": "LAL",
         "name": "Max Christie",
         "position": "G",
@@ -6200,7 +6200,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1631321",
         "team": "SAS",
         "name": "Sidy Cissoko",
         "position": "G",
@@ -6248,7 +6248,7 @@
         "weight": "175 lbs"
     },
     {
-        "id": null,
+        "id": "1641740",
         "team": "MIN",
         "name": "Jaylen Clark",
         "position": "G",
@@ -6264,7 +6264,7 @@
         "weight": "221 lbs"
     },
     {
-        "id": null,
+        "id": "1629634",
         "team": "MEM",
         "name": "Brandon Clarke",
         "position": "F",
@@ -6280,7 +6280,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "203903",
         "team": "UTA",
         "name": "Jordan Clarkson",
         "position": "G",
@@ -6312,7 +6312,7 @@
         "weight": "265 lbs"
     },
     {
-        "id": null,
+        "id": "1629651",
         "team": "BKN",
         "name": "Nic Claxton",
         "position": "C",
@@ -6392,7 +6392,7 @@
         "weight": "212 lbs"
     },
     {
-        "id": null,
+        "id": "1641730",
         "team": "BKN",
         "name": "Noah Clowney",
         "position": "F",
@@ -6401,7 +6401,7 @@
     },
     {
         "id": "76407",
-        "team": null,
+        "team": "WAT",
         "name": "Paul Cloyd",
         "position": "",
         "height": "N/A",
@@ -6424,7 +6424,7 @@
         "weight": "198 lbs"
     },
     {
-        "id": null,
+        "id": "1629599",
         "team": "LAC",
         "name": "Amir Coffey",
         "position": "G-F",
@@ -6576,7 +6576,7 @@
         "weight": "175 lbs"
     },
     {
-        "id": null,
+        "id": "1628381",
         "team": "UTA",
         "name": "John Collins",
         "position": "F-C",
@@ -6600,7 +6600,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1628380",
         "team": "SAS",
         "name": "Zach Collins",
         "position": "F-C",
@@ -6704,7 +6704,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "201144",
         "team": "MIN",
         "name": "Mike Conley",
         "position": "G",
@@ -6728,7 +6728,7 @@
         "weight": "245 lbs"
     },
     {
-        "id": null,
+        "id": "1626192",
         "team": "MIL",
         "name": "Pat Connaughton",
         "position": "G",
@@ -6777,7 +6777,7 @@
     },
     {
         "id": "76438",
-        "team": null,
+        "team": "SHE",
         "name": "Bobby Cook",
         "position": "G",
         "height": "5'10\"",
@@ -6985,7 +6985,7 @@
     },
     {
         "id": "76451",
-        "team": null,
+        "team": "CLR",
         "name": "Ken Corley",
         "position": "",
         "height": "N/A",
@@ -7064,7 +7064,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "1641731",
         "team": "WAS",
         "name": "Bilal Coulibaly",
         "position": "G",
@@ -7072,7 +7072,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1641741",
         "team": "PHI",
         "name": "Ricky Council IV",
         "position": "G",
@@ -7128,7 +7128,7 @@
         "weight": "175 lbs"
     },
     {
-        "id": null,
+        "id": "203496",
         "team": "PHI",
         "name": "Robert Covington",
         "position": "F",
@@ -7176,7 +7176,7 @@
         "weight": "212 lbs"
     },
     {
-        "id": null,
+        "id": "1628470",
         "team": "CHI",
         "name": "Torrey Craig",
         "position": "F",
@@ -7376,7 +7376,7 @@
         "weight": "214 lbs"
     },
     {
-        "id": null,
+        "id": "203109",
         "team": "MIL",
         "name": "Jae Crowder",
         "position": "F",
@@ -7432,7 +7432,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1630595",
         "team": "DET",
         "name": "Cade Cunningham",
         "position": "G",
@@ -7481,7 +7481,7 @@
     },
     {
         "id": "76489",
-        "team": null,
+        "team": "PRO",
         "name": "Armand Cure",
         "position": "F",
         "height": "6'0\"",
@@ -7544,7 +7544,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "203552",
         "team": "CHA",
         "name": "Seth Curry",
         "position": "G",
@@ -7552,7 +7552,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "201939",
         "team": "GSW",
         "name": "Stephen Curry",
         "position": "G",
@@ -7640,7 +7640,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1630700",
         "team": "NOP",
         "name": "Dyson Daniels",
         "position": "G",
@@ -7800,7 +7800,7 @@
         "weight": "240 lbs"
     },
     {
-        "id": null,
+        "id": "203076",
         "team": "LAL",
         "name": "Anthony Davis",
         "position": "F-C",
@@ -7817,7 +7817,7 @@
     },
     {
         "id": "76515",
-        "team": null,
+        "team": "BOM",
         "name": "Aubrey Davis",
         "position": "G",
         "height": "6'2\"",
@@ -7841,7 +7841,7 @@
     },
     {
         "id": "76538",
-        "team": null,
+        "team": "CHS",
         "name": "Bill Davis",
         "position": "F",
         "height": "6'3\"",
@@ -7984,7 +7984,7 @@
         "weight": "170 lbs"
     },
     {
-        "id": null,
+        "id": "1631098",
         "team": "WAS",
         "name": "Johnny Davis",
         "position": "G",
@@ -8120,7 +8120,7 @@
         "weight": "193 lbs"
     },
     {
-        "id": null,
+        "id": "1631120",
         "team": "BOS",
         "name": "JD Davison",
         "position": "G",
@@ -8256,7 +8256,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "201942",
         "team": "CHI",
         "name": "DeMar DeRozan",
         "position": "G-F",
@@ -8313,7 +8313,7 @@
     },
     {
         "id": "76548",
-        "team": null,
+        "team": "PRO",
         "name": "Red Dehnert",
         "position": "",
         "height": "N/A",
@@ -8441,14 +8441,14 @@
     },
     {
         "id": "76557",
-        "team": null,
+        "team": "BAL",
         "name": "Blaine Denning",
         "position": "G",
         "height": "6'2\"",
         "weight": "175 lbs"
     },
     {
-        "id": null,
+        "id": "1641926",
         "team": "DAL",
         "name": "Dexter Dennis",
         "position": "G",
@@ -8512,7 +8512,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1628978",
         "team": "NYK",
         "name": "Donte DiVincenzo",
         "position": "G",
@@ -8520,7 +8520,7 @@
         "weight": "203 lbs"
     },
     {
-        "id": null,
+        "id": "1631217",
         "team": "LAC",
         "name": "Moussa Diabate",
         "position": "F",
@@ -8528,7 +8528,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1629603",
         "team": "SAS",
         "name": "Mamadi Diakite",
         "position": "F",
@@ -8552,7 +8552,7 @@
         "weight": "219 lbs"
     },
     {
-        "id": null,
+        "id": "1628977",
         "team": "WAS",
         "name": "Hamidou Diallo",
         "position": "G",
@@ -8584,7 +8584,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1641711",
         "team": "TOR",
         "name": "Gradey Dick",
         "position": "G-F",
@@ -8656,7 +8656,7 @@
         "weight": "248 lbs"
     },
     {
-        "id": null,
+        "id": "1631172",
         "team": "OKC",
         "name": "Ousmane Dieng",
         "position": "F",
@@ -8689,7 +8689,7 @@
     },
     {
         "id": "76570",
-        "team": null,
+        "team": "DEF",
         "name": "Bob Dille",
         "position": "F",
         "height": "6'3\"",
@@ -8697,7 +8697,7 @@
     },
     {
         "id": "76571",
-        "team": null,
+        "team": "WAS",
         "name": "John Dillon",
         "position": "F",
         "height": "6'3\"",
@@ -8728,7 +8728,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "203915",
         "team": "LAL",
         "name": "Spencer Dinwiddie",
         "position": "G",
@@ -8809,7 +8809,7 @@
     },
     {
         "id": "76581",
-        "team": null,
+        "team": "BAL",
         "name": "Joe Dolhon",
         "position": "G",
         "height": "6'0\"",
@@ -8817,7 +8817,7 @@
     },
     {
         "id": "76582",
-        "team": null,
+        "team": "BOM",
         "name": "Bob Doll",
         "position": "F",
         "height": "6'4\"",
@@ -8832,7 +8832,7 @@
         "weight": "275 lbs"
     },
     {
-        "id": null,
+        "id": "1629029",
         "team": "DAL",
         "name": "Luka Doncic",
         "position": "F-G",
@@ -8896,7 +8896,7 @@
         "weight": "183 lbs"
     },
     {
-        "id": null,
+        "id": "1629652",
         "team": "OKC",
         "name": "Luguentz Dort",
         "position": "G",
@@ -8904,7 +8904,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1630245",
         "team": "CHI",
         "name": "Ayo Dosunmu",
         "position": "G",
@@ -9009,7 +9009,7 @@
     },
     {
         "id": "76593",
-        "team": null,
+        "team": "PRO",
         "name": "Bill Downey",
         "position": "C",
         "height": "6'6\"",
@@ -9088,7 +9088,7 @@
         "weight": "265 lbs"
     },
     {
-        "id": null,
+        "id": "1630929",
         "team": "CHI",
         "name": "Henri Drell",
         "position": "F",
@@ -9168,7 +9168,7 @@
         "weight": "250 lbs"
     },
     {
-        "id": null,
+        "id": "203083",
         "team": "CHI",
         "name": "Andre Drummond",
         "position": "C",
@@ -9184,7 +9184,7 @@
         "weight": "175 lbs"
     },
     {
-        "id": null,
+        "id": "1630537",
         "team": "SAC",
         "name": "Chris Duarte",
         "position": "G",
@@ -9241,7 +9241,7 @@
     },
     {
         "id": "76609",
-        "team": null,
+        "team": "CHS",
         "name": "Bob Duffy",
         "position": "F",
         "height": "6'4\"",
@@ -9272,7 +9272,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1630561",
         "team": "SAS",
         "name": "David Duke Jr.",
         "position": "G",
@@ -9344,7 +9344,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1627739",
         "team": "UTA",
         "name": "Kris Dunn",
         "position": "G",
@@ -9376,7 +9376,7 @@
         "weight": "209 lbs"
     },
     {
-        "id": null,
+        "id": "201142",
         "team": "PHX",
         "name": "Kevin Durant",
         "position": "F",
@@ -9384,7 +9384,7 @@
         "weight": "240 lbs"
     },
     {
-        "id": null,
+        "id": "1631105",
         "team": "DET",
         "name": "Jalen Duren",
         "position": "C",
@@ -9504,7 +9504,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1631106",
         "team": "HOU",
         "name": "Tari Eason",
         "position": "F",
@@ -9616,7 +9616,7 @@
         "weight": "166 lbs"
     },
     {
-        "id": null,
+        "id": "1630162",
         "team": "MIN",
         "name": "Anthony Edwards",
         "position": "G",
@@ -9696,7 +9696,7 @@
         "weight": "275 lbs"
     },
     {
-        "id": null,
+        "id": "1630556",
         "team": "SAC",
         "name": "Kessler Edwards",
         "position": "F",
@@ -9745,7 +9745,7 @@
     },
     {
         "id": "76648",
-        "team": null,
+        "team": "BOM",
         "name": "Lonnie Eggleston",
         "position": "G",
         "height": "6'0\"",
@@ -9904,7 +9904,7 @@
         "weight": "175 lbs"
     },
     {
-        "id": null,
+        "id": "1631165",
         "team": "SAC",
         "name": "Keon Ellis",
         "position": "G",
@@ -9984,7 +9984,7 @@
         "weight": "260 lbs"
     },
     {
-        "id": null,
+        "id": "203954",
         "team": "PHI",
         "name": "Joel Embiid",
         "position": "C-F",
@@ -10009,7 +10009,7 @@
     },
     {
         "id": "76669",
-        "team": null,
+        "team": "CLR",
         "name": "Ned Endress",
         "position": "F",
         "height": "6'2\"",
@@ -10153,7 +10153,7 @@
     },
     {
         "id": "76682",
-        "team": null,
+        "team": "JET",
         "name": "Jack Eskridge",
         "position": "",
         "height": "N/A",
@@ -10168,7 +10168,7 @@
         "weight": "198 lbs"
     },
     {
-        "id": null,
+        "id": "1629234",
         "team": "PHX",
         "name": "Drew Eubanks",
         "position": "F-C",
@@ -10177,7 +10177,7 @@
     },
     {
         "id": "76687",
-        "team": null,
+        "team": "INO",
         "name": "Bob Evans",
         "position": "G",
         "height": "6'2\"",
@@ -10256,7 +10256,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1641787",
         "team": "MEM",
         "name": "Tosan Evbuomwan",
         "position": "F",
@@ -10288,7 +10288,7 @@
         "weight": "235 lbs"
     },
     {
-        "id": null,
+        "id": "203957",
         "team": "DAL",
         "name": "Dante Exum",
         "position": "G",
@@ -10313,7 +10313,7 @@
     },
     {
         "id": "76689",
-        "team": null,
+        "team": "BAL",
         "name": "Johnny Ezersky",
         "position": "F-G",
         "height": "6'3\"",
@@ -10321,7 +10321,7 @@
     },
     {
         "id": "76690",
-        "team": null,
+        "team": "PIT",
         "name": "Joe Fabel",
         "position": "F",
         "height": "6'1\"",
@@ -10409,7 +10409,7 @@
     },
     {
         "id": "76696",
-        "team": null,
+        "team": "CLR",
         "name": "Bob Faught",
         "position": "F",
         "height": "6'5\"",
@@ -10449,7 +10449,7 @@
     },
     {
         "id": "76698",
-        "team": null,
+        "team": "WAS",
         "name": "Bob Feerick",
         "position": "G",
         "height": "6'3\"",
@@ -10481,7 +10481,7 @@
     },
     {
         "id": "76702",
-        "team": null,
+        "team": "BAL",
         "name": "George Feigenbaum",
         "position": "G",
         "height": "6'1\"",
@@ -10584,7 +10584,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1628981",
         "team": "ATL",
         "name": "Bruno Fernando",
         "position": "F-C",
@@ -10720,7 +10720,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1627827",
         "team": "BKN",
         "name": "Dorian Finney-Smith",
         "position": "F",
@@ -10761,7 +10761,7 @@
     },
     {
         "id": "76720",
-        "team": null,
+        "team": "HUS",
         "name": "Bob Fitzgerald",
         "position": "F",
         "height": "6'5\"",
@@ -10769,7 +10769,7 @@
     },
     {
         "id": "76719",
-        "team": null,
+        "team": "HUS",
         "name": "Dick Fitzgerald",
         "position": "F",
         "height": "6'2\"",
@@ -10848,7 +10848,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1630201",
         "team": "DET",
         "name": "Malachi Flynn",
         "position": "G",
@@ -10896,7 +10896,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1631323",
         "team": "DET",
         "name": "Simone Fontecchio",
         "position": "F",
@@ -10976,7 +10976,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1630259",
         "team": "SAC",
         "name": "Jordan Ford",
         "position": "G",
@@ -11032,7 +11032,7 @@
         "weight": "235 lbs"
     },
     {
-        "id": null,
+        "id": "1630235",
         "team": "ATL",
         "name": "Trent Forrest",
         "position": "G",
@@ -11112,7 +11112,7 @@
         "weight": "219 lbs"
     },
     {
-        "id": null,
+        "id": "203095",
         "team": "DET",
         "name": "Evan Fournier",
         "position": "G-F",
@@ -11144,7 +11144,7 @@
         "weight": "212 lbs"
     },
     {
-        "id": null,
+        "id": "1628368",
         "team": "SAC",
         "name": "De'Aaron Fox",
         "position": "G",
@@ -11217,7 +11217,7 @@
     },
     {
         "id": "76749",
-        "team": null,
+        "team": "PIT",
         "name": "Nat Frankel",
         "position": "F",
         "height": "6'0\"",
@@ -11344,7 +11344,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "1631241",
         "team": "TOR",
         "name": "Javon Freeman-Liberty",
         "position": "G",
@@ -11385,7 +11385,7 @@
     },
     {
         "id": "76760",
-        "team": null,
+        "team": "BAL",
         "name": "Jim Fritsche",
         "position": "C",
         "height": "6'8\"",
@@ -11409,14 +11409,14 @@
     },
     {
         "id": "76762",
-        "team": null,
+        "team": "HUS",
         "name": "Frank Fucarino",
         "position": "F",
         "height": "6'2\"",
         "weight": "175 lbs"
     },
     {
-        "id": null,
+        "id": "1641788",
         "team": "LAL",
         "name": "Alex Fudge",
         "position": "F",
@@ -11425,7 +11425,7 @@
     },
     {
         "id": "76763",
-        "team": null,
+        "team": "BAL",
         "name": "Herm Fuetsch",
         "position": "G",
         "height": "6'0\"",
@@ -11464,7 +11464,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1628365",
         "team": "ORL",
         "name": "Markelle Fultz",
         "position": "G",
@@ -11520,7 +11520,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1629655",
         "team": "DAL",
         "name": "Daniel Gafford",
         "position": "F-C",
@@ -11537,7 +11537,7 @@
     },
     {
         "id": "76769",
-        "team": null,
+        "team": "WAT",
         "name": "Elmer R. Gainer",
         "position": "",
         "height": "N/A",
@@ -11592,7 +11592,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "201568",
         "team": "DET",
         "name": "Danilo Gallinari",
         "position": "F",
@@ -11625,7 +11625,7 @@
     },
     {
         "id": "76776",
-        "team": null,
+        "team": "WAS",
         "name": "Bob Gantt",
         "position": "F",
         "height": "6'4\"",
@@ -11704,7 +11704,7 @@
         "weight": "203 lbs"
     },
     {
-        "id": null,
+        "id": "1629636",
         "team": "CLE",
         "name": "Darius Garland",
         "position": "G",
@@ -11856,7 +11856,7 @@
         "weight": "238 lbs"
     },
     {
-        "id": null,
+        "id": "1630586",
         "team": "GSW",
         "name": "Usman Garuba",
         "position": "F",
@@ -11872,7 +11872,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1630568",
         "team": "MIN",
         "name": "Luka Garza",
         "position": "C",
@@ -11897,14 +11897,14 @@
     },
     {
         "id": "76794",
-        "team": null,
+        "team": "AND",
         "name": "Frank Gates",
         "position": "G",
         "height": "6'0\"",
         "weight": "160 lbs"
     },
     {
-        "id": null,
+        "id": "1629232",
         "team": "NOP",
         "name": "Kaiser Gates",
         "position": "F",
@@ -12008,7 +12008,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1641718",
         "team": "UTA",
         "name": "Keyonte George",
         "position": "G",
@@ -12016,7 +12016,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "202331",
         "team": "LAC",
         "name": "Paul George",
         "position": "F",
@@ -12065,7 +12065,7 @@
     },
     {
         "id": "76805",
-        "team": null,
+        "team": "PIT",
         "name": "Gorham Getchell",
         "position": "C",
         "height": "6'4\"",
@@ -12128,7 +12128,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "201959",
         "team": "NYK",
         "name": "Taj Gibson",
         "position": "F",
@@ -12137,7 +12137,7 @@
     },
     {
         "id": "76811",
-        "team": null,
+        "team": "WAT",
         "name": "Ward Gibson",
         "position": "",
         "height": "N/A",
@@ -12152,7 +12152,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1630581",
         "team": "OKC",
         "name": "Josh Giddey",
         "position": "G",
@@ -12168,7 +12168,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1628385",
         "team": "SAC",
         "name": "Harry Giles III",
         "position": "F-C",
@@ -12176,7 +12176,7 @@
         "weight": "240 lbs"
     },
     {
-        "id": null,
+        "id": "1628983",
         "team": "OKC",
         "name": "Shai Gilgeous-Alexander",
         "position": "G",
@@ -12184,7 +12184,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1630264",
         "team": "WAS",
         "name": "Anthony Gill",
         "position": "F",
@@ -12216,7 +12216,7 @@
         "weight": "235 lbs"
     },
     {
-        "id": null,
+        "id": "1631221",
         "team": "DEN",
         "name": "Collin Gillespie",
         "position": "G",
@@ -12233,7 +12233,7 @@
     },
     {
         "id": "76813",
-        "team": null,
+        "team": "WAS",
         "name": "Gene Gillette",
         "position": "",
         "height": "N/A",
@@ -12273,14 +12273,14 @@
     },
     {
         "id": "76818",
-        "team": null,
+        "team": "CHS",
         "name": "Chuck Gilmur",
         "position": "F",
         "height": "6'4\"",
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "1631367",
         "team": "MEM",
         "name": "Jacob Gilyard",
         "position": "G",
@@ -12321,7 +12321,7 @@
     },
     {
         "id": "76820",
-        "team": null,
+        "team": "JET",
         "name": "George Glamack",
         "position": "C",
         "height": "6'6\"",
@@ -12392,7 +12392,7 @@
         "weight": "250 lbs"
     },
     {
-        "id": null,
+        "id": "203497",
         "team": "MIN",
         "name": "Rudy Gobert",
         "position": "C",
@@ -12417,7 +12417,7 @@
     },
     {
         "id": "76829",
-        "team": null,
+        "team": "WAS",
         "name": "Ben Goldfaden",
         "position": "F",
         "height": "6'1\"",
@@ -12496,7 +12496,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1630692",
         "team": "PHX",
         "name": "Jordan Goodwin",
         "position": "G",
@@ -12505,14 +12505,14 @@
     },
     {
         "id": "76833",
-        "team": null,
+        "team": "PRO",
         "name": "Wilfred Goodwin",
         "position": "F",
         "height": "6'2\"",
         "weight": "203 lbs"
     },
     {
-        "id": null,
+        "id": "203932",
         "team": "DEN",
         "name": "Aaron Gordon",
         "position": "F",
@@ -12536,7 +12536,7 @@
         "weight": "245 lbs"
     },
     {
-        "id": null,
+        "id": "201569",
         "team": "PHX",
         "name": "Eric Gordon",
         "position": "G",
@@ -12553,7 +12553,7 @@
     },
     {
         "id": "76835",
-        "team": null,
+        "team": "BAL",
         "name": "Paul Gordon",
         "position": "F",
         "height": "6'3\"",
@@ -12608,7 +12608,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1628984",
         "team": "SAS",
         "name": "Devonte' Graham",
         "position": "G",
@@ -12752,7 +12752,7 @@
         "weight": "245 lbs"
     },
     {
-        "id": null,
+        "id": "203924",
         "team": "POR",
         "name": "Jerami Grant",
         "position": "F",
@@ -12801,7 +12801,7 @@
     },
     {
         "id": "76854",
-        "team": null,
+        "team": "SHE",
         "name": "Don Grate",
         "position": "G",
         "height": "6'2\"",
@@ -12936,7 +12936,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "1631260",
         "team": "MIL",
         "name": "AJ Green",
         "position": "G",
@@ -12944,7 +12944,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "201980",
         "team": "PHI",
         "name": "Danny Green",
         "position": "G",
@@ -12960,7 +12960,7 @@
         "weight": "212 lbs"
     },
     {
-        "id": null,
+        "id": "203110",
         "team": "GSW",
         "name": "Draymond Green",
         "position": "F",
@@ -12992,7 +12992,7 @@
         "weight": "227 lbs"
     },
     {
-        "id": null,
+        "id": "1630224",
         "team": "HOU",
         "name": "Jalen Green",
         "position": "G",
@@ -13008,7 +13008,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "201145",
         "team": "HOU",
         "name": "Jeff Green",
         "position": "F",
@@ -13024,7 +13024,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1630182",
         "team": "DAL",
         "name": "Josh Green",
         "position": "G",
@@ -13232,7 +13232,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1631100",
         "team": "ATL",
         "name": "AJ Griffin",
         "position": "F",
@@ -13304,7 +13304,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1629656",
         "team": "DET",
         "name": "Quentin Grimes",
         "position": "G",
@@ -13321,7 +13321,7 @@
     },
     {
         "id": "76893",
-        "team": null,
+        "team": "PRO",
         "name": "George Grimshaw",
         "position": "G",
         "height": "6'1\"",
@@ -13353,7 +13353,7 @@
     },
     {
         "id": "76897",
-        "team": null,
+        "team": "INO",
         "name": "Alex Groza",
         "position": "C",
         "height": "6'7\"",
@@ -13408,7 +13408,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1631338",
         "team": "TOR",
         "name": "Mouhamadou Gueye",
         "position": "F",
@@ -13416,7 +13416,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1631243",
         "team": "ATL",
         "name": "Mouhamed Gueye",
         "position": "F",
@@ -13449,7 +13449,7 @@
     },
     {
         "id": "76905",
-        "team": null,
+        "team": "PIT",
         "name": "Coulby Gunther",
         "position": "F",
         "height": "6'4\"",
@@ -13520,7 +13520,7 @@
         "weight": "305 lbs"
     },
     {
-        "id": null,
+        "id": "1629060",
         "team": "LAL",
         "name": "Rui Hachimura",
         "position": "F",
@@ -13568,7 +13568,7 @@
         "weight": "170 lbs"
     },
     {
-        "id": null,
+        "id": "1630204",
         "team": "POR",
         "name": "Ashton Hagans",
         "position": "G-F",
@@ -13577,7 +13577,7 @@
     },
     {
         "id": "76914",
-        "team": null,
+        "team": "CHS",
         "name": "Bob Hahn",
         "position": "C",
         "height": "6'10\"",
@@ -13633,7 +13633,7 @@
     },
     {
         "id": "76918",
-        "team": null,
+        "team": "BAL",
         "name": "Chuck Halbert",
         "position": "C",
         "height": "6'9\"",
@@ -13649,7 +13649,7 @@
     },
     {
         "id": "76920",
-        "team": null,
+        "team": "INO",
         "name": "Bruce Hale",
         "position": "G",
         "height": "6'1\"",
@@ -13664,7 +13664,7 @@
         "weight": "242 lbs"
     },
     {
-        "id": null,
+        "id": "1630169",
         "team": "IND",
         "name": "Tyrese Haliburton",
         "position": "G",
@@ -13753,7 +13753,7 @@
     },
     {
         "id": "76925",
-        "team": null,
+        "team": "WAT",
         "name": "Dale Hamilton",
         "position": "G",
         "height": "6'0\"",
@@ -13793,7 +13793,7 @@
     },
     {
         "id": "76927",
-        "team": null,
+        "team": "JET",
         "name": "Ralph Hamilton",
         "position": "",
         "height": "N/A",
@@ -13872,7 +13872,7 @@
         "weight": "260 lbs"
     },
     {
-        "id": null,
+        "id": "1630181",
         "team": "MIA",
         "name": "R.J. Hampton",
         "position": "G",
@@ -13897,7 +13897,7 @@
     },
     {
         "id": "76935",
-        "team": null,
+        "team": "BOM",
         "name": "Cecil Hankins",
         "position": "G",
         "height": "6'1\"",
@@ -13929,7 +13929,7 @@
     },
     {
         "id": "76938",
-        "team": null,
+        "team": "INO",
         "name": "Don Hanrahan",
         "position": "F",
         "height": "6'7\"",
@@ -13937,7 +13937,7 @@
     },
     {
         "id": "76939",
-        "team": null,
+        "team": "BAL",
         "name": "Rollen Hans",
         "position": "G",
         "height": "6'2\"",
@@ -14032,7 +14032,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "203501",
         "team": "DAL",
         "name": "Tim Hardaway Jr.",
         "position": "G-F",
@@ -14040,7 +14040,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "201935",
         "team": "LAC",
         "name": "James Harden",
         "position": "G",
@@ -14072,7 +14072,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1630702",
         "team": "DAL",
         "name": "Jaden Hardy",
         "position": "G",
@@ -14089,7 +14089,7 @@
     },
     {
         "id": "76949",
-        "team": null,
+        "team": "AND",
         "name": "John Hargis",
         "position": "G",
         "height": "6'2\"",
@@ -14168,7 +14168,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1631199",
         "team": "TOR",
         "name": "Ron Harper Jr.",
         "position": "F",
@@ -14280,7 +14280,7 @@
         "weight": "239 lbs"
     },
     {
-        "id": null,
+        "id": "203914",
         "team": "ORL",
         "name": "Gary Harris",
         "position": "G",
@@ -14296,7 +14296,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "203925",
         "team": "DET",
         "name": "Joe Harris",
         "position": "G-F",
@@ -14304,7 +14304,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1630284",
         "team": "ORL",
         "name": "Kevon Harris",
         "position": "G",
@@ -14352,7 +14352,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "202699",
         "team": "PHI",
         "name": "Tobias Harris",
         "position": "F",
@@ -14400,7 +14400,7 @@
         "weight": "280 lbs"
     },
     {
-        "id": null,
+        "id": "1627885",
         "team": "MEM",
         "name": "Shaquille Harrison",
         "position": "G",
@@ -14416,7 +14416,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1628404",
         "team": "NYK",
         "name": "Josh Hart",
         "position": "G",
@@ -14424,7 +14424,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1628392",
         "team": "NYK",
         "name": "Isaiah Hartenstein",
         "position": "C-F",
@@ -14528,7 +14528,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1630573",
         "team": "BOS",
         "name": "Sam Hauser",
         "position": "F",
@@ -14576,7 +14576,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1641722",
         "team": "NOP",
         "name": "Jordan Hawkins",
         "position": "G",
@@ -14593,7 +14593,7 @@
     },
     {
         "id": "76974",
-        "team": null,
+        "team": "INO",
         "name": "Marshall Hawkins",
         "position": "F",
         "height": "6'3\"",
@@ -14656,7 +14656,7 @@
         "weight": "228 lbs"
     },
     {
-        "id": null,
+        "id": "1629637",
         "team": "LAL",
         "name": "Jaxson Hayes",
         "position": "C-F",
@@ -14664,7 +14664,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1630165",
         "team": "DET",
         "name": "Killian Hayes",
         "position": "G",
@@ -14688,7 +14688,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "202330",
         "team": "OKC",
         "name": "Gordon Hayward",
         "position": "F",
@@ -14880,7 +14880,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1630703",
         "team": "POR",
         "name": "Scoot Henderson",
         "position": "G",
@@ -14896,7 +14896,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1641707",
         "team": "UTA",
         "name": "Taylor Hendricks",
         "position": "F",
@@ -15072,7 +15072,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "1629639",
         "team": "MIA",
         "name": "Tyler Herro",
         "position": "G",
@@ -15153,7 +15153,7 @@
     },
     {
         "id": "77016",
-        "team": null,
+        "team": "PRO",
         "name": "Matthew Hickey",
         "position": "G",
         "height": "5'11\"",
@@ -15184,7 +15184,7 @@
         "weight": "242 lbs"
     },
     {
-        "id": null,
+        "id": "1627741",
         "team": "PHI",
         "name": "Buddy Hield",
         "position": "G",
@@ -15240,7 +15240,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1629312",
         "team": "MIA",
         "name": "Haywood Highsmith",
         "position": "F",
@@ -15400,7 +15400,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1630207",
         "team": "HOU",
         "name": "Nate Hinton",
         "position": "G-F",
@@ -15448,7 +15448,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1641793",
         "team": "LAL",
         "name": "D'Moi Hodge",
         "position": "G",
@@ -15489,7 +15489,7 @@
     },
     {
         "id": "77036",
-        "team": null,
+        "team": "BAL",
         "name": "Bear, The Body Hoffman",
         "position": "G",
         "height": "6'2\"",
@@ -15521,7 +15521,7 @@
     },
     {
         "id": "77039",
-        "team": null,
+        "team": "BAL",
         "name": "Doug Holcomb",
         "position": "F",
         "height": "6'4\"",
@@ -15536,7 +15536,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1628988",
         "team": "HOU",
         "name": "Aaron Holiday",
         "position": "G",
@@ -15544,7 +15544,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "201950",
         "team": "BOS",
         "name": "Jrue Holiday",
         "position": "G",
@@ -15552,7 +15552,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "203200",
         "team": "DEN",
         "name": "Justin Holiday",
         "position": "F-G",
@@ -15569,7 +15569,7 @@
     },
     {
         "id": "77041",
-        "team": null,
+        "team": "INO",
         "name": "Joe Holland",
         "position": "F",
         "height": "6'4\"",
@@ -15624,7 +15624,7 @@
         "weight": "217 lbs"
     },
     {
-        "id": null,
+        "id": "1626158",
         "team": "WAS",
         "name": "Richaun Holmes",
         "position": "F",
@@ -15632,7 +15632,7 @@
         "weight": "235 lbs"
     },
     {
-        "id": null,
+        "id": "1631096",
         "team": "OKC",
         "name": "Chet Holmgren",
         "position": "C-F",
@@ -15728,7 +15728,7 @@
         "weight": "208 lbs"
     },
     {
-        "id": null,
+        "id": "1641720",
         "team": "LAL",
         "name": "Jalen Hood-Schifino",
         "position": "G",
@@ -15792,7 +15792,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "201143",
         "team": "BOS",
         "name": "Al Horford",
         "position": "C-F",
@@ -15848,7 +15848,7 @@
         "weight": "230 lbs"
     },
     {
-        "id": null,
+        "id": "1629659",
         "team": "UTA",
         "name": "Talen Horton-Tucker",
         "position": "G",
@@ -15880,7 +15880,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1627863",
         "team": "PHI",
         "name": "Danuel House Jr.",
         "position": "F-G",
@@ -15888,7 +15888,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1631216",
         "team": "ORL",
         "name": "Caleb Houstan",
         "position": "G",
@@ -15944,7 +15944,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1641724",
         "team": "ORL",
         "name": "Jett Howard",
         "position": "G",
@@ -16017,7 +16017,7 @@
     },
     {
         "id": "77072",
-        "team": null,
+        "team": "PRO",
         "name": "Bob Hubbard",
         "position": "C",
         "height": "6'6\"",
@@ -16072,7 +16072,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1628989",
         "team": "SAC",
         "name": "Kevin Huerter",
         "position": "G-F",
@@ -16088,7 +16088,7 @@
         "weight": "230 lbs"
     },
     {
-        "id": null,
+        "id": "1630643",
         "team": "DEN",
         "name": "Jay Huff",
         "position": "C",
@@ -16240,7 +16240,7 @@
         "weight": "240 lbs"
     },
     {
-        "id": null,
+        "id": "1629631",
         "team": "ATL",
         "name": "De'Andre Hunter",
         "position": "F-G",
@@ -16305,14 +16305,14 @@
     },
     {
         "id": "77086",
-        "team": null,
+        "team": "HUS",
         "name": "Roy Hurley",
         "position": "F",
         "height": "6'2\"",
         "weight": "170 lbs"
     },
     {
-        "id": null,
+        "id": "1630562",
         "team": "MEM",
         "name": "Matt Hurt",
         "position": "F",
@@ -16329,7 +16329,7 @@
     },
     {
         "id": "77088",
-        "team": null,
+        "team": "CHS",
         "name": "Paul Huston",
         "position": "F",
         "height": "6'3\"",
@@ -16368,7 +16368,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1630538",
         "team": "LAC",
         "name": "Bones Hyland",
         "position": "G",
@@ -16440,7 +16440,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "204060",
         "team": "ORL",
         "name": "Joe Ingles",
         "position": "F-G",
@@ -16464,7 +16464,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1627742",
         "team": "NOP",
         "name": "Brandon Ingram",
         "position": "F",
@@ -16488,7 +16488,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "202681",
         "team": "DAL",
         "name": "Kyrie Irving",
         "position": "G",
@@ -16496,7 +16496,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1628371",
         "team": "ORL",
         "name": "Jonathan Isaac",
         "position": "F",
@@ -16528,7 +16528,7 @@
         "weight": "165 lbs"
     },
     {
-        "id": null,
+        "id": "1631093",
         "team": "DET",
         "name": "Jaden Ivey",
         "position": "G",
@@ -16616,7 +16616,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1641713",
         "team": "MEM",
         "name": "GG Jackson",
         "position": "F",
@@ -16632,7 +16632,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1630543",
         "team": "IND",
         "name": "Isaiah Jackson",
         "position": "F",
@@ -16768,7 +16768,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "202704",
         "team": "DEN",
         "name": "Reggie Jackson",
         "position": "G",
@@ -16816,7 +16816,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1641748",
         "team": "MIL",
         "name": "Andre Jackson Jr.",
         "position": "G",
@@ -16824,7 +16824,7 @@
         "weight": "209 lbs"
     },
     {
-        "id": null,
+        "id": "1628991",
         "team": "MEM",
         "name": "Jaren Jackson Jr.",
         "position": "F-C",
@@ -16832,7 +16832,7 @@
         "weight": "242 lbs"
     },
     {
-        "id": null,
+        "id": "1631218",
         "team": "GSW",
         "name": "Trayce Jackson-Davis",
         "position": "F",
@@ -16841,7 +16841,7 @@
     },
     {
         "id": "77112",
-        "team": null,
+        "team": "BOM",
         "name": "Winfred Jacobs",
         "position": "F",
         "height": "6'3\"",
@@ -16897,7 +16897,7 @@
     },
     {
         "id": "77116",
-        "team": null,
+        "team": "BAL",
         "name": "Gene James",
         "position": "F",
         "height": "6'4\"",
@@ -16977,7 +16977,7 @@
     },
     {
         "id": "77120",
-        "team": null,
+        "team": "DEF",
         "name": "John Janisch",
         "position": "F",
         "height": "6'3\"",
@@ -16985,14 +16985,14 @@
     },
     {
         "id": "77122",
-        "team": null,
+        "team": "BAL",
         "name": "Howie Janotta",
         "position": "F",
         "height": "6'3\"",
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1631170",
         "team": "MIA",
         "name": "Jaime Jaquez Jr.",
         "position": "G",
@@ -17041,7 +17041,7 @@
     },
     {
         "id": "77125",
-        "team": null,
+        "team": "BAL",
         "name": "Buddy Jeannette",
         "position": "G",
         "height": "5'11\"",
@@ -17112,7 +17112,7 @@
         "weight": "233 lbs"
     },
     {
-        "id": null,
+        "id": "1629610",
         "team": "NYK",
         "name": "DaQuan Jeffries",
         "position": "G-F",
@@ -17128,7 +17128,7 @@
         "weight": "240 lbs"
     },
     {
-        "id": null,
+        "id": "1641998",
         "team": "MEM",
         "name": "Trey Jemison",
         "position": "C",
@@ -17200,7 +17200,7 @@
         "weight": "231 lbs"
     },
     {
-        "id": null,
+        "id": "1629660",
         "team": "CLE",
         "name": "Ty Jerome",
         "position": "G-F",
@@ -17232,7 +17232,7 @@
         "weight": "175 lbs"
     },
     {
-        "id": null,
+        "id": "1630198",
         "team": "OKC",
         "name": "Isaiah Joe",
         "position": "G",
@@ -17336,7 +17336,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1629661",
         "team": "BKN",
         "name": "Cameron Johnson",
         "position": "F",
@@ -17529,7 +17529,7 @@
     },
     {
         "id": "77151",
-        "team": null,
+        "team": "DEF",
         "name": "Harold Johnson",
         "position": "C",
         "height": "6'6\"",
@@ -17552,7 +17552,7 @@
         "weight": "221 lbs"
     },
     {
-        "id": null,
+        "id": "1630552",
         "team": "ATL",
         "name": "Jalen Johnson",
         "position": "F",
@@ -17560,7 +17560,7 @@
         "weight": "219 lbs"
     },
     {
-        "id": null,
+        "id": "201949",
         "team": "IND",
         "name": "James Johnson",
         "position": "F",
@@ -17592,7 +17592,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1629640",
         "team": "SAS",
         "name": "Keldon Johnson",
         "position": "F-G",
@@ -17616,7 +17616,7 @@
         "weight": "240 lbs"
     },
     {
-        "id": null,
+        "id": "1630553",
         "team": "BKN",
         "name": "Keon Johnson",
         "position": "G",
@@ -17632,7 +17632,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1641749",
         "team": "OKC",
         "name": "Keyontae Johnson",
         "position": "F",
@@ -17856,7 +17856,7 @@
         "weight": "245 lbs"
     },
     {
-        "id": null,
+        "id": "203999",
         "team": "DEN",
         "name": "Nikola Jokic",
         "position": "C",
@@ -17960,7 +17960,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1641732",
         "team": "SAC",
         "name": "Colby Jones",
         "position": "G",
@@ -17976,7 +17976,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "1627745",
         "team": "CLE",
         "name": "Damian Jones",
         "position": "C",
@@ -18064,7 +18064,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "1630529",
         "team": "NOP",
         "name": "Herbert Jones",
         "position": "F",
@@ -18184,7 +18184,7 @@
         "weight": "N/A"
     },
     {
-        "id": null,
+        "id": "1630222",
         "team": "SAC",
         "name": "Mason Jones",
         "position": "G",
@@ -18272,7 +18272,7 @@
         "weight": "252 lbs"
     },
     {
-        "id": null,
+        "id": "1630200",
         "team": "SAS",
         "name": "Tre Jones",
         "position": "G",
@@ -18280,7 +18280,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1626145",
         "team": "WAS",
         "name": "Tyus Jones",
         "position": "G",
@@ -18297,7 +18297,7 @@
     },
     {
         "id": "77199",
-        "team": null,
+        "team": "INO",
         "name": "Wallace Jones",
         "position": "F",
         "height": "6'4\"",
@@ -18336,7 +18336,7 @@
         "weight": "235 lbs"
     },
     {
-        "id": null,
+        "id": "1627884",
         "team": "DAL",
         "name": "Derrick Jones Jr.",
         "position": "F",
@@ -18352,7 +18352,7 @@
         "weight": "170 lbs"
     },
     {
-        "id": null,
+        "id": "201599",
         "team": "DEN",
         "name": "DeAndre Jordan",
         "position": "C",
@@ -18433,14 +18433,14 @@
     },
     {
         "id": "77213",
-        "team": null,
+        "team": "PIT",
         "name": "Roger Jorgensen",
         "position": "C",
         "height": "6'5\"",
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "202709",
         "team": "GSW",
         "name": "Cory Joseph",
         "position": "G",
@@ -18472,7 +18472,7 @@
         "weight": "245 lbs"
     },
     {
-        "id": null,
+        "id": "1631107",
         "team": "MIA",
         "name": "Nikola Jovic",
         "position": "F",
@@ -18488,7 +18488,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1630548",
         "team": "UTA",
         "name": "Johnny Juzang",
         "position": "G",
@@ -18505,7 +18505,7 @@
     },
     {
         "id": "77217",
-        "team": null,
+        "team": "CHS",
         "name": "Edwin Kachan",
         "position": "",
         "height": "N/A",
@@ -18569,7 +18569,7 @@
     },
     {
         "id": "77222",
-        "team": null,
+        "team": "PIT",
         "name": "Tony Kappen",
         "position": "",
         "height": "N/A",
@@ -18601,7 +18601,7 @@
     },
     {
         "id": "77225",
-        "team": null,
+        "team": "HUS",
         "name": "Ed Kasid",
         "position": "G",
         "height": "5'11\"",
@@ -18617,7 +18617,7 @@
     },
     {
         "id": "77226",
-        "team": null,
+        "team": "WAS",
         "name": "Leo Katkaveck",
         "position": "G",
         "height": "6'0\"",
@@ -18641,7 +18641,7 @@
     },
     {
         "id": "77228",
-        "team": null,
+        "team": "CHS",
         "name": "Wilbert Kautz",
         "position": "G",
         "height": "5'11\"",
@@ -18784,7 +18784,7 @@
         "weight": "198 lbs"
     },
     {
-        "id": null,
+        "id": "1628379",
         "team": "MEM",
         "name": "Luke Kennard",
         "position": "G",
@@ -18888,7 +18888,7 @@
         "weight": "230 lbs"
     },
     {
-        "id": null,
+        "id": "1631117",
         "team": "UTA",
         "name": "Walker Kessler",
         "position": "C",
@@ -18904,7 +18904,7 @@
         "weight": "285 lbs"
     },
     {
-        "id": null,
+        "id": "1630296",
         "team": "DEN",
         "name": "Braxton Key",
         "position": "F",
@@ -19057,7 +19057,7 @@
     },
     {
         "id": "77266",
-        "team": null,
+        "team": "BAL",
         "name": "Dan King",
         "position": "F",
         "height": "6'6\"",
@@ -19153,7 +19153,7 @@
     },
     {
         "id": "77276",
-        "team": null,
+        "team": "DEF",
         "name": "Tom King",
         "position": "G",
         "height": "6'0\"",
@@ -19200,7 +19200,7 @@
         "weight": "173 lbs"
     },
     {
-        "id": null,
+        "id": "1630557",
         "team": "WAS",
         "name": "Corey Kispert",
         "position": "F",
@@ -19240,7 +19240,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1628467",
         "team": "DAL",
         "name": "Maxi Kleber",
         "position": "F",
@@ -19273,7 +19273,7 @@
     },
     {
         "id": "77284",
-        "team": null,
+        "team": "BAL",
         "name": "Herm Klotz",
         "position": "G",
         "height": "5'7\"",
@@ -19392,7 +19392,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1628995",
         "team": "DET",
         "name": "Kevin Knox II",
         "position": "F",
@@ -19425,7 +19425,7 @@
     },
     {
         "id": "77296",
-        "team": null,
+        "team": "AND",
         "name": "Milo Komenich",
         "position": "C",
         "height": "6'7\"",
@@ -19448,7 +19448,7 @@
         "weight": "250 lbs"
     },
     {
-        "id": null,
+        "id": "1629723",
         "team": "MEM",
         "name": "John Konchar",
         "position": "G",
@@ -19472,7 +19472,7 @@
         "weight": "240 lbs"
     },
     {
-        "id": null,
+        "id": "1627788",
         "team": "PHI",
         "name": "Furkan Korkmaz",
         "position": "G-F",
@@ -19488,7 +19488,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "1628436",
         "team": "BOS",
         "name": "Luke Kornet",
         "position": "C-F",
@@ -19521,7 +19521,7 @@
     },
     {
         "id": "77303",
-        "team": null,
+        "team": "JET",
         "name": "Andy Kostecka",
         "position": "F",
         "height": "6'3\"",
@@ -19577,7 +19577,7 @@
     },
     {
         "id": "77309",
-        "team": null,
+        "team": "BAL",
         "name": "Dan Kraus",
         "position": "G",
         "height": "6'0\"",
@@ -19585,7 +19585,7 @@
     },
     {
         "id": "77310",
-        "team": null,
+        "team": "BAL",
         "name": "Herb Krautblatt",
         "position": "G",
         "height": "6'1\"",
@@ -19608,7 +19608,7 @@
         "weight": "230 lbs"
     },
     {
-        "id": null,
+        "id": "1630249",
         "team": "ATL",
         "name": "Vit Krejci",
         "position": "G",
@@ -19665,7 +19665,7 @@
     },
     {
         "id": "77317",
-        "team": null,
+        "team": "WAT",
         "name": "Leo Kubiak",
         "position": "G",
         "height": "5'11\"",
@@ -19681,7 +19681,7 @@
     },
     {
         "id": "77319",
-        "team": null,
+        "team": "BAL",
         "name": "Frank Kudelka",
         "position": "G",
         "height": "6'2\"",
@@ -19720,7 +19720,7 @@
         "weight": "209 lbs"
     },
     {
-        "id": null,
+        "id": "1630228",
         "team": "GSW",
         "name": "Jonathan Kuminga",
         "position": "F",
@@ -19776,7 +19776,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1628398",
         "team": "WAS",
         "name": "Kyle Kuzma",
         "position": "F",
@@ -19824,7 +19824,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1631222",
         "team": "MEM",
         "name": "Jake LaRavia",
         "position": "F",
@@ -19848,7 +19848,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "203897",
         "team": "CHI",
         "name": "Zach LaVine",
         "position": "G",
@@ -19897,7 +19897,7 @@
     },
     {
         "id": "77329",
-        "team": null,
+        "team": "CLR",
         "name": "Pete Lalich",
         "position": "F",
         "height": "6'2\"",
@@ -19976,7 +19976,7 @@
         "weight": "227 lbs"
     },
     {
-        "id": null,
+        "id": "1629111",
         "team": "HOU",
         "name": "Jock Landale",
         "position": "C",
@@ -20153,7 +20153,7 @@
     },
     {
         "id": "77345",
-        "team": null,
+        "team": "SHE",
         "name": "Walt Lautenbach",
         "position": "F",
         "height": "6'2\"",
@@ -20177,7 +20177,7 @@
     },
     {
         "id": "77347",
-        "team": null,
+        "team": "INO",
         "name": "Bob Lavoy",
         "position": "F",
         "height": "6'7\"",
@@ -20216,7 +20216,7 @@
         "weight": "228 lbs"
     },
     {
-        "id": null,
+        "id": "1630639",
         "team": "DAL",
         "name": "A.J. Lawson",
         "position": "G",
@@ -20256,7 +20256,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1627747",
         "team": "CLE",
         "name": "Caris LeVert",
         "position": "G",
@@ -20352,7 +20352,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1627814",
         "team": "PHX",
         "name": "Damion Lee",
         "position": "G-F",
@@ -20440,7 +20440,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1630240",
         "team": "PHX",
         "name": "Saben Lee",
         "position": "G",
@@ -20457,7 +20457,7 @@
     },
     {
         "id": "77367",
-        "team": null,
+        "team": "CLR",
         "name": "Hank Lefkowitz",
         "position": "F",
         "height": "6'2\"",
@@ -20488,7 +20488,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "203458",
         "team": "SAC",
         "name": "Alex Len",
         "position": "C",
@@ -20520,7 +20520,7 @@
         "weight": "250 lbs"
     },
     {
-        "id": null,
+        "id": "202695",
         "team": "LAC",
         "name": "Kawhi Leonard",
         "position": "F",
@@ -20617,7 +20617,7 @@
     },
     {
         "id": "77379",
-        "team": null,
+        "team": "BAL",
         "name": "Fred Lewis",
         "position": "F",
         "height": "6'2\"",
@@ -20633,7 +20633,7 @@
     },
     {
         "id": "77381",
-        "team": null,
+        "team": "DEF",
         "name": "Grady Lewis",
         "position": "F",
         "height": "6'7\"",
@@ -20656,7 +20656,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "1641721",
         "team": "LAL",
         "name": "Maxwell Lewis",
         "position": "F",
@@ -20704,7 +20704,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1630184",
         "team": "UTA",
         "name": "Kira Lewis Jr.",
         "position": "G",
@@ -20728,7 +20728,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1630604",
         "team": "NOP",
         "name": "E.J. Liddell",
         "position": "F",
@@ -20752,7 +20752,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "203081",
         "team": "MIL",
         "name": "Damian Lillard",
         "position": "G",
@@ -20784,7 +20784,7 @@
         "weight": "245 lbs"
     },
     {
-        "id": null,
+        "id": "1629642",
         "team": "PHX",
         "name": "Nassir Little",
         "position": "F-G",
@@ -20792,7 +20792,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1641726",
         "team": "DAL",
         "name": "Dereck Lively II",
         "position": "C",
@@ -20800,7 +20800,7 @@
         "weight": "230 lbs"
     },
     {
-        "id": null,
+        "id": "1630587",
         "team": "WAS",
         "name": "Isaiah Livers",
         "position": "F",
@@ -20808,7 +20808,7 @@
         "weight": "232 lbs"
     },
     {
-        "id": null,
+        "id": "1641753",
         "team": "MIL",
         "name": "Chris Livingston",
         "position": "F",
@@ -20913,7 +20913,7 @@
     },
     {
         "id": "77402",
-        "team": null,
+        "team": "INO",
         "name": "Don Lofgran",
         "position": "F",
         "height": "6'5\"",
@@ -20928,7 +20928,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1631254",
         "team": "PHI",
         "name": "Kenneth Lofton Jr.",
         "position": "F",
@@ -20937,7 +20937,7 @@
     },
     {
         "id": "77403",
-        "team": null,
+        "team": "BOM",
         "name": "Johnny Logan",
         "position": "G",
         "height": "6'2\"",
@@ -21000,7 +21000,7 @@
         "weight": "260 lbs"
     },
     {
-        "id": null,
+        "id": "1626172",
         "team": "GSW",
         "name": "Kevon Looney",
         "position": "F",
@@ -21008,7 +21008,7 @@
         "weight": "222 lbs"
     },
     {
-        "id": null,
+        "id": "201572",
         "team": "MIL",
         "name": "Brook Lopez",
         "position": "C",
@@ -21032,7 +21032,7 @@
         "weight": "160 lbs"
     },
     {
-        "id": null,
+        "id": "201577",
         "team": "MIL",
         "name": "Robin Lopez",
         "position": "C",
@@ -21088,7 +21088,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "201567",
         "team": "MIA",
         "name": "Kevin Love",
         "position": "F-C",
@@ -21128,7 +21128,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "200768",
         "team": "CHA",
         "name": "Kyle Lowry",
         "position": "G",
@@ -21209,7 +21209,7 @@
     },
     {
         "id": "77422",
-        "team": null,
+        "team": "BAL",
         "name": "Jim Luisi",
         "position": "G",
         "height": "6'2\"",
@@ -21217,7 +21217,7 @@
     },
     {
         "id": "77423",
-        "team": null,
+        "team": "WAS",
         "name": "Al Lujack",
         "position": "F",
         "height": "6'3\"",
@@ -21248,7 +21248,7 @@
         "weight": "203 lbs"
     },
     {
-        "id": null,
+        "id": "1641754",
         "team": "ATL",
         "name": "Seth Lundy",
         "position": "G-F",
@@ -21272,7 +21272,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "1626168",
         "team": "SAC",
         "name": "Trey Lyles",
         "position": "F",
@@ -21457,7 +21457,7 @@
     },
     {
         "id": "77439",
-        "team": null,
+        "team": "JET",
         "name": "Jack Maddox",
         "position": "F",
         "height": "6'2\"",
@@ -21489,7 +21489,7 @@
     },
     {
         "id": "77441",
-        "team": null,
+        "team": "BAL",
         "name": "Norm Mager",
         "position": "F",
         "height": "6'5\"",
@@ -21593,14 +21593,14 @@
     },
     {
         "id": "77447",
-        "team": null,
+        "team": "JET",
         "name": "Lionel Malamed",
         "position": "",
         "height": "N/A",
         "weight": "N/A"
     },
     {
-        "id": null,
+        "id": "1630177",
         "team": "PHX",
         "name": "Theo Maledon",
         "position": "G",
@@ -21648,7 +21648,7 @@
         "weight": "230 lbs"
     },
     {
-        "id": null,
+        "id": "1630572",
         "team": "SAS",
         "name": "Sandro Mamukelashvili",
         "position": "F-C",
@@ -21665,7 +21665,7 @@
     },
     {
         "id": "77452",
-        "team": null,
+        "team": "JET",
         "name": "John Mandic",
         "position": "F",
         "height": "6'4\"",
@@ -21696,7 +21696,7 @@
         "weight": "245 lbs"
     },
     {
-        "id": null,
+        "id": "1629611",
         "team": "LAC",
         "name": "Terance Mann",
         "position": "G-F",
@@ -21704,7 +21704,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1630544",
         "team": "CHA",
         "name": "Tre Mann",
         "position": "G",
@@ -21769,7 +21769,7 @@
     },
     {
         "id": "77458",
-        "team": null,
+        "team": "PIT",
         "name": "Peter Maravich",
         "position": "G",
         "height": "6'0\"",
@@ -21832,7 +21832,7 @@
         "weight": "228 lbs"
     },
     {
-        "id": null,
+        "id": "1626246",
         "team": "HOU",
         "name": "Boban Marjanovic",
         "position": "C",
@@ -21840,7 +21840,7 @@
         "weight": "290 lbs"
     },
     {
-        "id": null,
+        "id": "1628374",
         "team": "UTA",
         "name": "Lauri Markkanen",
         "position": "F-C",
@@ -21912,7 +21912,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1630230",
         "team": "NOP",
         "name": "Naji Marshall",
         "position": "F",
@@ -21968,7 +21968,7 @@
         "weight": "212 lbs"
     },
     {
-        "id": null,
+        "id": "1628997",
         "team": "MIA",
         "name": "Caleb Martin",
         "position": "F",
@@ -21984,7 +21984,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1628998",
         "team": "CHA",
         "name": "Cody Martin",
         "position": "F",
@@ -22009,7 +22009,7 @@
     },
     {
         "id": "77473",
-        "team": null,
+        "team": "BOM",
         "name": "Don Martin",
         "position": "C",
         "height": "6'7\"",
@@ -22017,7 +22017,7 @@
     },
     {
         "id": "77471",
-        "team": null,
+        "team": "PRO",
         "name": "Donald Martin",
         "position": "G",
         "height": "5'8\"",
@@ -22056,7 +22056,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1630231",
         "team": "PHI",
         "name": "KJ Martin",
         "position": "F",
@@ -22208,7 +22208,7 @@
         "weight": "240 lbs"
     },
     {
-        "id": null,
+        "id": "1629726",
         "team": "ATL",
         "name": "Garrison Mathews",
         "position": "G",
@@ -22232,7 +22232,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1631097",
         "team": "IND",
         "name": "Bennedict Mathurin",
         "position": "G-F",
@@ -22248,7 +22248,7 @@
         "weight": "170 lbs"
     },
     {
-        "id": null,
+        "id": "202083",
         "team": "ATL",
         "name": "Wesley Matthews",
         "position": "G",
@@ -22257,7 +22257,7 @@
     },
     {
         "id": "77485",
-        "team": null,
+        "team": "BOM",
         "name": "Ariel Maughan",
         "position": "F",
         "height": "6'4\"",
@@ -22272,7 +22272,7 @@
         "weight": "250 lbs"
     },
     {
-        "id": null,
+        "id": "1630178",
         "team": "PHI",
         "name": "Tyrese Maxey",
         "position": "G",
@@ -22384,7 +22384,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1630219",
         "team": "LAL",
         "name": "Skylar Mays",
         "position": "G",
@@ -22401,7 +22401,7 @@
     },
     {
         "id": "77497",
-        "team": null,
+        "team": "SHE",
         "name": "Matt Mazza",
         "position": "F",
         "height": "6'3\"",
@@ -22448,7 +22448,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1630540",
         "team": "NYK",
         "name": "Miles McBride",
         "position": "G",
@@ -22505,7 +22505,7 @@
     },
     {
         "id": "77503",
-        "team": null,
+        "team": "HUS",
         "name": "Mike McCarron",
         "position": "G",
         "height": "5'11\"",
@@ -22537,7 +22537,7 @@
     },
     {
         "id": "77507",
-        "team": null,
+        "team": "DEF",
         "name": "Howie McCarty",
         "position": "",
         "height": "N/A",
@@ -22624,7 +22624,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "203468",
         "team": "NOP",
         "name": "CJ McCollum",
         "position": "G",
@@ -22648,7 +22648,7 @@
         "weight": "170 lbs"
     },
     {
-        "id": null,
+        "id": "204456",
         "team": "IND",
         "name": "T.J. McConnell",
         "position": "G",
@@ -22752,7 +22752,7 @@
         "weight": "218 lbs"
     },
     {
-        "id": null,
+        "id": "1630183",
         "team": "MIN",
         "name": "Jaden McDaniels",
         "position": "F",
@@ -22760,7 +22760,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1629667",
         "team": "TOR",
         "name": "Jalen McDaniels",
         "position": "F",
@@ -22784,7 +22784,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "203926",
         "team": "IND",
         "name": "Doug McDermott",
         "position": "F",
@@ -22872,7 +22872,7 @@
         "weight": "255 lbs"
     },
     {
-        "id": null,
+        "id": "201580",
         "team": "SAC",
         "name": "JaVale McGee",
         "position": "C-F",
@@ -22912,7 +22912,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1631121",
         "team": "CHA",
         "name": "Bryce McGowens",
         "position": "G",
@@ -23073,7 +23073,7 @@
     },
     {
         "id": "77546",
-        "team": null,
+        "team": "WAS",
         "name": "Horace McKinney",
         "position": "F",
         "height": "6'6\"",
@@ -23104,7 +23104,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1629162",
         "team": "MIN",
         "name": "Jordan McLaughlin",
         "position": "G",
@@ -23129,7 +23129,7 @@
     },
     {
         "id": "77549",
-        "team": null,
+        "team": "BAL",
         "name": "George McLeod",
         "position": "F",
         "height": "6'5\"",
@@ -23193,7 +23193,7 @@
     },
     {
         "id": "77556",
-        "team": null,
+        "team": "INO",
         "name": "Mal McMullan",
         "position": "",
         "height": "N/A",
@@ -23201,7 +23201,7 @@
     },
     {
         "id": "77557",
-        "team": null,
+        "team": "BAL",
         "name": "Chet McNabb",
         "position": "",
         "height": "N/A",
@@ -23313,7 +23313,7 @@
     },
     {
         "id": "77568",
-        "team": null,
+        "team": "PRO",
         "name": "George Mearns",
         "position": "F",
         "height": "6'3\"",
@@ -23377,7 +23377,7 @@
     },
     {
         "id": "77574",
-        "team": null,
+        "team": "BAL",
         "name": "Carl Meinhold",
         "position": "G",
         "height": "6'2\"",
@@ -23432,7 +23432,7 @@
         "weight": "255 lbs"
     },
     {
-        "id": null,
+        "id": "1629001",
         "team": "PHI",
         "name": "De'Anthony Melton",
         "position": "G",
@@ -23441,7 +23441,7 @@
     },
     {
         "id": "77577",
-        "team": null,
+        "team": "PIT",
         "name": "Ed Melvin",
         "position": "F",
         "height": "5'9\"",
@@ -23473,14 +23473,14 @@
     },
     {
         "id": "77581",
-        "team": null,
+        "team": "WAT",
         "name": "Ken Menke",
         "position": "G",
         "height": "6'0\"",
         "weight": "168 lbs"
     },
     {
-        "id": null,
+        "id": "1641877",
         "team": "CHA",
         "name": "Nathan Mensah",
         "position": "C",
@@ -23520,7 +23520,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1630241",
         "team": "CLE",
         "name": "Sam Merrill",
         "position": "G",
@@ -23536,7 +23536,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1629002",
         "team": "PHX",
         "name": "Chimezie Metu",
         "position": "F-C",
@@ -23561,7 +23561,7 @@
     },
     {
         "id": "77587",
-        "team": null,
+        "team": "CHS",
         "name": "Stan Miasek",
         "position": "F",
         "height": "6'5\"",
@@ -23576,7 +23576,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "203995",
         "team": "CHA",
         "name": "Vasilije Micic",
         "position": "G",
@@ -23592,7 +23592,7 @@
         "weight": "235 lbs"
     },
     {
-        "id": null,
+        "id": "203114",
         "team": "MIL",
         "name": "Khris Middleton",
         "position": "F",
@@ -23601,7 +23601,7 @@
     },
     {
         "id": "77589",
-        "team": null,
+        "team": "PIT",
         "name": "Zigmund Mihalik",
         "position": "G",
         "height": "6'0\"",
@@ -23657,7 +23657,7 @@
     },
     {
         "id": "77594",
-        "team": null,
+        "team": "WAT",
         "name": "Al Miksis",
         "position": "C",
         "height": "6'7\"",
@@ -23737,7 +23737,7 @@
     },
     {
         "id": "77605",
-        "team": null,
+        "team": "CHS",
         "name": "Bill Miller",
         "position": "",
         "height": "N/A",
@@ -23760,7 +23760,7 @@
         "weight": "261 lbs"
     },
     {
-        "id": null,
+        "id": "1641706",
         "team": "CHA",
         "name": "Brandon Miller",
         "position": "F",
@@ -23785,7 +23785,7 @@
     },
     {
         "id": "77599",
-        "team": null,
+        "team": "BAL",
         "name": "Eddie Miller",
         "position": "F",
         "height": "6'8\"",
@@ -23793,7 +23793,7 @@
     },
     {
         "id": "77600",
-        "team": null,
+        "team": "HUS",
         "name": "Harry Miller",
         "position": "C",
         "height": "6'4\"",
@@ -23808,7 +23808,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1641757",
         "team": "LAC",
         "name": "Jordan Miller",
         "position": "G",
@@ -23816,7 +23816,7 @@
         "weight": "194 lbs"
     },
     {
-        "id": null,
+        "id": "1631159",
         "team": "MIN",
         "name": "Leonard Miller",
         "position": "F",
@@ -23865,7 +23865,7 @@
     },
     {
         "id": "77604",
-        "team": null,
+        "team": "PIT",
         "name": "Walt Miller",
         "position": "F",
         "height": "6'2\"",
@@ -23881,14 +23881,14 @@
     },
     {
         "id": "77606",
-        "team": null,
+        "team": "PIT",
         "name": "John Mills",
         "position": "C",
         "height": "6'8\"",
         "weight": "203 lbs"
     },
     {
-        "id": null,
+        "id": "201988",
         "team": "ATL",
         "name": "Patty Mills",
         "position": "G",
@@ -23920,7 +23920,7 @@
         "weight": "257 lbs"
     },
     {
-        "id": null,
+        "id": "1629003",
         "team": "DET",
         "name": "Shake Milton",
         "position": "G-F",
@@ -23928,7 +23928,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1631303",
         "team": "POR",
         "name": "Justin Minaya",
         "position": "F",
@@ -23976,7 +23976,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1631169",
         "team": "MIN",
         "name": "Josh Minott",
         "position": "F",
@@ -24008,7 +24008,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1630558",
         "team": "SAC",
         "name": "Davion Mitchell",
         "position": "G",
@@ -24016,7 +24016,7 @@
         "weight": "202 lbs"
     },
     {
-        "id": null,
+        "id": "1628378",
         "team": "CLE",
         "name": "Donovan Mitchell",
         "position": "G",
@@ -24033,7 +24033,7 @@
     },
     {
         "id": "77616",
-        "team": null,
+        "team": "AND",
         "name": "Murray Mitchell",
         "position": "C",
         "height": "6'6\"",
@@ -24112,7 +24112,7 @@
         "weight": "235 lbs"
     },
     {
-        "id": null,
+        "id": "1630596",
         "team": "CLE",
         "name": "Evan Mobley",
         "position": "C",
@@ -24120,7 +24120,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1630600",
         "team": "CLE",
         "name": "Isaiah Mobley",
         "position": "F",
@@ -24224,7 +24224,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1628370",
         "team": "SAC",
         "name": "Malik Monk",
         "position": "G",
@@ -24280,7 +24280,7 @@
         "weight": "270 lbs"
     },
     {
-        "id": null,
+        "id": "1630541",
         "team": "GSW",
         "name": "Moses Moody",
         "position": "G",
@@ -24296,7 +24296,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1629875",
         "team": "LAC",
         "name": "Xavier Moon",
         "position": "G",
@@ -24392,7 +24392,7 @@
         "weight": "260 lbs"
     },
     {
-        "id": null,
+        "id": "1631386",
         "team": "POR",
         "name": "Taze Moore",
         "position": "G",
@@ -24408,7 +24408,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1631111",
         "team": "MIN",
         "name": "Wendell Moore Jr.",
         "position": "G",
@@ -24416,7 +24416,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1629630",
         "team": "MEM",
         "name": "Ja Morant",
         "position": "G",
@@ -24512,7 +24512,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "202693",
         "team": "DAL",
         "name": "Markieff Morris",
         "position": "F",
@@ -24521,14 +24521,14 @@
     },
     {
         "id": "77646",
-        "team": null,
+        "team": "SHE",
         "name": "Max Morris",
         "position": "F",
         "height": "6'2\"",
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1628420",
         "team": "MIN",
         "name": "Monte Morris",
         "position": "G",
@@ -24552,7 +24552,7 @@
         "weight": "221 lbs"
     },
     {
-        "id": null,
+        "id": "202694",
         "team": "SAS",
         "name": "Marcus Morris Sr.",
         "position": "F",
@@ -24689,7 +24689,7 @@
     },
     {
         "id": "77657",
-        "team": null,
+        "team": "INO",
         "name": "Chuck Mrazovich",
         "position": "F",
         "height": "6'5\"",
@@ -24737,7 +24737,7 @@
     },
     {
         "id": "77660",
-        "team": null,
+        "team": "HUS",
         "name": "Bob Mullens",
         "position": "",
         "height": "N/A",
@@ -24793,7 +24793,7 @@
     },
     {
         "id": "77665",
-        "team": null,
+        "team": "BOM",
         "name": "George Munroe",
         "position": "G",
         "height": "5'11\"",
@@ -24904,7 +24904,7 @@
         "weight": "245 lbs"
     },
     {
-        "id": null,
+        "id": "1630530",
         "team": "NOP",
         "name": "Trey Murphy III",
         "position": "F",
@@ -24912,7 +24912,7 @@
         "weight": "206 lbs"
     },
     {
-        "id": null,
+        "id": "1627749",
         "team": "ATL",
         "name": "Dejounte Murray",
         "position": "G",
@@ -24928,7 +24928,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1627750",
         "team": "DEN",
         "name": "Jamal Murray",
         "position": "G",
@@ -24936,7 +24936,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1631099",
         "team": "SAC",
         "name": "Keegan Murray",
         "position": "F",
@@ -24952,7 +24952,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1631200",
         "team": "POR",
         "name": "Kris Murray",
         "position": "F",
@@ -25000,7 +25000,7 @@
         "weight": "217 lbs"
     },
     {
-        "id": null,
+        "id": "203488",
         "team": "DET",
         "name": "Mike Muscala",
         "position": "F-C",
@@ -25048,7 +25048,7 @@
         "weight": "192 lbs"
     },
     {
-        "id": null,
+        "id": "1629004",
         "team": "BOS",
         "name": "Svi Mykhailiuk",
         "position": "G-F",
@@ -25081,7 +25081,7 @@
     },
     {
         "id": "77681",
-        "team": null,
+        "team": "INO",
         "name": "Bob Naber",
         "position": "F",
         "height": "6'3\"",
@@ -25121,7 +25121,7 @@
     },
     {
         "id": "77684",
-        "team": null,
+        "team": "JET",
         "name": "Fred Nagy",
         "position": "G",
         "height": "6'1\"",
@@ -25152,7 +25152,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1631250",
         "team": "CLE",
         "name": "Pete Nance",
         "position": "F",
@@ -25160,7 +25160,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "1626204",
         "team": "NOP",
         "name": "Larry Nance Jr.",
         "position": "F-C",
@@ -25177,7 +25177,7 @@
     },
     {
         "id": "77686",
-        "team": null,
+        "team": "JET",
         "name": "Paul Napolitano",
         "position": "G",
         "height": "6'2\"",
@@ -25329,7 +25329,7 @@
     },
     {
         "id": "77698",
-        "team": null,
+        "team": "WAS",
         "name": "Al Negratti",
         "position": "F",
         "height": "6'3\"",
@@ -25376,7 +25376,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1629614",
         "team": "IND",
         "name": "Andrew Nembhard",
         "position": "G-F",
@@ -25408,7 +25408,7 @@
         "weight": "245 lbs"
     },
     {
-        "id": null,
+        "id": "1630174",
         "team": "IND",
         "name": "Aaron Nesmith",
         "position": "G-F",
@@ -25520,7 +25520,7 @@
         "weight": "240 lbs"
     },
     {
-        "id": null,
+        "id": "1627777",
         "team": "CLE",
         "name": "Georges Niang",
         "position": "F",
@@ -25600,7 +25600,7 @@
         "weight": "218 lbs"
     },
     {
-        "id": null,
+        "id": "1630227",
         "team": "MIN",
         "name": "Daishen Nix",
         "position": "G",
@@ -25624,7 +25624,7 @@
         "weight": "170 lbs"
     },
     {
-        "id": null,
+        "id": "1630192",
         "team": "DEN",
         "name": "Zeke Nnaji",
         "position": "F-C",
@@ -25697,7 +25697,7 @@
     },
     {
         "id": "77725",
-        "team": null,
+        "team": "BAL",
         "name": "Paul Nolen",
         "position": "C",
         "height": "6'10\"",
@@ -25721,7 +25721,7 @@
     },
     {
         "id": "77728",
-        "team": null,
+        "team": "WAS",
         "name": "Johnny Norlander",
         "position": "F",
         "height": "6'3\"",
@@ -25785,7 +25785,7 @@
     },
     {
         "id": "77734",
-        "team": null,
+        "team": "PRO",
         "name": "George Nostrand",
         "position": "C",
         "height": "6'8\"",
@@ -25793,7 +25793,7 @@
     },
     {
         "id": "77735",
-        "team": null,
+        "team": "PIT",
         "name": "Stan Noszka",
         "position": "G",
         "height": "6'1\"",
@@ -25816,7 +25816,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "1629669",
         "team": "MEM",
         "name": "Jaylen Nowell",
         "position": "G",
@@ -25824,7 +25824,7 @@
         "weight": "201 lbs"
     },
     {
-        "id": null,
+        "id": "1641806",
         "team": "TOR",
         "name": "Markquis Nowell",
         "position": "G",
@@ -25848,7 +25848,7 @@
         "weight": "245 lbs"
     },
     {
-        "id": null,
+        "id": "1628373",
         "team": "CHA",
         "name": "Frank Ntilikina",
         "position": "G",
@@ -25872,7 +25872,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "203994",
         "team": "PHX",
         "name": "Jusuf Nurkic",
         "position": "C",
@@ -25896,7 +25896,7 @@
         "weight": "219 lbs"
     },
     {
-        "id": null,
+        "id": "1629670",
         "team": "TOR",
         "name": "Jordan Nwora",
         "position": "F",
@@ -25945,7 +25945,7 @@
     },
     {
         "id": "77743",
-        "team": null,
+        "team": "INO",
         "name": "Buckshot O'Brien",
         "position": "",
         "height": "N/A",
@@ -25985,7 +25985,7 @@
     },
     {
         "id": "77746",
-        "team": null,
+        "team": "BAL",
         "name": "Andy O'Donnell",
         "position": "G",
         "height": "6'1\"",
@@ -25993,7 +25993,7 @@
     },
     {
         "id": "77750",
-        "team": null,
+        "team": "BOM",
         "name": "Francis O'Grady",
         "position": "G",
         "height": "5'11\"",
@@ -26001,7 +26001,7 @@
     },
     {
         "id": "77752",
-        "team": null,
+        "team": "WAS",
         "name": "Dick O'Keefe",
         "position": "G",
         "height": "6'2\"",
@@ -26048,7 +26048,7 @@
         "weight": "325 lbs"
     },
     {
-        "id": null,
+        "id": "1626220",
         "team": "PHX",
         "name": "Royce O'Neale",
         "position": "F",
@@ -26073,7 +26073,7 @@
     },
     {
         "id": "77773",
-        "team": null,
+        "team": "BAL",
         "name": "Kevin O'Shea",
         "position": "G",
         "height": "6'2\"",
@@ -26081,7 +26081,7 @@
     },
     {
         "id": "77774",
-        "team": null,
+        "team": "CHS",
         "name": "Garland O'Shields",
         "position": "G",
         "height": "6'1\"",
@@ -26200,7 +26200,7 @@
         "weight": "270 lbs"
     },
     {
-        "id": null,
+        "id": "1629643",
         "team": "ORL",
         "name": "Chuma Okeke",
         "position": "F",
@@ -26216,7 +26216,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1629006",
         "team": "PHX",
         "name": "Josh Okogie",
         "position": "G",
@@ -26224,7 +26224,7 @@
         "weight": "213 lbs"
     },
     {
-        "id": null,
+        "id": "1630168",
         "team": "ATL",
         "name": "Onyeka Okongwu",
         "position": "F-C",
@@ -26232,7 +26232,7 @@
         "weight": "240 lbs"
     },
     {
-        "id": null,
+        "id": "1630171",
         "team": "CLE",
         "name": "Isaac Okoro",
         "position": "F-G",
@@ -26353,7 +26353,7 @@
     },
     {
         "id": "77764",
-        "team": null,
+        "team": "WAT",
         "name": "Gene Ollrich",
         "position": "G",
         "height": "5'11\"",
@@ -26376,7 +26376,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "203482",
         "team": "TOR",
         "name": "Kelly Olynyk",
         "position": "F-C",
@@ -26384,7 +26384,7 @@
         "weight": "240 lbs"
     },
     {
-        "id": null,
+        "id": "1630647",
         "team": "WAS",
         "name": "Eugene Omoruyi",
         "position": "F",
@@ -26425,7 +26425,7 @@
     },
     {
         "id": "77769",
-        "team": null,
+        "team": "BOM",
         "name": "Johnny Orr",
         "position": "",
         "height": "N/A",
@@ -26464,7 +26464,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1626224",
         "team": "SAS",
         "name": "Cedi Osman",
         "position": "F",
@@ -26505,7 +26505,7 @@
     },
     {
         "id": "77779",
-        "team": null,
+        "team": "BOM",
         "name": "Mac Otten",
         "position": "",
         "height": "N/A",
@@ -26520,7 +26520,7 @@
         "weight": "240 lbs"
     },
     {
-        "id": null,
+        "id": "1626162",
         "team": "PHI",
         "name": "Kelly Oubre Jr.",
         "position": "F-G",
@@ -26713,7 +26713,7 @@
     },
     {
         "id": "77790",
-        "team": null,
+        "team": "PRO",
         "name": "Fred Paine",
         "position": "F",
         "height": "6'5\"",
@@ -26817,7 +26817,7 @@
     },
     {
         "id": "77797",
-        "team": null,
+        "team": "BOM",
         "name": "Estes Parham",
         "position": "F",
         "height": "6'3\"",
@@ -26881,7 +26881,7 @@
     },
     {
         "id": "77801",
-        "team": null,
+        "team": "INO",
         "name": "Jack Parkinson",
         "position": "G",
         "height": "6'0\"",
@@ -26905,7 +26905,7 @@
     },
     {
         "id": "77803",
-        "team": null,
+        "team": "CHS",
         "name": "Doyle Parrack",
         "position": "F",
         "height": "6'0\"",
@@ -26953,7 +26953,7 @@
     },
     {
         "id": "77806",
-        "team": null,
+        "team": "WAS",
         "name": "Marty Passaglia",
         "position": "G",
         "height": "6'0\"",
@@ -26961,7 +26961,7 @@
     },
     {
         "id": "77807",
-        "team": null,
+        "team": "PRO",
         "name": "George A. Pastushok",
         "position": "",
         "height": "N/A",
@@ -26977,7 +26977,7 @@
     },
     {
         "id": "77809",
-        "team": null,
+        "team": "WAT",
         "name": "Stan Patrick",
         "position": "",
         "height": "N/A",
@@ -27064,7 +27064,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "101108",
         "team": "GSW",
         "name": "Chris Paul",
         "position": "G",
@@ -27144,7 +27144,7 @@
         "weight": "237 lbs"
     },
     {
-        "id": null,
+        "id": "1626166",
         "team": "PHI",
         "name": "Cameron Payne",
         "position": "G",
@@ -27185,14 +27185,14 @@
     },
     {
         "id": "77824",
-        "team": null,
+        "team": "INO",
         "name": "Mel Payton",
         "position": "G",
         "height": "6'4\"",
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1627780",
         "team": "GSW",
         "name": "Gary Payton II",
         "position": "G",
@@ -27201,7 +27201,7 @@
     },
     {
         "id": "77825",
-        "team": null,
+        "team": "DEF",
         "name": "George Pearcy",
         "position": "G",
         "height": "6'1\"",
@@ -27209,7 +27209,7 @@
     },
     {
         "id": "77826",
-        "team": null,
+        "team": "DEF",
         "name": "Henry Pearcy",
         "position": "G",
         "height": "6'1\"",
@@ -27249,7 +27249,7 @@
     },
     {
         "id": "77828",
-        "team": null,
+        "team": "BAL",
         "name": "Jake Pelkington",
         "position": "C",
         "height": "6'6\"",
@@ -27432,7 +27432,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1641809",
         "team": "BOS",
         "name": "Drew Peterson",
         "position": "F",
@@ -27488,7 +27488,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1630196",
         "team": "SAC",
         "name": "Filip Petrusev",
         "position": "C",
@@ -27521,7 +27521,7 @@
     },
     {
         "id": "77850",
-        "team": null,
+        "team": "SHE",
         "name": "Jack Phelan",
         "position": "",
         "height": "N/A",
@@ -27584,7 +27584,7 @@
         "weight": "189 lbs"
     },
     {
-        "id": null,
+        "id": "1641763",
         "team": "CHI",
         "name": "Julian Phillips",
         "position": "F",
@@ -27608,7 +27608,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1629618",
         "team": "DEN",
         "name": "Jalen Pickett",
         "position": "G",
@@ -27720,7 +27720,7 @@
         "weight": "228 lbs"
     },
     {
-        "id": null,
+        "id": "1630590",
         "team": "MEM",
         "name": "Scotty Pippen Jr.",
         "position": "G",
@@ -27768,7 +27768,7 @@
         "weight": "250 lbs"
     },
     {
-        "id": null,
+        "id": "203486",
         "team": "LAC",
         "name": "Mason Plumlee",
         "position": "F-C",
@@ -27800,7 +27800,7 @@
         "weight": "260 lbs"
     },
     {
-        "id": null,
+        "id": "1641764",
         "team": "GSW",
         "name": "Brandin Podziemski",
         "position": "G",
@@ -27808,7 +27808,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1627751",
         "team": "TOR",
         "name": "Jakob Poeltl",
         "position": "C",
@@ -27824,7 +27824,7 @@
         "weight": "235 lbs"
     },
     {
-        "id": null,
+        "id": "1630197",
         "team": "OKC",
         "name": "Aleksej Pokusevski",
         "position": "F",
@@ -27904,7 +27904,7 @@
         "weight": "206 lbs"
     },
     {
-        "id": null,
+        "id": "1629673",
         "team": "WAS",
         "name": "Jordan Poole",
         "position": "G",
@@ -27960,7 +27960,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1629007",
         "team": "TOR",
         "name": "Jontay Porter",
         "position": "C-F",
@@ -27984,7 +27984,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1641854",
         "team": "CLE",
         "name": "Craig Porter Jr.",
         "position": "G",
@@ -28000,7 +28000,7 @@
         "weight": "203 lbs"
     },
     {
-        "id": null,
+        "id": "1629008",
         "team": "DEN",
         "name": "Michael Porter Jr.",
         "position": "F",
@@ -28008,7 +28008,7 @@
         "weight": "218 lbs"
     },
     {
-        "id": null,
+        "id": "203490",
         "team": "UTA",
         "name": "Otto Porter Jr.",
         "position": "F",
@@ -28016,7 +28016,7 @@
         "weight": "230 lbs"
     },
     {
-        "id": null,
+        "id": "1626171",
         "team": "MIL",
         "name": "Bobby Portis",
         "position": "F",
@@ -28032,7 +28032,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "204001",
         "team": "BOS",
         "name": "Kristaps Porzingis",
         "position": "F-C",
@@ -28064,7 +28064,7 @@
         "weight": "285 lbs"
     },
     {
-        "id": null,
+        "id": "1630695",
         "team": "UTA",
         "name": "Micah Potter",
         "position": "C",
@@ -28080,7 +28080,7 @@
         "weight": "240 lbs"
     },
     {
-        "id": null,
+        "id": "203939",
         "team": "DAL",
         "name": "Dwight Powell",
         "position": "F-C",
@@ -28112,7 +28112,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1626181",
         "team": "LAC",
         "name": "Norman Powell",
         "position": "G",
@@ -28168,7 +28168,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1630554",
         "team": "UTA",
         "name": "Jason Preston",
         "position": "G",
@@ -28233,7 +28233,7 @@
     },
     {
         "id": "77886",
-        "team": null,
+        "team": "BAL",
         "name": "Bob Priddy",
         "position": "F",
         "height": "6'3\"",
@@ -28248,7 +28248,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1630563",
         "team": "LAC",
         "name": "Joshua Primo",
         "position": "G",
@@ -28256,7 +28256,7 @@
         "weight": "189 lbs"
     },
     {
-        "id": null,
+        "id": "1627752",
         "team": "LAL",
         "name": "Taurean Prince",
         "position": "F",
@@ -28273,7 +28273,7 @@
     },
     {
         "id": "77887",
-        "team": null,
+        "team": "WAT",
         "name": "John Pritchard",
         "position": "C",
         "height": "6'9\"",
@@ -28288,7 +28288,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1630202",
         "team": "BOS",
         "name": "Payton Pritchard",
         "position": "G",
@@ -28304,7 +28304,7 @@
         "weight": "204 lbs"
     },
     {
-        "id": null,
+        "id": "1641765",
         "team": "DAL",
         "name": "Olivier-Maxence Prosper",
         "position": "F",
@@ -28329,7 +28329,7 @@
     },
     {
         "id": "77888",
-        "team": null,
+        "team": "PRO",
         "name": "Les Pugh",
         "position": "C",
         "height": "6'7\"",
@@ -28369,7 +28369,7 @@
     },
     {
         "id": "77891",
-        "team": null,
+        "team": "BOM",
         "name": "Don Putman",
         "position": "G",
         "height": "6'1\"",
@@ -28392,7 +28392,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1630243",
         "team": "ORL",
         "name": "Trevelin Queen",
         "position": "G",
@@ -28400,7 +28400,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1629674",
         "team": "BOS",
         "name": "Neemias Queta",
         "position": "C",
@@ -28416,7 +28416,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1630193",
         "team": "TOR",
         "name": "Immanuel Quickley",
         "position": "G",
@@ -28440,7 +28440,7 @@
         "weight": "235 lbs"
     },
     {
-        "id": null,
+        "id": "1631311",
         "team": "GSW",
         "name": "Lester Quinones",
         "position": "G",
@@ -28465,7 +28465,7 @@
     },
     {
         "id": "77895",
-        "team": null,
+        "team": "BAL",
         "name": "Howie Rader",
         "position": "G",
         "height": "6'1\"",
@@ -28617,7 +28617,7 @@
     },
     {
         "id": "77908",
-        "team": null,
+        "team": "BAL",
         "name": "Ray Ramsey",
         "position": "G",
         "height": "6'2\"",
@@ -28640,7 +28640,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "203944",
         "team": "NYK",
         "name": "Julius Randle",
         "position": "F-C",
@@ -28809,14 +28809,14 @@
     },
     {
         "id": "77922",
-        "team": null,
+        "team": "BAL",
         "name": "Connie Rea",
         "position": "G",
         "height": "6'3\"",
         "weight": "175 lbs"
     },
     {
-        "id": null,
+        "id": "1641871",
         "team": "POR",
         "name": "Duop Reath",
         "position": "C",
@@ -28824,7 +28824,7 @@
         "weight": "245 lbs"
     },
     {
-        "id": null,
+        "id": "1630559",
         "team": "LAL",
         "name": "Austin Reaves",
         "position": "G",
@@ -28872,7 +28872,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1629629",
         "team": "LAL",
         "name": "Cam Reddish",
         "position": "F-G",
@@ -28928,7 +28928,7 @@
         "weight": "240 lbs"
     },
     {
-        "id": null,
+        "id": "1630194",
         "team": "PHI",
         "name": "Paul Reed",
         "position": "F",
@@ -28985,7 +28985,7 @@
     },
     {
         "id": "77933",
-        "team": null,
+        "team": "BAL",
         "name": "Don Rehfeldt",
         "position": "F",
         "height": "6'6\"",
@@ -29024,7 +29024,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1629675",
         "team": "MIN",
         "name": "Naz Reid",
         "position": "C-F",
@@ -29057,7 +29057,7 @@
     },
     {
         "id": "77938",
-        "team": null,
+        "team": "BAL",
         "name": "Joseph Reiser",
         "position": "G",
         "height": "5'11\"",
@@ -29089,7 +29089,7 @@
     },
     {
         "id": "77942",
-        "team": null,
+        "team": "CHS",
         "name": "Rob Rensberger",
         "position": "F",
         "height": "6'2\"",
@@ -29144,7 +29144,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1631197",
         "team": "DET",
         "name": "Jared Rhoden",
         "position": "G",
@@ -29153,7 +29153,7 @@
     },
     {
         "id": "77947",
-        "team": null,
+        "team": "INO",
         "name": "Gene Rhodes",
         "position": "G",
         "height": "6'1\"",
@@ -29192,7 +29192,7 @@
         "weight": "256 lbs"
     },
     {
-        "id": null,
+        "id": "1630208",
         "team": "CHA",
         "name": "Nick Richards",
         "position": "C",
@@ -29224,7 +29224,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1626196",
         "team": "MIA",
         "name": "Josh Richardson",
         "position": "G",
@@ -29457,7 +29457,7 @@
     },
     {
         "id": "77972",
-        "team": null,
+        "team": "PRO",
         "name": "Lee Robbins",
         "position": "F",
         "height": "6'3\"",
@@ -29505,7 +29505,7 @@
     },
     {
         "id": "77979",
-        "team": null,
+        "team": "BOM",
         "name": "Bill Roberts",
         "position": "",
         "height": "N/A",
@@ -29648,7 +29648,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1629130",
         "team": "MIA",
         "name": "Duncan Robinson",
         "position": "F",
@@ -29704,7 +29704,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1629010",
         "team": "GSW",
         "name": "Jerome Robinson",
         "position": "G",
@@ -29728,7 +29728,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1629011",
         "team": "NYK",
         "name": "Mitchell Robinson",
         "position": "C-F",
@@ -29752,7 +29752,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1631115",
         "team": "MIA",
         "name": "Orlando Robinson",
         "position": "C",
@@ -29800,7 +29800,7 @@
         "weight": "222 lbs"
     },
     {
-        "id": null,
+        "id": "1630526",
         "team": "NOP",
         "name": "Jeremiah Robinson-Earl",
         "position": "F",
@@ -29849,7 +29849,7 @@
     },
     {
         "id": "78001",
-        "team": null,
+        "team": "CHS",
         "name": "Gene Rock",
         "position": "G",
         "height": "5'9\"",
@@ -29864,7 +29864,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1631223",
         "team": "PHX",
         "name": "David Roddy",
         "position": "F",
@@ -29945,7 +29945,7 @@
     },
     {
         "id": "78010",
-        "team": null,
+        "team": "BAL",
         "name": "Al Roges",
         "position": "F",
         "height": "6'4\"",
@@ -29969,7 +29969,7 @@
     },
     {
         "id": "78012",
-        "team": null,
+        "team": "CHS",
         "name": "Kenny Rollins",
         "position": "G",
         "height": "6'0\"",
@@ -29984,7 +29984,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1631157",
         "team": "WAS",
         "name": "Ryan Rollins",
         "position": "G",
@@ -30024,7 +30024,7 @@
         "weight": "260 lbs"
     },
     {
-        "id": null,
+        "id": "201565",
         "team": "MEM",
         "name": "Derrick Rose",
         "position": "G",
@@ -30129,7 +30129,7 @@
     },
     {
         "id": "78024",
-        "team": null,
+        "team": "CHS",
         "name": "Mickey Rottner",
         "position": "G",
         "height": "5'10\"",
@@ -30145,7 +30145,7 @@
     },
     {
         "id": "78026",
-        "team": null,
+        "team": "BOM",
         "name": "Giff Roux",
         "position": "F",
         "height": "6'5\"",
@@ -30224,7 +30224,7 @@
         "weight": "230 lbs"
     },
     {
-        "id": null,
+        "id": "1626179",
         "team": "MIA",
         "name": "Terry Rozier",
         "position": "G",
@@ -30336,7 +30336,7 @@
         "weight": "165 lbs"
     },
     {
-        "id": null,
+        "id": "1641712",
         "team": "POR",
         "name": "Rayan Rupert",
         "position": "G-F",
@@ -30400,7 +30400,7 @@
         "weight": "218 lbs"
     },
     {
-        "id": null,
+        "id": "1626156",
         "team": "LAL",
         "name": "D'Angelo Russell",
         "position": "G",
@@ -30432,7 +30432,7 @@
         "weight": "170 lbs"
     },
     {
-        "id": null,
+        "id": "1630346",
         "team": "NOP",
         "name": "Matt Ryan",
         "position": "F",
@@ -30448,7 +30448,7 @@
         "weight": "292 lbs"
     },
     {
-        "id": null,
+        "id": "1627734",
         "team": "SAC",
         "name": "Domantas Sabonis",
         "position": "F-C",
@@ -30473,7 +30473,7 @@
     },
     {
         "id": "78051",
-        "team": null,
+        "team": "PRO",
         "name": "Kenny Sailors",
         "position": "G",
         "height": "5'10\"",
@@ -30512,7 +30512,7 @@
         "weight": "240 lbs"
     },
     {
-        "id": null,
+        "id": "1629677",
         "team": "UTA",
         "name": "Luka Samanic",
         "position": "F",
@@ -30568,7 +30568,7 @@
         "weight": "260 lbs"
     },
     {
-        "id": null,
+        "id": "1631257",
         "team": "HOU",
         "name": "Jermaine Samuels Jr.",
         "position": "F",
@@ -30632,7 +30632,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1641766",
         "team": "CHI",
         "name": "Adama Sanogo",
         "position": "F",
@@ -30656,7 +30656,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1630611",
         "team": "GSW",
         "name": "Gui Santos",
         "position": "F",
@@ -30672,7 +30672,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "203967",
         "team": "GSW",
         "name": "Dario Saric",
         "position": "F-C",
@@ -30680,7 +30680,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "1630846",
         "team": "OKC",
         "name": "Olivier Sarr",
         "position": "C",
@@ -30704,7 +30704,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1631204",
         "team": "DET",
         "name": "Marcus Sasser",
         "position": "G",
@@ -30769,7 +30769,7 @@
     },
     {
         "id": "78067",
-        "team": null,
+        "team": "WAS",
         "name": "Alan Sawyer",
         "position": "F",
         "height": "6'5\"",
@@ -30809,7 +30809,7 @@
     },
     {
         "id": "78070",
-        "team": null,
+        "team": "CHS",
         "name": "Ben Schadler",
         "position": "F",
         "height": "6'0\"",
@@ -30841,7 +30841,7 @@
     },
     {
         "id": "78073",
-        "team": null,
+        "team": "CLR",
         "name": "Ben Scharnus",
         "position": "F",
         "height": "6'2\"",
@@ -30849,7 +30849,7 @@
     },
     {
         "id": "78074",
-        "team": null,
+        "team": "BAL",
         "name": "Marv Schatzman",
         "position": "F",
         "height": "6'5\"",
@@ -30945,7 +30945,7 @@
     },
     {
         "id": "78085",
-        "team": null,
+        "team": "PRO",
         "name": "Otto Schnellbacher",
         "position": "",
         "height": "N/A",
@@ -30968,7 +30968,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1629678",
         "team": "ORL",
         "name": "Admiral Schofield",
         "position": "F",
@@ -30985,7 +30985,7 @@
     },
     {
         "id": "78089",
-        "team": null,
+        "team": "SHE",
         "name": "Milt Schoon",
         "position": "C",
         "height": "6'7\"",
@@ -31000,7 +31000,7 @@
         "weight": "235 lbs"
     },
     {
-        "id": null,
+        "id": "203471",
         "team": "BKN",
         "name": "Dennis Schroder",
         "position": "G",
@@ -31017,7 +31017,7 @@
     },
     {
         "id": "78092",
-        "team": null,
+        "team": "WAS",
         "name": "Dick Schulz",
         "position": "F",
         "height": "6'2\"",
@@ -31041,7 +31041,7 @@
     },
     {
         "id": "78094",
-        "team": null,
+        "team": "WAS",
         "name": "Freddie Scolari",
         "position": "G",
         "height": "5'11\"",
@@ -31144,7 +31144,7 @@
         "weight": "188 lbs"
     },
     {
-        "id": null,
+        "id": "1631220",
         "team": "NOP",
         "name": "Dereon Seabron",
         "position": "G",
@@ -31193,7 +31193,7 @@
     },
     {
         "id": "78107",
-        "team": null,
+        "team": "WAT",
         "name": "Wayne See",
         "position": "G",
         "height": "6'3\"",
@@ -31217,7 +31217,7 @@
     },
     {
         "id": "78109",
-        "team": null,
+        "team": "SHE",
         "name": "Glen Selbo",
         "position": "F",
         "height": "6'3\"",
@@ -31257,7 +31257,7 @@
     },
     {
         "id": "78112",
-        "team": null,
+        "team": "AND",
         "name": "Rollie Seltz",
         "position": "G",
         "height": "5'10\"",
@@ -31296,7 +31296,7 @@
         "weight": "179 lbs"
     },
     {
-        "id": null,
+        "id": "1630578",
         "team": "HOU",
         "name": "Alperen Sengun",
         "position": "C",
@@ -31304,7 +31304,7 @@
         "weight": "243 lbs"
     },
     {
-        "id": null,
+        "id": "1641729",
         "team": "UTA",
         "name": "Brice Sensabaugh",
         "position": "F",
@@ -31344,7 +31344,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1629012",
         "team": "UTA",
         "name": "Collin Sexton",
         "position": "G",
@@ -31361,7 +31361,7 @@
     },
     {
         "id": "78118",
-        "team": null,
+        "team": "CLR",
         "name": "Nick Shaback",
         "position": "G",
         "height": "5'11\"",
@@ -31377,7 +31377,7 @@
     },
     {
         "id": "78120",
-        "team": null,
+        "team": "INO",
         "name": "Carl Shaeffer",
         "position": "G",
         "height": "6'3\"",
@@ -31400,7 +31400,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1629013",
         "team": "WAS",
         "name": "Landry Shamet",
         "position": "G",
@@ -31417,7 +31417,7 @@
     },
     {
         "id": "78123",
-        "team": null,
+        "team": "PRO",
         "name": "Earl Shannon",
         "position": "G",
         "height": "5'11\"",
@@ -31448,7 +31448,7 @@
         "weight": "175 lbs"
     },
     {
-        "id": null,
+        "id": "1630549",
         "team": "BKN",
         "name": "Day'Ron Sharpe",
         "position": "C",
@@ -31456,7 +31456,7 @@
         "weight": "265 lbs"
     },
     {
-        "id": null,
+        "id": "1631101",
         "team": "POR",
         "name": "Shaedon Sharpe",
         "position": "G",
@@ -31513,7 +31513,7 @@
     },
     {
         "id": "78130",
-        "team": null,
+        "team": "PRO",
         "name": "Bob Shea",
         "position": "F",
         "height": "6'2\"",
@@ -31552,7 +31552,7 @@
         "weight": "240 lbs"
     },
     {
-        "id": null,
+        "id": "1641767",
         "team": "IND",
         "name": "Ben Sheppard",
         "position": "G",
@@ -31585,7 +31585,7 @@
     },
     {
         "id": "78653",
-        "team": null,
+        "team": "WAT",
         "name": "Charlie Shipp",
         "position": "G",
         "height": "6'1\"",
@@ -31664,7 +31664,7 @@
         "weight": "187 lbs"
     },
     {
-        "id": null,
+        "id": "1627783",
         "team": "IND",
         "name": "Pascal Siakam",
         "position": "F",
@@ -31713,7 +31713,7 @@
     },
     {
         "id": "78148",
-        "team": null,
+        "team": "HUS",
         "name": "Ralph Siewert",
         "position": "",
         "height": "N/A",
@@ -31784,7 +31784,7 @@
         "weight": "250 lbs"
     },
     {
-        "id": null,
+        "id": "1627732",
         "team": "BKN",
         "name": "Ben Simmons",
         "position": "G-F",
@@ -31864,7 +31864,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1629014",
         "team": "POR",
         "name": "Anfernee Simons",
         "position": "G",
@@ -31944,7 +31944,7 @@
         "weight": "248 lbs"
     },
     {
-        "id": null,
+        "id": "1630579",
         "team": "NYK",
         "name": "Jericho Sims",
         "position": "C",
@@ -32032,7 +32032,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1631376",
         "team": "NYK",
         "name": "Dmytro Skapintsev",
         "position": "C",
@@ -32097,7 +32097,7 @@
     },
     {
         "id": "78171",
-        "team": null,
+        "team": "BAL",
         "name": "Jim Slaughter",
         "position": "C",
         "height": "6'11\"",
@@ -32112,7 +32112,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1641771",
         "team": "SAC",
         "name": "Jalen Slawson",
         "position": "F",
@@ -32168,7 +32168,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1630606",
         "team": "PHI",
         "name": "Javonte Smart",
         "position": "G",
@@ -32184,7 +32184,7 @@
         "weight": "175 lbs"
     },
     {
-        "id": null,
+        "id": "203935",
         "team": "MEM",
         "name": "Marcus Smart",
         "position": "G",
@@ -32193,7 +32193,7 @@
     },
     {
         "id": "78176",
-        "team": null,
+        "team": "BOM",
         "name": "Belus Smawley",
         "position": "G",
         "height": "6'1\"",
@@ -32305,7 +32305,7 @@
     },
     {
         "id": "78182",
-        "team": null,
+        "team": "BOM",
         "name": "Deb Smith",
         "position": "F",
         "height": "6'3\"",
@@ -32352,7 +32352,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1630696",
         "team": "MIA",
         "name": "Dru Smith",
         "position": "G",
@@ -32400,7 +32400,7 @@
         "weight": "250 lbs"
     },
     {
-        "id": null,
+        "id": "202397",
         "team": "CHA",
         "name": "Ish Smith",
         "position": "G",
@@ -32424,7 +32424,7 @@
         "weight": "250 lbs"
     },
     {
-        "id": null,
+        "id": "1630188",
         "team": "IND",
         "name": "Jalen Smith",
         "position": "F-C",
@@ -32624,7 +32624,7 @@
         "weight": "208 lbs"
     },
     {
-        "id": null,
+        "id": "1631173",
         "team": "PHI",
         "name": "Terquavion Smith",
         "position": "G",
@@ -32664,7 +32664,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1628372",
         "team": "BKN",
         "name": "Dennis Smith Jr.",
         "position": "G",
@@ -32672,7 +32672,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1631095",
         "team": "HOU",
         "name": "Jabari Smith Jr.",
         "position": "F",
@@ -32680,7 +32680,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1641733",
         "team": "CHA",
         "name": "Nick Smith Jr.",
         "position": "G",
@@ -32705,7 +32705,7 @@
     },
     {
         "id": "78212",
-        "team": null,
+        "team": "BAL",
         "name": "Joe Smyth",
         "position": "F",
         "height": "6'3\"",
@@ -32753,7 +32753,7 @@
     },
     {
         "id": "78214",
-        "team": null,
+        "team": "SHE",
         "name": "George Sobek",
         "position": "G",
         "height": "6'0\"",
@@ -32776,7 +32776,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1631110",
         "team": "SAS",
         "name": "Jeremy Sochan",
         "position": "F",
@@ -32833,7 +32833,7 @@
     },
     {
         "id": "78221",
-        "team": null,
+        "team": "HUS",
         "name": "Gino Sovran",
         "position": "F",
         "height": "6'2\"",
@@ -32945,7 +32945,7 @@
     },
     {
         "id": "78230",
-        "team": null,
+        "team": "PRO",
         "name": "Lou Spicer",
         "position": "F",
         "height": "6'2\"",
@@ -32992,7 +32992,7 @@
         "weight": "230 lbs"
     },
     {
-        "id": null,
+        "id": "1630531",
         "team": "BOS",
         "name": "Jaden Springer",
         "position": "G",
@@ -33001,7 +33001,7 @@
     },
     {
         "id": "78234",
-        "team": null,
+        "team": "JET",
         "name": "Jim Springer",
         "position": "C",
         "height": "6'9\"",
@@ -33009,7 +33009,7 @@
     },
     {
         "id": "78235",
-        "team": null,
+        "team": "JET",
         "name": "Jim Spruill",
         "position": "F",
         "height": "6'2\"",
@@ -33057,7 +33057,7 @@
     },
     {
         "id": "78240",
-        "team": null,
+        "team": "AND",
         "name": "Ed Stanczak",
         "position": "F",
         "height": "19'21\"",
@@ -33200,7 +33200,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1630205",
         "team": "MEM",
         "name": "Lamar Stevens",
         "position": "F",
@@ -33240,7 +33240,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "1630191",
         "team": "DET",
         "name": "Isaiah Stewart",
         "position": "F-C",
@@ -33385,7 +33385,7 @@
     },
     {
         "id": "78266",
-        "team": null,
+        "team": "DEF",
         "name": "Art Stolkey",
         "position": "G",
         "height": "6'1\"",
@@ -33464,7 +33464,7 @@
         "weight": "235 lbs"
     },
     {
-        "id": null,
+        "id": "1631124",
         "team": "DEN",
         "name": "Julian Strawther",
         "position": "G",
@@ -33544,7 +33544,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1629622",
         "team": "CLE",
         "name": "Max Strus",
         "position": "G-F",
@@ -33576,7 +33576,7 @@
         "weight": "170 lbs"
     },
     {
-        "id": null,
+        "id": "1630591",
         "team": "ORL",
         "name": "Jalen Suggs",
         "position": "G",
@@ -33728,7 +33728,7 @@
         "weight": "270 lbs"
     },
     {
-        "id": null,
+        "id": "1631306",
         "team": "MIA",
         "name": "Cole Swider",
         "position": "F",
@@ -33777,7 +33777,7 @@
     },
     {
         "id": "78287",
-        "team": null,
+        "team": "CHS",
         "name": "Wallace Sydnor",
         "position": "G",
         "height": "5'10\"",
@@ -33864,7 +33864,7 @@
         "weight": "230 lbs"
     },
     {
-        "id": null,
+        "id": "1630256",
         "team": "HOU",
         "name": "Jae'Sean Tate",
         "position": "F",
@@ -33880,7 +33880,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1628369",
         "team": "BOS",
         "name": "Jayson Tatum",
         "position": "F-G",
@@ -34008,7 +34008,7 @@
         "weight": "175 lbs"
     },
     {
-        "id": null,
+        "id": "1630678",
         "team": "CHI",
         "name": "Terry Taylor",
         "position": "F",
@@ -34072,7 +34072,7 @@
         "weight": "170 lbs"
     },
     {
-        "id": null,
+        "id": "202066",
         "team": "TOR",
         "name": "Garrett Temple",
         "position": "G-F",
@@ -34128,7 +34128,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1631207",
         "team": "CHI",
         "name": "Dalen Terry",
         "position": "F",
@@ -34184,7 +34184,7 @@
         "weight": "170 lbs"
     },
     {
-        "id": null,
+        "id": "1628464",
         "team": "LAC",
         "name": "Daniel Theis",
         "position": "F-C",
@@ -34256,7 +34256,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1630560",
         "team": "BKN",
         "name": "Cam Thomas",
         "position": "G",
@@ -34432,7 +34432,7 @@
         "weight": "245 lbs"
     },
     {
-        "id": null,
+        "id": "1641708",
         "team": "HOU",
         "name": "Amen Thompson",
         "position": "G-F",
@@ -34440,7 +34440,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1641709",
         "team": "DET",
         "name": "Ausar Thompson",
         "position": "G-F",
@@ -34536,7 +34536,7 @@
         "weight": "260 lbs"
     },
     {
-        "id": null,
+        "id": "202691",
         "team": "GSW",
         "name": "Klay Thompson",
         "position": "G",
@@ -34584,7 +34584,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "202684",
         "team": "CLE",
         "name": "Tristan Thompson",
         "position": "C-F",
@@ -34592,7 +34592,7 @@
         "weight": "254 lbs"
     },
     {
-        "id": null,
+        "id": "1630550",
         "team": "CHA",
         "name": "JT Thor",
         "position": "F",
@@ -34665,14 +34665,14 @@
     },
     {
         "id": "78340",
-        "team": null,
+        "team": "PRO",
         "name": "Mel Thurston",
         "position": "G",
         "height": "6'0\"",
         "weight": "175 lbs"
     },
     {
-        "id": null,
+        "id": "1629680",
         "team": "POR",
         "name": "Matisse Thybulle",
         "position": "G-F",
@@ -34681,7 +34681,7 @@
     },
     {
         "id": "78341",
-        "team": null,
+        "team": "BAL",
         "name": "Howard Tidrick",
         "position": "",
         "height": "N/A",
@@ -34712,7 +34712,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1630214",
         "team": "BOS",
         "name": "Xavier Tillman",
         "position": "F",
@@ -34721,7 +34721,7 @@
     },
     {
         "id": "78344",
-        "team": null,
+        "team": "WAS",
         "name": "Jack Tingle",
         "position": "F",
         "height": "6'4\"",
@@ -34825,7 +34825,7 @@
     },
     {
         "id": "78353",
-        "team": null,
+        "team": "PRO",
         "name": "Andy Tonkovich",
         "position": "G",
         "height": "6'1\"",
@@ -34856,7 +34856,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1631210",
         "team": "NYK",
         "name": "Jacob Toppin",
         "position": "F",
@@ -34864,7 +34864,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1630167",
         "team": "IND",
         "name": "Obi Toppin",
         "position": "F",
@@ -34873,7 +34873,7 @@
     },
     {
         "id": "78357",
-        "team": null,
+        "team": "WAS",
         "name": "Irv Torgoff",
         "position": "F",
         "height": "6'1\"",
@@ -34896,7 +34896,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1629308",
         "team": "SAC",
         "name": "Juan Toscano-Anderson",
         "position": "F",
@@ -34905,7 +34905,7 @@
     },
     {
         "id": "78359",
-        "team": null,
+        "team": "INO",
         "name": "Bill Tosheff",
         "position": "G",
         "height": "6'1\"",
@@ -34945,7 +34945,7 @@
     },
     {
         "id": "78363",
-        "team": null,
+        "team": "BAL",
         "name": "William Towery",
         "position": "C",
         "height": "6'4\"",
@@ -34960,7 +34960,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1626157",
         "team": "MIN",
         "name": "Karl-Anthony Towns",
         "position": "C-F",
@@ -35008,7 +35008,7 @@
         "weight": "250 lbs"
     },
     {
-        "id": null,
+        "id": "1629018",
         "team": "TOR",
         "name": "Gary Trent Jr.",
         "position": "G",
@@ -35080,7 +35080,7 @@
         "weight": "206 lbs"
     },
     {
-        "id": null,
+        "id": "1631131",
         "team": "IND",
         "name": "Oscar Tshiebwe",
         "position": "F-C",
@@ -35136,7 +35136,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "200782",
         "team": "LAC",
         "name": "P.J. Tucker",
         "position": "F",
@@ -35256,7 +35256,7 @@
         "weight": "245 lbs"
     },
     {
-        "id": null,
+        "id": "1626167",
         "team": "IND",
         "name": "Myles Turner",
         "position": "C-F",
@@ -35328,7 +35328,7 @@
         "weight": "230 lbs"
     },
     {
-        "id": null,
+        "id": "1641816",
         "team": "DEN",
         "name": "Hunter Tyson",
         "position": "F",
@@ -35384,7 +35384,7 @@
         "weight": "160 lbs"
     },
     {
-        "id": null,
+        "id": "1630649",
         "team": "DET",
         "name": "Stanley Umude",
         "position": "G",
@@ -35401,7 +35401,7 @@
     },
     {
         "id": "78393",
-        "team": null,
+        "team": "BAL",
         "name": "Hal Uplinger",
         "position": "G",
         "height": "6'4\"",
@@ -35440,7 +35440,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "202685",
         "team": "NOP",
         "name": "Jonas Valanciunas",
         "position": "C",
@@ -35536,7 +35536,7 @@
         "weight": "173 lbs"
     },
     {
-        "id": null,
+        "id": "1627832",
         "team": "HOU",
         "name": "Fred VanVleet",
         "position": "G",
@@ -35545,7 +35545,7 @@
     },
     {
         "id": "78402",
-        "team": null,
+        "team": "CHS",
         "name": "Gene Vance",
         "position": "G",
         "height": "6'3\"",
@@ -35560,7 +35560,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1629020",
         "team": "LAL",
         "name": "Jarred Vanderbilt",
         "position": "F",
@@ -35632,7 +35632,7 @@
         "weight": "217 lbs"
     },
     {
-        "id": null,
+        "id": "1630170",
         "team": "SAS",
         "name": "Devin Vassell",
         "position": "G-F",
@@ -35720,7 +35720,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1628426",
         "team": "SAC",
         "name": "Sasha Vezenkov",
         "position": "F",
@@ -35752,7 +35752,7 @@
         "weight": "232 lbs"
     },
     {
-        "id": null,
+        "id": "1629216",
         "team": "LAL",
         "name": "Gabe Vincent",
         "position": "G",
@@ -35817,7 +35817,7 @@
     },
     {
         "id": "78422",
-        "team": null,
+        "team": "BAL",
         "name": "Whitey Von Nieda",
         "position": "",
         "height": "N/A",
@@ -35880,7 +35880,7 @@
         "weight": "220 lbs"
     },
     {
-        "id": null,
+        "id": "202696",
         "team": "CHI",
         "name": "Nikola Vucevic",
         "position": "C",
@@ -35896,7 +35896,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1629731",
         "team": "CLE",
         "name": "Dean Wade",
         "position": "F-C",
@@ -35945,14 +35945,14 @@
     },
     {
         "id": "78428",
-        "team": null,
+        "team": "SHE",
         "name": "Danny Wagner",
         "position": "G",
         "height": "6'0\"",
         "weight": "170 lbs"
     },
     {
-        "id": null,
+        "id": "1630532",
         "team": "ORL",
         "name": "Franz Wagner",
         "position": "F",
@@ -35968,7 +35968,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1629021",
         "team": "ORL",
         "name": "Moritz Wagner",
         "position": "F-C",
@@ -35976,7 +35976,7 @@
         "weight": "245 lbs"
     },
     {
-        "id": null,
+        "id": "1630688",
         "team": "POR",
         "name": "Ish Wainright",
         "position": "F",
@@ -36033,7 +36033,7 @@
     },
     {
         "id": "78434",
-        "team": null,
+        "team": "BAL",
         "name": "Brady Walker",
         "position": "F",
         "height": "6'6\"",
@@ -36080,7 +36080,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1631133",
         "team": "POR",
         "name": "Jabari Walker",
         "position": "F",
@@ -36088,7 +36088,7 @@
         "weight": "227 lbs"
     },
     {
-        "id": null,
+        "id": "1641716",
         "team": "IND",
         "name": "Jarace Walker",
         "position": "F",
@@ -36152,7 +36152,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1629022",
         "team": "BKN",
         "name": "Lonnie Walker IV",
         "position": "G-F",
@@ -36176,7 +36176,7 @@
         "weight": "240 lbs"
     },
     {
-        "id": null,
+        "id": "1641717",
         "team": "OKC",
         "name": "Cason Wallace",
         "position": "G",
@@ -36201,7 +36201,7 @@
     },
     {
         "id": "78443",
-        "team": null,
+        "team": "HUS",
         "name": "Michael Wallace",
         "position": "",
         "height": "N/A",
@@ -36248,7 +36248,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1641775",
         "team": "BOS",
         "name": "Jordan Walsh",
         "position": "G",
@@ -36273,7 +36273,7 @@
     },
     {
         "id": "78447",
-        "team": null,
+        "team": "INO",
         "name": "Paul Walther",
         "position": "G",
         "height": "6'2\"",
@@ -36528,7 +36528,7 @@
         "weight": "230 lbs"
     },
     {
-        "id": null,
+        "id": "1629023",
         "team": "DAL",
         "name": "P.J. Washington",
         "position": "F",
@@ -36560,7 +36560,7 @@
         "weight": "227 lbs"
     },
     {
-        "id": null,
+        "id": "1630613",
         "team": "NYK",
         "name": "Duane Washington Jr.",
         "position": "G",
@@ -36568,7 +36568,7 @@
         "weight": "197 lbs"
     },
     {
-        "id": null,
+        "id": "1631102",
         "team": "MIL",
         "name": "TyTy Washington Jr.",
         "position": "G",
@@ -36576,7 +36576,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1629139",
         "team": "MEM",
         "name": "Yuta Watanabe",
         "position": "G-F",
@@ -36592,7 +36592,7 @@
         "weight": "175 lbs"
     },
     {
-        "id": null,
+        "id": "1630322",
         "team": "OKC",
         "name": "Lindy Waters III",
         "position": "F",
@@ -36600,7 +36600,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1630570",
         "team": "BKN",
         "name": "Trendon Watford",
         "position": "F",
@@ -36648,7 +36648,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1631212",
         "team": "DEN",
         "name": "Peyton Watson",
         "position": "G",
@@ -36777,7 +36777,7 @@
     },
     {
         "id": "78479",
-        "team": null,
+        "team": "PRO",
         "name": "Forest Weber",
         "position": "",
         "height": "N/A",
@@ -36825,7 +36825,7 @@
     },
     {
         "id": "78483",
-        "team": null,
+        "team": "JET",
         "name": "Dick Wehr",
         "position": "F",
         "height": "6'4\"",
@@ -36912,7 +36912,7 @@
         "weight": "255 lbs"
     },
     {
-        "id": null,
+        "id": "1641705",
         "team": "SAS",
         "name": "Victor Wembanyama",
         "position": "F-C",
@@ -36945,14 +36945,14 @@
     },
     {
         "id": "78494",
-        "team": null,
+        "team": "CLR",
         "name": "Ray Wertis",
         "position": "G",
         "height": "5'11\"",
         "weight": "N/A"
     },
     {
-        "id": null,
+        "id": "1631104",
         "team": "SAS",
         "name": "Blake Wesley",
         "position": "G",
@@ -37032,7 +37032,7 @@
         "weight": "178 lbs"
     },
     {
-        "id": null,
+        "id": "201566",
         "team": "LAC",
         "name": "Russell Westbrook",
         "position": "G",
@@ -37104,7 +37104,7 @@
         "weight": "180 lbs"
     },
     {
-        "id": null,
+        "id": "1629632",
         "team": "CHI",
         "name": "Coby White",
         "position": "G",
@@ -37120,7 +37120,7 @@
         "weight": "250 lbs"
     },
     {
-        "id": null,
+        "id": "1628401",
         "team": "BOS",
         "name": "Derrick White",
         "position": "G",
@@ -37264,7 +37264,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1641727",
         "team": "BKN",
         "name": "Dariq Whitehead",
         "position": "F",
@@ -37312,7 +37312,7 @@
         "weight": "240 lbs"
     },
     {
-        "id": null,
+        "id": "1641715",
         "team": "HOU",
         "name": "Cam Whitmore",
         "position": "F",
@@ -37384,7 +37384,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1630598",
         "team": "OKC",
         "name": "Aaron Wiggins",
         "position": "G",
@@ -37392,7 +37392,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "203952",
         "team": "GSW",
         "name": "Andrew Wiggins",
         "position": "F",
@@ -37408,7 +37408,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1629623",
         "team": "MIL",
         "name": "Lindell Wigginton",
         "position": "G",
@@ -37441,7 +37441,7 @@
     },
     {
         "id": "78525",
-        "team": null,
+        "team": "BOM",
         "name": "D.C. Wilcutt",
         "position": "G",
         "height": "6'2\"",
@@ -37592,7 +37592,7 @@
         "weight": "265 lbs"
     },
     {
-        "id": null,
+        "id": "1631214",
         "team": "MIA",
         "name": "Alondes Williams",
         "position": "G",
@@ -37640,7 +37640,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1630314",
         "team": "DAL",
         "name": "Brandon Williams",
         "position": "G",
@@ -37768,7 +37768,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1629684",
         "team": "CHA",
         "name": "Grant Williams",
         "position": "F",
@@ -37808,7 +37808,7 @@
         "weight": "245 lbs"
     },
     {
-        "id": null,
+        "id": "1631114",
         "team": "OKC",
         "name": "Jalen Williams",
         "position": "G-F",
@@ -37840,7 +37840,7 @@
         "weight": "195 lbs"
     },
     {
-        "id": null,
+        "id": "1631119",
         "team": "OKC",
         "name": "Jaylin Williams",
         "position": "F",
@@ -37904,7 +37904,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1629026",
         "team": "OKC",
         "name": "Kenrich Williams",
         "position": "G-F",
@@ -37952,7 +37952,7 @@
         "weight": "207 lbs"
     },
     {
-        "id": null,
+        "id": "1631109",
         "team": "CHA",
         "name": "Mark Williams",
         "position": "C",
@@ -38016,7 +38016,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "1631466",
         "team": "HOU",
         "name": "Nate Williams",
         "position": "G",
@@ -38024,7 +38024,7 @@
         "weight": "205 lbs"
     },
     {
-        "id": null,
+        "id": "1630172",
         "team": "CHI",
         "name": "Patrick Williams",
         "position": "F",
@@ -38200,7 +38200,7 @@
         "weight": "200 lbs"
     },
     {
-        "id": null,
+        "id": "1630533",
         "team": "MEM",
         "name": "Ziaire Williams",
         "position": "F",
@@ -38208,7 +38208,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1629057",
         "team": "POR",
         "name": "Robert Williams III",
         "position": "C-F",
@@ -38224,7 +38224,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1631246",
         "team": "MEM",
         "name": "Vince Williams Jr.",
         "position": "G",
@@ -38256,7 +38256,7 @@
         "weight": "185 lbs"
     },
     {
-        "id": null,
+        "id": "1629627",
         "team": "NOP",
         "name": "Zion Williamson",
         "position": "F",
@@ -38328,7 +38328,7 @@
         "weight": "175 lbs"
     },
     {
-        "id": null,
+        "id": "1630592",
         "team": "BKN",
         "name": "Jalen Wilson",
         "position": "F",
@@ -38424,7 +38424,7 @@
         "weight": "160 lbs"
     },
     {
-        "id": null,
+        "id": "1629685",
         "team": "LAL",
         "name": "Dylan Windler",
         "position": "G-F",
@@ -38480,7 +38480,7 @@
         "weight": "164 lbs"
     },
     {
-        "id": null,
+        "id": "1626159",
         "team": "TOR",
         "name": "Justise Winslow",
         "position": "F-G",
@@ -38536,7 +38536,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1630164",
         "team": "DET",
         "name": "James Wiseman",
         "position": "C",
@@ -38608,7 +38608,7 @@
         "weight": "190 lbs"
     },
     {
-        "id": null,
+        "id": "1631209",
         "team": "IND",
         "name": "Isaiah Wong",
         "position": "G",
@@ -38625,14 +38625,14 @@
     },
     {
         "id": "78612",
-        "team": null,
+        "team": "SHE",
         "name": "Bob Wood",
         "position": "G",
         "height": "5'10\"",
         "weight": "N/A"
     },
     {
-        "id": null,
+        "id": "1626174",
         "team": "LAL",
         "name": "Christian Wood",
         "position": "F",
@@ -38816,7 +38816,7 @@
         "weight": "210 lbs"
     },
     {
-        "id": null,
+        "id": "1626153",
         "team": "WAS",
         "name": "Delon Wright",
         "position": "G",
@@ -39072,7 +39072,7 @@
         "weight": "225 lbs"
     },
     {
-        "id": null,
+        "id": "201152",
         "team": "TOR",
         "name": "Thaddeus Young",
         "position": "F",
@@ -39088,7 +39088,7 @@
         "weight": "270 lbs"
     },
     {
-        "id": null,
+        "id": "1629027",
         "team": "ATL",
         "name": "Trae Young",
         "position": "G",
@@ -39096,7 +39096,7 @@
         "weight": "164 lbs"
     },
     {
-        "id": null,
+        "id": "1630209",
         "team": "UTA",
         "name": "Omer Yurtseven",
         "position": "C",
@@ -39105,7 +39105,7 @@
     },
     {
         "id": "78638",
-        "team": null,
+        "team": "CHS",
         "name": "Max Zaslofsky",
         "position": "G",
         "height": "6'2\"",
@@ -39120,7 +39120,7 @@
         "weight": "215 lbs"
     },
     {
-        "id": null,
+        "id": "203469",
         "team": "NOP",
         "name": "Cody Zeller",
         "position": "F-C",
@@ -39145,7 +39145,7 @@
     },
     {
         "id": "78642",
-        "team": null,
+        "team": "PIT",
         "name": "Hank Zeller",
         "position": "C",
         "height": "6'4\"",
@@ -39248,7 +39248,7 @@
         "weight": "170 lbs"
     },
     {
-        "id": null,
+        "id": "1627826",
         "team": "LAC",
         "name": "Ivica Zubac",
         "position": "C",
@@ -39257,7 +39257,7 @@
     },
     {
         "id": "78650",
-        "team": null,
+        "team": "WAS",
         "name": "Matt Zunic",
         "position": "G",
         "height": "6'3\"",

@@ -35,6 +35,7 @@ function App() {
     // If we're hiding the second player, also clear its shot data
     if (showSecondPlayer) {
       setShotDataPlayer2([]);
+      setPlayer2({});
     }
   };
 

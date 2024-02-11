@@ -85,17 +85,14 @@ router.get('/players', async (req, res) => {
 
     // Create an array to hold players from the same team
     let playersFromSameTeam = new Set();
-    console.log(performance.now);
+    //console.log(performance.now);
     // Fetch all documents that match the query
-    let c = 0
     await cursor.forEach((doc, index) => {
       // Assuming 'player' is the field name that holds the player's name
       // Add this document's player to the array
-      console.log(c);
-      c++;
+
       playersFromSameTeam.add(doc.player);
     });
-    console.log(performance.now);
     
 
     res.json({ data: Array.from(playersFromSameTeam) });
@@ -108,11 +105,9 @@ router.get('/players', async (req, res) => {
 
 
 router.get('/playerdata', async (req,res) => {
-  console.log(performance.now);
   const player_data = db.collection("main");
   const player = req.query.player;
   const season = req.query.season;
-  console.log(season);
   try {
 
     let shots = [];
