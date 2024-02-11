@@ -4,7 +4,7 @@ import './PlayerProfile.css';
 const profiledata = require('./profiledata.json');
 let url = '';
 
-const PlayerProfile = ({ name }) => {
+const PlayerProfile = ({ player }) => {
   const [profile, setProfile] = useState({
     name: "",
     height: "",
@@ -12,7 +12,7 @@ const PlayerProfile = ({ name }) => {
     position: "",
     team: ""
   });
-
+  const [imageUrl, setImageUrl] = useState('');
   useEffect(() => {
     for (let i = 0; i < profiledata.length; i++) {
       if (profiledata[i].name === name) {
@@ -34,7 +34,7 @@ const PlayerProfile = ({ name }) => {
       <table>
         <tbody>
           <tr>
-            <td rowSpan="3"><img style = {{width: "200px"}} src={ url } alt="Player"/></td>
+            <td rowSpan="3"><img style = {{width: "200px"}} src={ imageUrl } alt="Player"/></td>
             <td colSpan="3">{profile.name}</td>
           </tr>
           <tr>
@@ -49,6 +49,6 @@ const PlayerProfile = ({ name }) => {
       </table>
     </div>
   );
-}
+};
 
 export default PlayerProfile;

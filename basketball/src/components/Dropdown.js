@@ -68,7 +68,7 @@ const Dropdown = ({data, onPlayerSelected}) => {
   };
 
   return (
-    <div>
+    <div style={{ width: '500px', height: '64px' }} >
       <div>
         <label>Season:
           <select value={selectedSeason} onChange={handleSeasonChange}>
