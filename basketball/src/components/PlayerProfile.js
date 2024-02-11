@@ -28,7 +28,11 @@ const PlayerProfile = ({ player }) => {
       }
     }
   }, [player]);
-
+  if(imageUrl === "" || !player){
+    return(
+      <></>
+    )
+  }
   return (
     <div className="player-profile">
       <table>

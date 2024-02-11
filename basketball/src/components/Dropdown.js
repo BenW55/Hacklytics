@@ -19,7 +19,7 @@ const Dropdown = ({data, onPlayerSelected}) => {
         setSelectedPlayer('');
       });
       setPlayers([]); // Reset players list
-      onPlayerSelected({ shotData : [{}, {}, {}, {}]});
+      onPlayerSelected({ shotData : []});
     }
   }, [selectedSeason]);
 
@@ -31,7 +31,7 @@ const Dropdown = ({data, onPlayerSelected}) => {
         setSelectedPlayer(''); // Reset player selection
         
       });
-      onPlayerSelected({ shotData : [{}, {}, {}, {}]});
+      onPlayerSelected({ shotData : []});
     } else {
       setPlayers([]); // Reset players list if no team is selected
     }
@@ -39,10 +39,12 @@ const Dropdown = ({data, onPlayerSelected}) => {
 
   const handleSeasonChange = (event) => {
     setSelectedSeason(event.target.value);
+  
   };
 
   const handleTeamChange = (event) => {
     setSelectedTeam(event.target.value);
+   
   };
 
   const handlePlayerChange = (event) => {

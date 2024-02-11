@@ -15,19 +15,23 @@ function App() {
   const [player2, setPlayer2] = React.useState({});
 
   const handlePlayerSelected = (identifier) => (data) => {
-    //const playerData = data['shotData'][0] || {};
     if (identifier === 'player1') {
+      console.log(data['shotData']);
       setShotDataPlayer1(data['shotData']);
-      
-      //console.log(data['shotData'][0].player);
-      var test = data['shotData'][0].player
-      setPlayer1({name: test});
-      
-      //console.log(shotDataPlayer1[0].player);
+      if (data['shotData'].length === 0) {
+        setPlayer1({}); // Reset player1 if shotData is empty
+      } else {
+        var test = data['shotData'][0].player
+        setPlayer1({ name: test });
+      }
     } else if (identifier === 'player2') {
       setShotDataPlayer2(data['shotData']);
-      var test = data['shotData'][0].player
-      setPlayer2({name: test});
+      if (data['shotData'].length === 0) {
+        setPlayer2({}); // Reset player2 if shotData is empty
+      } else {
+        var test = data['shotData'][0].player
+        setPlayer2({ name: test });
+      }
     }
   };
   const toggleSecondPlayer = () => {
