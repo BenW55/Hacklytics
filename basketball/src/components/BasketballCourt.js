@@ -1,82 +1,76 @@
 import React, { useRef, useEffect } from 'react';
 import * as d3 from 'd3';
-import courtSvg from '../images/court.jpg'; // This should be the path to your SVG file.
-import './BasketballCourt.css'
+import courtSvg from '../images/court.jpg';
+import './BasketballCourt.css';
 
-const svgWidth = 500; // Width of the SVG element, adjust as needed
-const svgHeight = 472; // Height of the SVG element, adjust as needed
+const svgWidth = 500;
+const svgHeight = 472;
 
-// Adjust the domain if your data points are in a different scale
 const scaleX = d3.scaleLinear()
-  .domain([-1, 49]) // Basketball court length in feet
-  .range([0, svgWidth]); // SVG width in pixels
+  .domain([-1, 49])
+  .range([0, svgWidth]);
 
 const scaleY = d3.scaleLinear()
-  .domain([0, 50]) // Basketball court width in feet
-  .range([0, svgHeight]); // SVG height in pixels, inverted for SVG coordinates
-
+  .domain([0, 50])
+  .range([0, svgHeight]);
+  const aggregateShots = (data) => {
+    const gridSize = 5; // Adjust based on the desired granularity
+    const aggregated = {};
+  
+    data.forEach(shot => {
+      // Round the shot location to the nearest grid point
+      const roundedX = scaleX(shot.x);
+      const roundedY = scaleY(shot.y);
+      const key = `${roundedX}-${roundedY}`;
+  
+      if (!aggregated[key]) {
+        aggregated[key] = { count: 1, x: roundedX, y: roundedY, made: shot.made };
+      } else {
+        aggregated[key].count += 1;
+      }
+    });
+  
+    return Object.values(aggregated); // Convert aggregated shots object back to an array
+  };
 const BasketballCourt = ({ data }) => {
   const svgRef = useRef();
 
   useEffect(() => {
+    if (!data || data.length === 0) return;
+  
+    const aggregatedData = aggregateShots(data);
+  
+    // Determine the range of shot counts to scale circle sizes dynamically
+    const maxCount = d3.max(aggregatedData, d => d.count);
+    const radiusScale = d3.scaleSqrt().domain([1, maxCount]).range([2, 20]); // Min and max circle sizes
+  
     const svg = d3.select(svgRef.current);
-
-    // Make sure the SVG is cleared out before adding new elements
     svg.selectAll("*").remove();
-
-    // Load the basketball court image
+  
     svg.append('image')
       .attr('href', courtSvg)
       .attr('width', svgWidth)
       .attr('height', svgHeight);
-
-    // Add the shots as circles
-    svg.selectAll("circle")
-      .data(data)
-      .enter()
-      .append("circle")
-      .attr("cx", d => scaleX(d.x))
-      .attr("cy", d => scaleY(d.y))
-      .attr("r", 5) // Radius of the shots
-      .attr("fill", d => d.made ? "green" : "red") // Color based on whether the shot was made
-      .attr("opacity", 1)
-      .on("mouseover", (event, d) => {
-        console.log(d)
-        let [fname, lname] = d.player.split(' ')
-        d3.select(".tooltip").html('Team: ' + d.team + '<br>Player: ' + d.player + '<br>Distance: ' + d.distance + '<br>Made: ' + d.distance);
-        fetch(`https://www.balldontlie.io/api/v1/players?search=${fname}`)
-          .then(response => {
-            if (!response.ok) {
-              throw new Error('Network response was not ok');
-            }
-            return response.json();
-          })
-          .then(j => {
-            j.data.forEach(item => {
-              if (item.first_name === fname && item.last_name === lname) {
-                console.log(item)
-                d3.select(".playerStats").html('Name: ' + fname + ' ' + lname + '<br>Position: ' + item.position + '<br>Height: ' + item.height_feet + '\'' + item.height_inches + '"<br>Weight: ' + item.weight_pounds + ' lbs<br>Team: ' + item.team.full_name)
-              }
-            });
-          })
-          .catch(error => {
-            console.error('There was a problem with the fetch operation:', error);
-          });
-      });
-
-  }, [data]); // Re-run the effect when data changes
+  
+    // Draw circles based on aggregated data
+    aggregatedData.forEach(d => {
+      svg.append("circle")
+        .attr("cx", d.x)
+        .attr("cy", d.y)
+        .attr("r", radiusScale(d.count))
+        .attr("fill", d.made ? "green" : "red") // Example: using last shot's outcome for color
+        .attr("opacity", 0.7);
+    });
+  }, [data]);
+  
 
   return (
-    <>
-      {/* <h2>Basketball Court Visualization</h2> */}
-      <div className="container">
-        <div className="playerStats" width='30%'></div>
-        <div style={{ position: 'relative', height: '472px', width: '500px' }}>
-          <svg ref={svgRef} width={svgWidth} height={svgHeight} style={{ position: 'absolute', top: 0, left: 0 }}></svg>
-        </div>
-        <div className="tooltip"></div>
+    <div className="container">
+      <div style={{ position: 'relative', height: svgHeight, width: svgWidth }}>
+        <svg ref={svgRef} width={svgWidth} height={svgHeight} style={{ position: 'absolute', top: 0, left: 0 }}></svg>
       </div>
-    </>
+      {/* Tooltip or player stats divs can go here */}
+    </div>
   );
 };
 
