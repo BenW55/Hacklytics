@@ -11,17 +11,23 @@ function App() {
   const [shotDataPlayer1, setShotDataPlayer1] = React.useState([]);
   const [shotDataPlayer2, setShotDataPlayer2] = React.useState([]);
   const [showSecondPlayer, setShowSecondPlayer] = React.useState(false);
-  const [player, setPlayer] = React.useState({});
+  const [player1, setPlayer1] = React.useState({});
+  const [player2, setPlayer2] = React.useState({});
 
   const handlePlayerSelected = (identifier) => (data) => {
     //const playerData = data['shotData'][0] || {};
     if (identifier === 'player1') {
       setShotDataPlayer1(data['shotData']);
+      
       //console.log(data['shotData'][0].player);
-      setPlayer({name: data['shotData'][0].player});
+      var test = data['shotData'][0].player
+      setPlayer1({name: test});
+      
       //console.log(shotDataPlayer1[0].player);
     } else if (identifier === 'player2') {
       setShotDataPlayer2(data['shotData']);
+      var test = data['shotData'][0].player
+      setPlayer2({name: test});
     }
   };
   const toggleSecondPlayer = () => {
@@ -51,11 +57,11 @@ function App() {
         {showSecondPlayer ? '- Remove Player' : '+ Add Player'}
       </button>
       <div>
-        <PlayerProfile name={player}></PlayerProfile>
+        <PlayerProfile player={player1}></PlayerProfile>
       </div>
       {showSecondPlayer && (
           <div>
-            <PlayerProfile name="LeBron James"></PlayerProfile>
+            <PlayerProfile player={player2}></PlayerProfile>
           </div>
         )}
     </div>

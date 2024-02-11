@@ -4,7 +4,7 @@ import './PlayerProfile.css';
 const pictureids = require('./pictureids.json');
 let url = '';
 
-const PlayerProfile = ({ name }) => {
+const PlayerProfile = ({ player }) => {
   const [profile, setProfile] = useState({
     name: "",
     id: 0,
@@ -13,50 +13,53 @@ const PlayerProfile = ({ name }) => {
     position: "",
     team: ""
   });
-
+  const [imageUrl, setImageUrl] = useState('');
   useEffect(() => {
-    fetch(`https://www.balldontlie.io/api/v1/players?search=${name.split(' ')[0]}`)
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        return response.json();
-      })
-      .then(j => {
-        j.data.forEach(item => {
-          if (item.first_name === name.split(' ')[0] && item.last_name === name.split(' ')[1]) {
-            let nameFromSplit = (name.split(' ')[0] + " " + name.split(' ')[1]).toLowerCase()
-            let id = null;
-            for (let i = 0; i < pictureids.length; i++) {
-              if (pictureids[i].name === nameFromSplit) {
-                id = pictureids[i].id;
-                break;
-              }
-            }
-            url = 'https://cdn.nba.com/headshots/nba/latest/1040x760/'+id+'.png'
-
-            setProfile({
-              name: name.split(' ')[0] + " " + name.split(' ')[1],
-              id: id,
-              height: item.height_feet + "'" + item.height_inches + '"',
-              weight: item.weight_pounds,
-              position: item.position,
-              team: item.team.full_name
-            });
+    // Fetch player data when `player` prop changes
+    if(player && player.name){
+      const playerName = player.name.toLowerCase();
+      fetch(`https://www.balldontlie.io/api/v1/players?search=${playerName.split(' ')[0]}&per_page=100`)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
           }
+          return response.json();
+        })
+        .then(j => {
+          j.data.forEach(item => {
+            if (item.first_name.toLowerCase() === playerName.split(' ')[0] && item.last_name.toLowerCase() === playerName.split(' ')[1]) {
+              let nameFromSplit = playerName;
+              let idObject = pictureids.find(p => p.name.toLowerCase() === nameFromSplit.toLowerCase());
+              let id = idObject ? idObject.id : null;
+
+
+              let imageUrl = 'https://cdn.nba.com/headshots/nba/latest/1040x760/' + id + '.png';
+
+              setProfile({
+                name: item.first_name + " " + item.last_name,
+                id: id,
+                height: item.height_feet + "'" + item.height_inches + '"',
+                weight: item.weight_pounds,
+                position: item.position,
+                team: item.team.full_name
+              });
+              console.log(imageUrl);
+              setImageUrl(imageUrl); // Set image URL state
+            }
+          });
+        })
+        .catch(error => {
+          console.error('There was a problem with the fetch operation:', error);
         });
-      })
-      .catch(error => {
-        console.error('There was a problem with the fetch operation:', error);
-      });
-  }, [name]);
+    }
+  }, [player]); // Depend on `player` prop
 
   return (
     <div className="player-profile">
       <table>
         <tbody>
           <tr>
-            <td rowSpan="3"><img style = {{width: "200px"}} src={ url } alt="Player"/></td>
+            <td rowSpan="3"><img style = {{width: "200px"}} src={ imageUrl } alt="Player"/></td>
             <td colSpan="3">{profile.name}</td>
           </tr>
           <tr>
@@ -71,6 +74,6 @@ const PlayerProfile = ({ name }) => {
       </table>
     </div>
   );
-}
+};
 
 export default PlayerProfile;
