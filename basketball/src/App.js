@@ -13,6 +13,7 @@ function App() {
 
   const handlePlayerSelected = (identifier) => (data) => {
     if (identifier === 'player1') {
+      console.log(data['shotData']);
       setShotDataPlayer1(data['shotData']);
     } else if (identifier === 'player2') {
       setShotDataPlayer2(data['shotData']);

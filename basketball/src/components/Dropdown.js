@@ -54,6 +54,7 @@ const Dropdown = ({data, onPlayerSelected}) => {
       try{
         const url = new URL('http://localhost:8000/playerdata');
         url.searchParams.append('player', newSelectedPlayer);
+        url.searchParams.append('season', selectedSeason);
         const toReturn = fetch(url)
         .then((response) => response.json())
         .then((shotData) => {

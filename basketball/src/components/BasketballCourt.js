@@ -13,12 +13,12 @@ const scaleX = d3.scaleLinear()
 const scaleY = d3.scaleLinear()
   .domain([0, 50])
   .range([0, svgHeight]);
-  const aggregateShots = (data) => {
-    const gridSize = 5; // Adjust based on the desired granularity
+const aggregateShots = (data) => {
+const gridSize = 5; // Adjust based on the desired granularity
     const aggregated = {};
   
     data.forEach(shot => {
-      // Round the shot location to the nearest grid point
+// Round the shot location to the nearest grid point
       const roundedX = scaleX(shot.x);
       const roundedY = scaleY(shot.y);
       const key = `${roundedX}-${roundedY}`;
@@ -27,23 +27,15 @@ const scaleY = d3.scaleLinear()
         aggregated[key] = { count: 1, x: roundedX, y: roundedY, made: shot.made };
       } else {
         aggregated[key].count += 1;
-      }
+        }
     });
   
     return Object.values(aggregated); // Convert aggregated shots object back to an array
   };
 const BasketballCourt = ({ data }) => {
-  const svgRef = useRef();
+const svgRef = useRef();
 
   useEffect(() => {
-    if (!data || data.length === 0) return;
-  
-    const aggregatedData = aggregateShots(data);
-  
-    // Determine the range of shot counts to scale circle sizes dynamically
-    const maxCount = d3.max(aggregatedData, d => d.count);
-    const radiusScale = d3.scaleSqrt().domain([1, maxCount]).range([2, 20]); // Min and max circle sizes
-  
     const svg = d3.select(svgRef.current);
     svg.selectAll("*").remove();
   
@@ -51,7 +43,15 @@ const BasketballCourt = ({ data }) => {
       .attr('href', courtSvg)
       .attr('width', svgWidth)
       .attr('height', svgHeight);
+    
+      if (!data || data.length === 0 || data.some(d => Object.keys(d).length === 0)) return;
+    const aggregatedData = aggregateShots(data);
   
+    // Determine the range of shot counts to scale circle sizes dynamically
+    const maxCount = d3.max(aggregatedData, d => d.count);
+    const radiusScale = d3.scaleSqrt().domain([1, maxCount]).range([2, 20]); // Min and max circle sizes
+  
+
     // Draw circles based on aggregated data
     aggregatedData.forEach(d => {
       svg.append("circle")
