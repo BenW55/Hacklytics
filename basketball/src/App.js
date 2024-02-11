@@ -2,6 +2,7 @@ import React from 'react';
 import BasketballCourt from './components/BasketballCourt';
 import Dropdown from './components/Dropdown';
 import './App.css';
+import PlayerProfile from './components/PlayerProfile';
 
 // Example data - replace this with your actual shot data
 const seasonsData = ["2017-18", "2018-19", "2019-20", "2020-21", "2021-22"];
@@ -45,6 +46,14 @@ function App() {
       <button onClick={toggleSecondPlayer}>
         {showSecondPlayer ? '- Remove Player' : '+ Add Player'}
       </button>
+      <div>
+        <PlayerProfile name="Stephen Curry"></PlayerProfile>
+      </div>
+      {showSecondPlayer && (
+          <div>
+            <PlayerProfile name="LeBron James"></PlayerProfile>
+          </div>
+        )}
     </div>
   );
 }
