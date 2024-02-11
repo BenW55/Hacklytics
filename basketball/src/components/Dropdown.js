@@ -13,8 +13,7 @@ const Dropdown = ({data, onPlayerSelected}) => {
   useEffect(() => {
     //console.log(seasons);
     if (selectedSeason) {
-    
-      fetchTeamsForSeason(selectedSeason).then(teams => {
+      fetchTeamsForSeason().then(teams => {
         setTeams(teams);
         setSelectedTeam(''); // Reset team selection
         setSelectedPlayer('');
@@ -111,12 +110,11 @@ const Dropdown = ({data, onPlayerSelected}) => {
 export default Dropdown;
 
 // Example API call functions
-async function fetchTeamsForSeason(season) {
+async function fetchTeamsForSeason() {
   // Simulate fetching teams for the selected season
   // Replace this with your actual API call
   try{
     const url = new URL('http://localhost:8000/teams/');
-    url.searchParams.append('season', season);
     const toReturn = await fetch(url)
     .then((response) => response.json())
     .then((teams) => teams);

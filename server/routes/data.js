@@ -49,39 +49,24 @@ router.get('/', async (req,res) => {
 // Get a list of teams based on an input of year
 router.get('/teams', async (req, res) => {
 
-  const season = req.query.season; // Assuming you are filtering by season
-  /** */
-  try {
-    // Build your query based on the season, if provided
-    const query = { season: season };
 
-    // Find documents based on the query
-    const cursor = coll.find(query);
+    // while (await cursor.hasNext() && uniqueTeams.size < 30) {
+    //   const doc = await cursor.next();
+    //   uniqueTeams.add(doc.team);
 
-    // Initialize a Set to store unique team names
-    const uniqueTeams = new Set();
-    var BreakException = {};
-    // Process each document
-    
-    while (await cursor.hasNext() && uniqueTeams.size < 30) {
-      const doc = await cursor.next();
-      uniqueTeams.add(doc.team);
-
-    // If we have 30 teams, break out of the loop
-      if (uniqueTeams.size === 30) {
-        break;
-      }
-    }
+    // // If we have 30 teams, break out of the loop
+    //   if (uniqueTeams.size === 30) {
+    //     break;
+    //   }
+    // }
     
 
     //console.log(uniqueTeams);
     // Once all documents have been processed, convert the Set to an array and send the response
-    res.json({ teams: Array.from(uniqueTeams) });
-  } catch (error) {
-    console.error('Error reading database:', error);
-    res.status(500).send('Server error');
-  }
-});
+    res.json({ teams: ["BOS", "CLE", "HOU", "GSW", "MIL", "ATL", "DAL", "CHO", "DET", "BRK", "IND", "NOP",
+    "MEM", "MIA", "ORL", "POR", "PHO", "SAC", "MIN", "SAS", "DEN", "UTA", "PHI", "WAS",
+    "LAC", "LAL", "NYK", "OKC", "CHI", "TOR"] });
+  });
 
 
 router.get('/players', async (req, res) => {
