@@ -113,15 +113,14 @@ router.get('/playerdata', async (req,res) => {
     let shots = [];
     const cursor = player_data.find(
       {player: player, season: season }, // Query to filter documents based on the team
-      //{match_id: 0, distance: 0, shotX: 0, shotY: 0 } // Projection to include only the playerName field and exclude the _id field
    )
 
    await cursor.forEach((doc, index) => {
     
     // Assuming 'player' is the field name that holds the player's name
     // Add this document's player to the array
-
-    shots.push({x: doc.shotX, y: doc.shotY, player: doc.player, made: doc.made})
+    //console.log(doc);
+    shots.push({x: doc.shotX, y: doc.shotY, player: doc.player, made: doc.made, shot_type: doc.shot_type});
   });
 
     res.json({ shotData : shots });
