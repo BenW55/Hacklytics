@@ -57,14 +57,16 @@ function App() {
       <button onClick={toggleSecondPlayer}>
         {showSecondPlayer ? '- Remove Player' : '+ Add Player'}
       </button>
-      <div>
-        <PlayerProfile player={player1}></PlayerProfile>
+      <div className="stats-container">
+        <div className="stat">
+          <PlayerProfile player= {player1.name}></PlayerProfile>
+        </div>
+        {showSecondPlayer && (
+            <div className = "stat">
+              <PlayerProfile player= {player2.name}></PlayerProfile>
+            </div>
+          )}
       </div>
-      {showSecondPlayer && (
-          <div>
-            <PlayerProfile player={player2}></PlayerProfile>
-          </div>
-        )}
     </div>
   );
 }
