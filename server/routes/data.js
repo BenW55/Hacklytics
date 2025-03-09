@@ -7,7 +7,7 @@ const router = express.Router();
 const { MongoClient } = require("mongodb");
 const { NONAME } = require('dns');
 // connection string.
-const uri = "mongodb+srv://rowea87:ko60iYOJdOOJaaZi@shotsnba.pcgsnse.mongodb.net/?retryWrites=true&w=majority";
+const uri = ;
 const client = new MongoClient(uri);
 async function run() {
   try {
